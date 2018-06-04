@@ -1,0 +1,574 @@
+date,park,specific_park,ride_name,age,sex,narrative,fatal
+2017-05-27,Universal Studios,Volcano Bay,Kala Serpentine Body Slide,45,m,Back Pain,FALSE
+2017-08-15,Universal Studios,Volcano Bay,TeaWa The Fearless River,53,f,Cardiac Arrest,FALSE
+2004-06-27,Universal Studios,USF,Back to the Future,67,f,Hypertension,FALSE
+2004-09-21,Universal Studios,Universal Studios Florida,Revenge of the Mummy,39,m,Fatality,TRUE
+2013-07-31,Universal Studios,Universal Studios Florida,Men in Black Alien Attack,22,f,Abdominal Pain,FALSE
+2013-10-17,Universal Studios,Universal Studios Florida,Terminator 2: 3D,68,f,Abdominal Pain,FALSE
+2015-10-03,Universal Studios,Universal Studios Florida,Harry Potter and the Escape from Gringotts,17,m,"Anxious, Difficulty Breathing",FALSE
+2016-06-16,Universal Studios,Universal Studios Florida,Fievel s Playground,3,m,Arm Pain,FALSE
+2016-09-01,Universal Studios,Universal Studios Florida,Hollywood Rip Ride Rockit,49,m,Back Pain,FALSE
+2010-05-22,Universal Studios,Universal Studios Florida,Hollywood Rip Ride Rockit,45,f,Back Pain,FALSE
+2010-04-24,Universal Studios,Universal Studios Florida,Hollywood Rip Ride Rockit,36,m,Back Pain,FALSE
+2015-01-18,Universal Studios,Universal Studios Florida,E.T. Adventure,44,f,Back Pain (Pre-Existing Condition),FALSE
+2015-06-10,Universal Studios,Universal Studios Florida,Transformers: The 3D Ride,52,f,Chest Discomfort,FALSE
+2009-10-31,Universal Studios,Universal Studios Florida,Hollywood Rip Ride Rockit,40,m,Chest Pain,FALSE
+2012-09-13,Universal Studios,Universal Studios Florida,Hollywood Rip Ride Rockit,40,m,Chest Pain,FALSE
+2013-06-23,Universal Studios,Universal Studios Florida,Hollywood Rip Ride Rockit,41,m,Chest Pain,FALSE
+2014-05-29,Universal Studios,Universal Studios Florida,Revenge of the Mummy,18,m,Chest Pain,FALSE
+2008-11-01,Universal Studios,Universal Studios Florida,The Simpsons Ride,68,m,Chest Pain,FALSE
+2015-08-23,Universal Studios,Universal Studios Florida,Transformers: The 3D Ride,45,m,Chest Pain (Pre-Existing Condition),FALSE
+2007-08-19,Universal Studios,Universal Studios Florida,Revenge of the Mummy,57,m,Chest Pain.,FALSE
+2008-05-24,Universal Studios,Universal Studios Florida,Revenge of the Mummy,45,m,Chest Pain/Nausea,FALSE
+2015-06-24,Universal Studios,Universal Studios Florida,Revenge of the Mummy,59,m,Chest Tightness/Pressure/Pain,FALSE
+2015-10-13,Universal Studios,Universal Studios Florida,Despicable Me Minion Mayhem,66,f,Dizziness,FALSE
+2011-10-10,Universal Studios,Universal Studios Florida,Men in Black Alien Attack,79,m,Dizziness & Syncope,FALSE
+2006-02-21,Universal Studios,Universal Studios Florida,Back to the Future,58,m,Dizziness.,FALSE
+2005-09-23,Universal Studios,Universal Studios Florida,Revenge of the Mummy,57,f,Dizziness/Mild Chest Discomfort.,FALSE
+2007-06-07,Universal Studios,Universal Studios Florida,Revenge of the Mummy,70,f,General Weakness After Exiting Ride.,FALSE
+2015-04-23,Universal Studios,Universal Studios Florida,Despicable Me Minion Mayhem,54,f,Head And Neck Pain,FALSE
+2015-05-21,Universal Studios,Universal Studios Florida,Men in Black Alien Attack,57,f,Headache,FALSE
+2014-09-09,Universal Studios,Universal Studios Florida,The Simpsons Ride,59,m,Headache,FALSE
+2013-03-18,Universal Studios,Universal Studios Florida,Men in Black Alien Attack,41,f,Hermatemesis,FALSE
+2002-03-22,Universal Studios,Universal Studios Florida,E.T. Adventure,13,m,Injured Right Foot.,FALSE
+2012-07-23,Universal Studios,Universal Studios Florida,Revenge of the Mummy,50,f,Knee Pain,FALSE
+2009-03-13,Universal Studios,Universal Studios Florida,E.T. Adventure,68,m,Left Arm Numbness,FALSE
+2005-11-14,Universal Studios,Universal Studios Florida,Revenge of the Mummy,68,f,Loss Of Consciousness.,FALSE
+2005-08-16,Universal Studios,Universal Studios Florida,Revenge of the Mummy,63,f,Lower Back Pain.,FALSE
+2007-11-18,Universal Studios,Universal Studios Florida,Revenge of the Mummy,34,f,Lower Back Vertebrae Fracture,FALSE
+2014-05-16,Universal Studios,Universal Studios Florida,Revenge of the Mummy,15,m,Lowered Level Consciousness,FALSE
+2004-01-08,Universal Studios,Universal Studios Florida,Men in Black Alien Attack,12,m,Fractrured Toe,FALSE
+2017-04-28,Universal Studios,Universal Studios Florida,Harry Potter and the Escape from Gringotts,18,f,"MotionSickness",FALSE
+2015-12-09,Universal Studios,Universal Studios Florida,E.T. Adventure,21,f,Motion Sickness,FALSE
+2016-03-04,Universal Studios,Universal Studios Florida,Hollywood Rip Ride Rockit,57,f,Motion Sickness,FALSE
+2011-10-03,Universal Studios,Universal Studios Florida,Hollywood Rip Ride Rockit,43,f,Motion Sickness,FALSE
+2014-08-06,Universal Studios,Universal Studios Florida,Hollywood Rip Ride Rockit,33,m,Motion Sickness,FALSE
+2015-03-11,Universal Studios,Universal Studios Florida,Revenge of the Mummy,20,m,"Motion Sickness (Pre-Existing Condition)",FALSE
+2011-04-08,Universal Studios,Universal Studios Florida,Revenge of the Mummy,73,f,"Nausea, Lightheadedness",FALSE
+2014-10-16,Universal Studios,Universal Studios Florida,Hollywood Rip Ride Rockit,36,f,Neck Pain,FALSE
+2015-11-10,Universal Studios,Universal Studios Florida,Hollywood Rip Ride Rockit,35,f,Neck Pain,FALSE
+2013-10-29,Universal Studios,Universal Studios Florida,Disaster,61,f,Presented With Confusion,FALSE
+2017-03-28,Universal Studios,Universal Studios Florida,Revenge of the Mummy,60,f,Seizure,FALSE
+2016-10-20,Universal Studios,Universal Studios Florida,Harry Potter and the Escape from Gringotts,44,f,Seizure (Pre-Existing Condition),FALSE
+2016-06-25,Universal Studios,Universal Studios Florida,Men in Black Alien Attack,46,m,Seizure (Pre-Existing Condition),FALSE
+2014-04-20,Universal Studios,Universal Studios Florida,E.T. Adventure,61,m,Weakness,FALSE
+2003-02-07,Disney World,Typhoon Lagoon,Catch Pool,31,f,"Fell On Steps Leading To Catch Pool, Fractured Ankle, Died Of Pulmonary Embolism 3/2/03",TRUE
+2005-08-04,Disney World,Typhoon Lagoon,Wave Pool,12,f,Felt Ill Later Died At Hospital.,TRUE
+2012-08-26,Disney World,Typhoon Lagoon,Surf Pool,54,m,"Guest Collapsed In Water, Subsequently Passed Away From Heart Attack",TRUE
+2006-11-15,Disney World,Typhoon Lagoon,Mayday Falls,74,m,Broken Foot.,FALSE
+2002-03-29,Disney World,Typhoon Lagoon,Surf Pool,16,f,C/O Neck Pain,FALSE
+2012-05-25,Disney World,Typhoon Lagoon,Crush n' Gusher,45,f,Chest Pain,FALSE
+2010-08-23,Disney World,Typhoon Lagoon,Storm Slide-Rudder Buster,39,m,"Complained Of Head Pain AndCollapsed: Subsequent Stroke At Hospital",FALSE
+2011-10-25,Disney World,Typhoon Lagoon,Storm Slide-Rudder Buster,48,m,Fell And Fractured Ankle,FALSE
+2013-01-09,Disney World,Typhoon Lagoon,Surf Pool,67,f,Fell And Fractured Left Leg,FALSE
+2011-05-13,Disney World,Typhoon Lagoon,Surf Pool,47,f,fell and fractured leg,FALSE
+2005-08-31,Disney World,Typhoon Lagoon,Wave Pool,69,f,Fell And Fractured Wrist.,FALSE
+2009-06-07,Disney World,Typhoon Lagoon,Storm Slide-Rudder Buster,52,f,"Felt Disoriented And SickAfter Riding.",FALSE
+2014-07-18,Disney World,Typhoon Lagoon,Mayday Falls,42,f,Fractured Ankle,FALSE
+2015-05-15,Disney World,Typhoon Lagoon,Mayday Falls,41,f,Fractured Ankle,FALSE
+2015-09-12,Disney World,Typhoon Lagoon,Humunga Kowabunga,10,m,Fractured Hip,FALSE
+2014-06-23,Disney World,Typhoon Lagoon,Mayday Falls,44,m,Fractured Leg,FALSE
+2012-07-07,Disney World,Typhoon Lagoon,Storm Slide-Rudder Buster,52,m,Fractured Leg After Entering Catch Pool,FALSE
+2009-06-25,Disney World,Typhoon Lagoon,Storm Slide-Rudder Buster,66,m,Fractured Ribs After Collision With Another Guest.,FALSE
+2013-10-10,Disney World,Typhoon Lagoon,Castaway Creek,68,m,Fractured Toe On Outer Wall,FALSE
+2017-04-08,Disney World,Typhoon Lagoon,Castaway Creek,57,f,Guest With Pre-Existing Condition Experienced Stroke-Like Symptoms,FALSE
+2012-06-29,Disney World,Typhoon Lagoon,Mayday Falls and Keelhaul Falls,48,m,Guest With Preexisting Condition Felt Chest Pain After Riding,FALSE
+2003-07-17,Disney World,Typhoon Lagoon,Wave Pool,46,m,Had Stroke (According To Family).,FALSE
+2007-05-02,Disney World,Typhoon Lagoon,Crush n' Gusher,17,m,Hit Head On Bottom Of Catch Pool,FALSE
+2011-07-16,Disney World,Typhoon Lagoon,Mayday Falls,42,f,Injured Ankle,FALSE
+2016-06-14,Disney World,Typhoon Lagoon,Surf Pool,65,f,Injured Knee,FALSE
+2013-07-24,Disney World,Typhoon Lagoon,Humunga Kowabunga,43,f,Laceration,FALSE
+2015-10-03,Disney World,Typhoon Lagoon,Humunga Kowabunga,27,f,Laceration While Riding,FALSE
+2011-07-16,Disney World,Typhoon Lagoon,Castaway Creek,18,f,"Loss Of Consciousness And SeizureLike Symptoms.",FALSE
+2010-08-03,Disney World,Typhoon Lagoon,Wave Pool,77,f,"Loss Of Consciousness: History Of HeartCondition",FALSE
+2006-03-03,Disney World,Typhoon Lagoon,Wave Pool,58,m,Loss Of Consciousness.,FALSE
+2010-06-26,Disney World,Typhoon Lagoon,Castaway Creek,54,f,Lost Balance And Fell; Fractured Tibia,FALSE
+2002-10-19,Disney World,Typhoon Lagoon,Wave Pool,48,m,Saw Spots,FALSE
+2006-04-11,Disney World,Typhoon Lagoon,Wave Pool,50,m,"Swallowed A Lot Of Water, Felt Dizzy And Short Of Breath.",FALSE
+2012-05-01,Disney World,Typhoon Lagoon,Surf Pool,61,f,Temporarily Loss Of Consciousness When Another Guest Fell And Knocked Her Down; Pain In Right Knee/Leg,FALSE
+17Q4,Busch Gardens,Tampa Bay,Phoenix,49,m,Chest Pain Due To Pre-Existing Condition,FALSE
+2011-10-06,Legoland,NA,Aquazone Wave Racers,NA,f,"Age Unknown, Hurt Rib WhenBumped By Granddaughters Head When Ride Ended",FALSE
+2011-12-16,Legoland,NA,Lost Kingdom Adventure,5,m,"Foot Caught BetweenVehicle & Unloading Platform When Exiting Prior To Instruction",FALSE
+2011-12-02,Legoland,NA,Dragon Coaster,15,f,"Foot Caught Between 2 VehiclesWhen She Placed Foot Outside Of Vehicle",FALSE
+2012-01-23,Legoland,NA,Fire Academy,41,f,Guest Tripped While Exiting Ride; Laceration To Shin,FALSE
+2012-01-23,Legoland,NA,Lost Kingdom Adventure,10,m,"Guests Foot Was Caught BetweenVehicle & Unloading Platform When Exiting Prior To Instructions Being Given.",FALSE
+2011-10-06,Legoland,NA,Technic Test Track,44,m,Lower Back Pain After Slipping On Step When Being Evacuated After Ride Fault,FALSE
+2011-12-31,Legoland,NA,Coastersaurus,43,f,"Right Shoulder Popped Out Of PlaceWhen Arms Were Up During Ride Cycle",FALSE
+2011-10-15,Legoland,NA,Dragon Coaster,6,m,"Struck In Left Cheek By Unloading AirGates",FALSE
+2017-07-16,Sea World,NA,Roa's Rapids,59,m,"Found Unresponsive, Fatality",TRUE
+2015-10-31,Sea World,NA,Manta Roller Coaster,42,f,Active Seizure,FALSE
+2013-06-22,Sea World,NA,Roa's Rapids,NA,f,"Age Unknown, Found Unconscious",FALSE
+2015-07-04,Sea World,NA,Tassie Twister,47,f,Anxiety And Headache,FALSE
+2016-05-03,Sea World,NA,Manta,54,m,Chest Pain & Shortness Of Breath,FALSE
+2001-11-26,Sea World,NA,Journey to Atlantis,58,m,Determined To Be Pre-Exist Bulging Disc,FALSE
+2011-07-26,Sea World,NA,Roa's Rapids,60,f,experienced chest pains (history of personal illness),FALSE
+2013-06-12,Sea World,NA,Roa's Rapids,62,f,"Flash PulmonaryHypertension",FALSE
+2017-06-15,Sea World,NA,Walkabout Waters,4,m,Fractured Leg,FALSE
+2008-05-21,Sea World,NA,Roa's Rapids,63,F,Guest Inhaled Water While In Roa S Rapids,FALSE
+2008-05-01,Sea World,NA,Jazzy Jellies,34,f,"Guest Mis-Stepped Off Of Ride Cart &Fractured Her Right Ankle",FALSE
+2007-09-15,Sea World,NA,Journey to Atlantis,NA,NA,"Guest With History Of Heart Condition, Reported Rapid Heart Rate After Exiting Ride.",FALSE
+2015-05-11,Sea World,NA,Omaka Rocka,58,f,Head Injury (Herniated Cervical Disc),FALSE
+2014-08-04,Sea World,NA,Kraken,44,f,Migraine Headache,FALSE
+2015-07-21,Sea World,NA,Dolphin Plunge,48,f,Neck And Back Pain,FALSE
+2017-05-05,Sea World,NA,Aquatica Orlando,5,m,No Injury Reported,FALSE
+2014-12-05,Sea World,NA,Manta,43,m,Personal Medical Condition,FALSE
+2014-10-14,Sea World,NA,Journey to Atlantis,70,f,Pneumothorax /Personal Medical,FALSE
+2015-09-18,Sea World,NA,Manta,43,m,Psychological Episode,FALSE
+2017-06-15,Sea World,NA,Journey to Atlantis,54,m,Shock To Arm,FALSE
+2013-01-03,Sea World,NA,Manta Roller Coaster,72,f,Tripped On Loading Platform Fracturing Elbow.,FALSE
+2006-07-15,Sea World           ,NA,Swishy Fishies,9,m,Stood Up In Ride Vehicle (Teacup) Resulting In Injury To Head.,FALSE
+2017-10-15,Universal Studios,NA,Halloween Horror Nights,42,m,Chest Pain,FALSE
+2010-07-27,Wet-n-Wild,NA,Der Stuka,32,f,"Chest Pain, Defibrillator Firing Pacemaker, History Of Problems",FALSE
+2010-05-09,Wet-n-Wild,NA,Wave Pool,54,f,Chest Pains,FALSE
+2008-06-25,Wet-n-Wild,NA,Lazy River,25,f,Dehydration,FALSE
+2003-10-05,Wet-n-Wild,NA,Knee Ski,29,m,Fractured Right Leg.,FALSE
+2008-10-13,Wet-n-Wild,NA,The Storm,53,m,Head Injury,FALSE
+2008-04-06,Wet-n-Wild,NA,Brain Wash,48,f,Heart Attack,FALSE
+2014-07-01,Wet-n-Wild,NA,Wave Pool,47,m,Ingested Water,FALSE
+2008-01-07,Wet-n-Wild,NA,Mach V,50,m,Injured Neck And Spine,FALSE
+2003-08-14,Wet-n-Wild,NA,Knee Ski,24,m,Left Leg Fracture.,FALSE
+2016-07-04,Wet-n-Wild,NA,Aqua Drag Racer,34,f,"Neck, Back And Tooth Pain",FALSE
+2005-07-14,Wet-n-Wild,NA,Lazy River,41,f,"Pre-Existing Condition, Rescued From Lazy River Unconscious.",FALSE
+2016-11-13,Wet-n-Wild,NA,Brain Wash,35,f,Shoulder Pain,FALSE
+2011-07-11,Wet-n-Wild,NA,Storm,8,m,Suffered Head Injury,FALSE
+2013-05-14,Wet-n-Wild,NA,Wave Pool,68,f,Swallowed Water,FALSE
+2004-12-24,Disney World,Magic Kingdom,Space Mountain,11,f,Collapsed In Queue Line Leading To Ride. Child Subsequently Expired At Hospital.,TRUE
+2012-03-23,Disney World,Magic Kingdom,Jungle Cruise,40,f,"Fell While Stepping Into Boat & Fractured Fibula. Passed Away Of Pulmonary Embolism On4/7/12.",TRUE
+2006-12-07,Disney World,Magic Kingdom,Space Mountain,73,m,Guest Unresponsive After Riding; Passed Away Three Days Later Due To Heart Condition.,TRUE
+2017-02-09,Disney World,Magic Kingdom,Big Thunder Mountain Railroad,54,m,"Guest With Pre-Existing Condition Collapsed; Later Passed Away At Hospital",TRUE
+2010-12-12,Disney World,Magic Kingdom,Prince Charming Regal Carrousel,77,f,"Guest With Pre- Existing Conditions (I.E. Heart Condition, Prior Stroke) Felt Ill While Riding Attraction, Collapsed After Exiting AndSubsequently Passed Away.",TRUE
+2015-07-07,Disney World,Magic Kingdom,Space Mountain,55,f,"Guest With Pre-Existing ConditionsExited Ride, Then Lost Consciousness; Later Passed Away.",TRUE
+2014-12-25,Disney World,Magic Kingdom,It's A Small World,22,f,"Guest With Preexisting HealthCondition Lost Consciousness After Riding; Later Passed Away",TRUE
+2006-08-01,Disney World,Magic Kingdom,Space Mountain,6,m,"Terminally Ill Guest Rode Ride, Later Passed Away At Hospital.",TRUE
+2015-08-20,Disney World,Magic Kingdom,Haunted Mansion,68,f,"Became Disoriented After ExitingRide",FALSE
+2006-02-22,Disney World,Magic Kingdom,Dumbo,40,m,Came Off Ride Not Feeling Well.,FALSE
+2014-07-21,Disney World,Magic Kingdom,Big Thunder Mountain Railroad,71,f,Chest Pain,FALSE
+2009-01-31,Disney World,Magic Kingdom,Haunted Mansion,56,m,Chest Pain,FALSE
+2008-04-27,Disney World,Magic Kingdom,Splash Mountain,65,m,Chest Pain,FALSE
+2014-07-29,Disney World,Magic Kingdom,Space Mountain,62,f,"Chest Pain, Nausea & Vomiting",FALSE
+2006-06-14,Disney World,Magic Kingdom,Space Mountain,48,m,Chest Pain.,FALSE
+2005-07-10,Disney World,Magic Kingdom,Splash Mountain,61,m,Chest Pain.,FALSE
+2008-07-06,Disney World,Magic Kingdom,It's A Small World,55,m,Difficulty Breathing,FALSE
+2015-09-02,Disney World,Magic Kingdom,Tomorrowland Transit Authority,80,m,"Dizziness AndChest Pain After Riding",FALSE
+2012-11-01,Disney World,Magic Kingdom,Pirates of the Caribbean,71,f,"Dizziness, Chest Pain MouthNumbness",FALSE
+2013-05-30,Disney World,Magic Kingdom,Space Mountain,56,m,"Dizziness, Chest Pain, LowerAbdominal Pain",FALSE
+2008-10-24,Disney World,Magic Kingdom,Space Mountain,65,m,Dizzy And Disoriented,FALSE
+2011-04-28,Disney World,Magic Kingdom,Space Mountain,47,f,Dizzy And Short Of Breath,FALSE
+2007-06-23,Disney World,Magic Kingdom,Space Mountain,57,f,Dizzy And Weakness In The Left Side.,FALSE
+2005-06-16,Disney World,Magic Kingdom,Liberty Riverboat,45,f,"Fainted And Fell While On Riverboat, Hurt Ankle & Knee.",FALSE
+2008-12-16,Disney World,Magic Kingdom,Splash Mountain,61,m,"Fall Occurred While Getting IntoVehicles; Fractured Leg",FALSE
+2007-07-29,Disney World,Magic Kingdom,Peter Pan's Flight,68,f,Fell _ Fractured Legs And Arms,FALSE
+2003-11-08,Disney World,Magic Kingdom,Liberty Riverboat,71,f,Fell & Hit Head.,FALSE
+2009-06-09,Disney World,Magic Kingdom,Tomorrowland Speedway,7,m,"Fell After ExitingVehicle And Fractured Arm.",FALSE
+2008-07-29,Disney World,Magic Kingdom,Haunted Mansion,68,f,"Fell After Exiting Vehicle AndFractured Shoulder",FALSE
+2008-08-09,Disney World,Magic Kingdom,Buzz Lightyear's Space Ranger Spin,54,m,"Fell After Getting Off Ride, FracturedHip",FALSE
+2016-12-08,Disney World,Magic Kingdom,Mad Tea Party,64,f,Fell And Fractured Ankle,FALSE
+2017-01-24,Disney World,Magic Kingdom,Prince Charming Regal Carrousel,72,f,Fell And Hit Head,FALSE
+2017-09-27,Disney World,Magic Kingdom,Space Mountain,48,f,"Fell Entering Ride Vehicle, Temporary Loss Of Consciousness, Fractured Leg",FALSE
+2007-02-10,Disney World,Magic Kingdom,Haunted Mansion,89,f,"Fell Exiting Attraction, Fractured Hip.",FALSE
+2008-02-02,Disney World,Magic Kingdom,Mad Tea Party,72,f,"Fell Exiting Ride, Fractured Hip",FALSE
+2010-05-24,Disney World,Magic Kingdom,Mad Tea Party,61,f,"Fell Exiting Vehicle, Left Arm Fracture",FALSE
+2010-04-13,Disney World,Magic Kingdom,Mad Tea Party,68,f,Fell Exiting Vehicle; Fractured Hip,FALSE
+2006-06-21,Disney World,Magic Kingdom,Peter Pan's Flight,43,f,Fell Getting Onto Ride; Fractured Hip.,FALSE
+2011-03-06,Disney World,Magic Kingdom,Peter Pan's Flight,75,f,"Fell On Moving Walkway In LoadArea; Fractured Knee",FALSE
+2010-09-14,Disney World,Magic Kingdom,Buzz Lightyear's Space Ranger Spin,73,f,Fell On Moving Walkway In Load Area: Fractured Spine.,FALSE
+2011-08-09,Disney World,Magic Kingdom,Haunted Mansion,66,f,"Fell On Moving Walkway WhileLoading, Fractured Leg",FALSE
+2013-03-03,Disney World,Magic Kingdom,Haunted Mansion,79,f,"Fell Stepping Onto MovingWalkway, Fractured Leg & Dislocated Ankle",FALSE
+2014-03-01,Disney World,Magic Kingdom,Buzz Lightyear's Space Ranger Spin,71,f,"Fell WhileExiting; Fractured Hip",FALSE
+2015-08-03,Disney World,Magic Kingdom,Tomorrowland Transit Authority,68,m,"Fell While Exiting,Fractured Shoulder",FALSE
+2013-10-13,Disney World,Magic Kingdom,Mad Tea Party,75,f,"Fell While Exiting, Fractured Wrist",FALSE
+2014-11-13,Disney World,Magic Kingdom,Prince Charming Regal Carousel,64,f,"Fell While SteppingOff Carousel Horse, Fractured Leg",FALSE
+2011-09-21,Disney World,Magic Kingdom,Prince Charming Regal Carousel,66,f,"Fell While Stepping Off The Carousel Platform, Fractured Leg",FALSE
+2017-02-06,Disney World,Magic Kingdom,Under the Sea - Journey of the Little Mermaid,34,m,"FeltDisoriented And Fell After Riding",FALSE
+2008-12-28,Disney World,Magic Kingdom,Tomorrowland Speedway,79,f,Felt Dizzy And Hot; Loss Of Consciousness,FALSE
+2008-07-15,Disney World,Magic Kingdom,Mad Tea Party,56,m,Felt Dizzy And Sick,FALSE
+2009-12-14,Disney World,Magic Kingdom,Tomorrowland Speedway,59,m,"Felt Dizzy, Tripped While Exiting Vehicle And Injured His Knee",FALSE
+2017-06-10,Disney World,Magic Kingdom,Buzz Lightyear's Space Ranger Spin,50,f,"Felt Ill AfterRiding",FALSE
+2012-02-25,Disney World,Magic Kingdom,Prince Charming Regal Carousel,68,f,"Felt Ill WhileBoarding Attraction; Fractured Hip & Leg",FALSE
+2012-02-29,Disney World,Magic Kingdom,Prince Charming Regal Carousel,65,f,"Felt Ill WhileExiting Attraction; Fractured Arm",FALSE
+2013-03-18,Disney World,Magic Kingdom,Tomorrowland Transit Authority,73,m,Felt Ill/Lost Consciousness After Exiting Ride.,FALSE
+2009-03-18,Disney World,Magic Kingdom,Space Mountain,75,f,Felt Light Headed; Nausea,FALSE
+2014-12-28,Disney World,Magic Kingdom,Space Mountain,72,m,Felt Nauseated & Lethargic After Exiting,FALSE
+2015-09-01,Disney World,Magic Kingdom,Jungle Cruise,4,f,Fractured Finger,FALSE
+2009-03-12,Disney World,Magic Kingdom,Astro Orbiter,40,f,Fractured Left Ankle Exiting Ride,FALSE
+2004-11-30,Disney World,Magic Kingdom,Buzz Lightyear's Space Ranger Spin,58,f,Got Sick On Ride Due To Lights.,FALSE
+2014-01-26,Disney World,Magic Kingdom,Under the Sea - Journey of the Little Mermaid,3,f,"GuestWith Pre-Existing Condition Had Seizure After Riding",FALSE
+2011-05-21,Disney World,Magic Kingdom,Space Mountain,48,f,"guest came into unload area unconscious: later diagnosed with subarachnoid hemorrhageat hospital",FALSE
+2015-12-06,Disney World,Magic Kingdom,Big Thunder Mountain Railroad,75,m,"Guest ComplainedOf Pain, Tremors And Numbness In Right Arm After Exiting",FALSE
+2017-11-03,Disney World,Magic Kingdom,The Barnstormer,55,m,"Guest Complained Of Chest PainAfter Riding Attraction",FALSE
+2009-01-31,Disney World,Magic Kingdom,Snow White's Scary Adventures,46,f,"Guest Exited VehicleAnd Claims To Have Lost Consciousness",FALSE
+2010-10-11,Disney World,Magic Kingdom,Prince Charming Regal Carrousel,71,f,Guest Fell And Fractured Hip And Shoulder While Ride Was Stopped.,FALSE
+2014-05-10,Disney World,Magic Kingdom,Astro Orbiter,68,m,"Guest Fell Exiting Vehicle, DevelopedBlood Clot In Leg",FALSE
+2015-11-26,Disney World,Magic Kingdom,Pirates of the Caribbean,30,f,"Guest Fell While Entering TheRide",FALSE
+2014-04-03,Disney World,Magic Kingdom,Tomorrowland Speedway,64,f,"Guest Fell While Exiting Vehicle, Fractured Fibula",FALSE
+2012-11-13,Disney World,Magic Kingdom,Jungle Cruise,69,f,"Guest Fell While Stepping Into Boat, Fractured Hip",FALSE
+2017-09-12,Disney World,Magic Kingdom,Space Mountain,17,f,Guest Felt Dizzy And Disoriented,FALSE
+2013-11-07,Disney World,Magic Kingdom,Buzz Lightyear's Space Ranger Spin,48,m,"Guest Felt IllAfter Riding",FALSE
+2015-11-21,Disney World,Magic Kingdom,Seven Dwarfs Mine Train,71,m,"Guest Felt Ill After RidingAttraction",FALSE
+2016-04-07,Disney World,Magic Kingdom,Walt Disney World Railroad,41,m,Guest Felt Ill And Began Shaking After Exiting.,FALSE
+2016-04-26,Disney World,Magic Kingdom,Space Mountain,46,f,"Guest Felt Ill, Dizzy And Disoriented",FALSE
+2015-01-10,Disney World,Magic Kingdom,Tomorrowland Speedway,64,m,"Guest Injured AnkleAttempting To Step Out Of The Vehicle.",FALSE
+2012-09-02,Disney World,Magic Kingdom,Space Mountain,80,m,"Guest Lost Consciousness After Exiting Attraction, Subsequently Diagnosed With A Heart Attack",FALSE
+2006-07-29,Disney World,Magic Kingdom,Splash Mountain,37,f,"Guest Recently Released From Hospital For Lung Condition, Reported Chest Pains And Difficulty Breathing.",FALSE
+2017-03-23,Disney World,Magic Kingdom,Pirates of the Caribbean,50,m,"Guest Recovering FromThroat Surgery Became Ill",FALSE
+2016-01-26,Disney World,Magic Kingdom,Space Mountain,17,f,"Guest Temporarily LostConsciousness And Fell After Riding Attraction.",FALSE
+2006-02-14,Disney World,Magic Kingdom,Peter Pan's Flight,70,m,Guest Tripped And Fell Into The Ride Path As He Attempted To Board The Attraction.,FALSE
+2014-08-05,Disney World,Magic Kingdom,Space Mountain,53,m,"Guest Who Had Not Been FeelingWell Felt Sick After Exiting.",FALSE
+2014-12-18,Disney World,Magic Kingdom,Seven Dwarfs Mine Train,54,m,"Guest Wilt PreexistingCondition Felt Ill After Exiting",FALSE
+2014-10-11,Disney World,Magic Kingdom,Buzz Lightyear's Space Ranger Spin,34,f,"Guest WithHistory Of Diabetic Seizures Experienced Seizure",FALSE
+2015-09-02,Disney World,Magic Kingdom,Buzz Lightyear's Space Ranger Spin,67,m,"Guest WithPre-Existing Health Condition Felt Dizziness And Chest Pains",FALSE
+2011-05-15,Disney World,Magic Kingdom,Space Mountain,12,f,"Guest With History of Asthma  cameinto unload area unresponsive: regained consciousness and was transported to hospital",FALSE
+2014-02-28,Disney World,Magic Kingdom,The Liberty Belle,80,m,"Guest With Personal Illness FeltWeakness While On The Riverboat",FALSE
+2017-02-12,Disney World,Magic Kingdom,Big Thunder Mountain Railroad,69,m,"Guest With Pre-Existing Condition Complained Of Neck Pain",FALSE
+2013-07-24,Disney World,Magic Kingdom,Carousel of Progress,1,f,"Guest With Pre-Existing Condition Had Difficulty Breathing",FALSE
+2015-01-04,Disney World,Magic Kingdom,Tomorrowland Transit Authority,77,m,Guest With Pre- Existing Condition Felt Weakness & Disorientation,FALSE
+2017-04-22,Disney World,Magic Kingdom,Big Thunder Mountain Railroad,59,f,Guest With Pre- Existing Conditions Felt Ill,FALSE
+2014-12-02,Disney World,Magic Kingdom,Big Thunder Mountain Railroad,63,f,"Guest With Pre- Existing Health Conditions Experienced Headache & Loss OfConsciousness After Riding, Subsequently Underwent Surgery For Aneurysm And Released From Hospital",FALSE
+2015-05-20,Disney World,Magic Kingdom,Pirates of the Caribbean,47,m,"Guest With Pre-ExistingCondition Felt Back Pain When Exiting The Ride.",FALSE
+2017-05-14,Disney World,Magic Kingdom,Seven Dwarfs Mine Train,48,f,"Guest With Pre-ExistingCondition Had A Seizure",FALSE
+2015-12-20,Disney World,Magic Kingdom,Pirates of the Caribbean,43,f,"Guest With Pre-ExistingCondition Had A Seizure After Exiting.",FALSE
+2014-03-03,Disney World,Magic Kingdom,Space Mountain,16,f,"Guest With Pre-Existing ConditionExperienced Periods Of Unconsciousness",FALSE
+2014-01-06,Disney World,Magic Kingdom,Peter Pan's Flight,63,f,"Guest With Pre-Existing ConditionFelt Chest Pain After Riding",FALSE
+2012-08-05,Disney World,Magic Kingdom,Big Thunder Mountain Railroad,62,f,"Guest With Pre-Existing Condition Complained Of Pain In Leg Upon Exiting, Later Diagnosed With A Blood Clot",FALSE
+2017-12-30,Disney World,Magic Kingdom,Haunted Mansion,66,m,Guest With Pre-Existing Condition Experienced Chest Pain,FALSE
+2017-10-25,Disney World,Magic Kingdom,Pirates of the Caribbean,76,m,"Guest With Pre-Existing Condition Experienced Headache And Brief Loss OfConsciousness",FALSE
+2017-08-18,Disney World,Magic Kingdom,Jungle Cruise,5,m,"Guest With Pre-Existing Condition Had ASeizure",FALSE
+2013-06-10,Disney World,Magic Kingdom,Haunted Mansion,62,m,Guest With Pre-Existing Condition Suffered From Chest Pain,FALSE
+2015-07-04,Disney World,Magic Kingdom,Tomorrowland Speedway,32,f,Guest With Pre-Existing Health Condition Had Seizure,FALSE
+2016-06-12,Disney World,Magic Kingdom,Tomorrowland Speedway,67,m,"Guest With PreexistingCondition Felt Ill After Exiting Ride.",FALSE
+2016-05-16,Disney World,Magic Kingdom,Haunted Mansion,70,f,"Guest With Preexisting ConditionBecame Dizzy.",FALSE
+2014-05-27,Disney World,Magic Kingdom,Big Thunder Mountain Railroad,72,f,"Guest With Preexisting Condition Exited Ride With Chest Pain And FeltDizzy, Briefly Lost Consciousness And Fell",FALSE
+2013-12-31,Disney World,Magic Kingdom,Haunted Mansion,35,m,Guest With Preexisting Condition Felt Chest Pain Prior To And After Riding,FALSE
+2012-04-18,Disney World,Magic Kingdom,Space Mountain,57,m,Guest With Preexisting Health Condition (Asthma) Temporarily Lost Consciousness; Released From Hospital Next Day,FALSE
+2011-02-06,Disney World,Magic Kingdom,Splash Mountain,29,f,Guest With Prior History Of Anaphylactic Reactions Began Experiencing Symptoms While On The Attraction.,FALSE
+2006-02-22,Disney World,Magic Kingdom,Space Mountain,56,f,Hip Pain.,FALSE
+2008-06-19,Disney World,Magic Kingdom,Haunted Mansion,57,f,Hit Right Knee Getting Into Vehicle,FALSE
+2003-12-24,Disney World,Magic Kingdom,Big Thunder Mountain Railroad,23,m,Knee,FALSE
+2003-05-11,Disney World,Magic Kingdom,Buzz Lightyear's Space Ranger Spin,75,f,Knee Injury,FALSE
+2014-04-13,Disney World,Magic Kingdom,Pirates of the Caribbean,12,m,Lacerated 4 Fingers,FALSE
+2003-05-14,Disney World,Magic Kingdom,Buzz Lightyear's Space Ranger Spin,12,f,Lacerated Ankle,FALSE
+2014-07-10,Disney World,Magic Kingdom,Pirates of the Caribbean,57,m,Lacerated Tips Of 2 Fingers,FALSE
+2014-06-28,Disney World,Magic Kingdom,The Magic Carpets of Aladdin,8,f,Loss Of Consciousness On Ride; Regained Consciousness And Was Trasnported,FALSE
+2012-12-29,Disney World,Magic Kingdom,Space Mountain,40,m,"Loss Of Consciousness While OnRide, Pre-Existing Condition",FALSE
+2009-07-17,Disney World,Magic Kingdom,Peter Pan's Flight,74,f,"Lost Balance On Unload Belt, FellAnd Hit Head And Fractured Wrist",FALSE
+2005-02-13,Disney World,Magic Kingdom,Pirates of the Caribbean,77,f,Lost Consciousness After Ride.,FALSE
+2003-02-03,Disney World,Magic Kingdom,Space Mountain,75,m,Memory Loss,FALSE
+2006-06-05,Disney World,Magic Kingdom,Mad Tea Party,62,f,"Missed Step And Fell, Fractured Hip.",FALSE
+2006-03-14,Disney World,Magic Kingdom,Space Mountain,61,m,Motion Sickness.,FALSE
+2013-01-14,Disney World,Magic Kingdom,Space Mountain,54,m,"Motion Sickness/Fainted During AndAfter Ride.",FALSE
+2015-06-15,Disney World,Magic Kingdom,Splash Mountain,21,f,Nausea And Chest Pains,FALSE
+2011-11-19,Disney World,Magic Kingdom,Space Mountain,43,f,Nausea And Dizziness,FALSE
+2015-05-05,Disney World,Magic Kingdom,Walt Disney World Railroad,71,m,Nausea And Dizziness,FALSE
+2013-08-26,Disney World,Magic Kingdom,Space Mountain,26,f,"Nausea Vomiting & Neck Pain;Reportedly Underwent Surgery To The Head Prior To Being Released From Hospital",FALSE
+2009-07-04,Disney World,Magic Kingdom,Splash Mountain,57,f,"Passed Out After Riding And ExitingAttraction, Hit Head On Concrete Floor And Fractured Skull.",FALSE
+2015-07-21,Disney World,Magic Kingdom,Liberty Riverboat,80,f,Passed Out And Struck Head,FALSE
+2005-12-19,Disney World,Magic Kingdom,Big Thunder Mountain Railroad,68,m,Reported Difficulty Moving When Leaving Ride.,FALSE
+2008-11-21,Disney World,Magic Kingdom,It's A Small World,55,m,Seizure,FALSE
+2008-10-04,Disney World,Magic Kingdom,Peter Pan's Flight,43,m,Seizure,FALSE
+2008-05-08,Disney World,Magic Kingdom,Snow White's Scary Adventures,6,f,Seizure,FALSE
+2009-04-13,Disney World,Magic Kingdom,Splash Mountain,39,m,Seizure,FALSE
+2016-08-16,Disney World,Magic Kingdom,Under the Sea - Journey of the Little Mermaid,53,f,Seizure,FALSE
+2008-03-14,Disney World,Magic Kingdom,Big Thunder Mountain Railroad,39,m,Seizure After Exiting Ride,FALSE
+2013-02-19,Disney World,Magic Kingdom,The Barnstormer,56,f,Seizure Like Symptoms,FALSE
+2006-11-01,Disney World,Magic Kingdom,Buzz Lightyear's Space Ranger Spin,56,m,Seizure.,FALSE
+2016-08-20,Disney World,Magic Kingdom,Space Mountain,59,m,Stomach And Chest Pain,FALSE
+2017-05-10,Disney World,Magic Kingdom,Big Thunder Mountain Railroad,44,f,Stomach Pain,FALSE
+2010-01-06,Disney World,Magic Kingdom,Space Mountain,71,f,Stroke,FALSE
+2012-07-05,Disney World,Magic Kingdom,Carousel of Progress,62,f,"Tripped While Approaching Seat, Fractured Femur",FALSE
+2014-12-18,Disney World,Magic Kingdom,Mad Tea Party,49,m,"Tripped While Exiting Ride Vehicle;Fractured Shoulder",FALSE
+2003-07-16,Disney World,Magic Kingdom,Liberty Riverboat,83,f,"Tripped, Fx Pelvis",FALSE
+2012-03-09,Disney World,Magic Kingdom,Space Mountain,49,f,"While Entering Ride Vehicle GuestFractured Leg",FALSE
+2003-09-23,Universal Studios,Islands of Adventure,The Incredible Hulk Coaster,34,f,Fatality,TRUE
+2015-03-24,Universal Studios,Islands of Adventure,Harry Potter & the Forbidden Journey,76,f,"Altered MentalStatus",FALSE
+2017-12-27,Universal Studios,Islands of Adventure,Harry Potter & the Forbidden Journey,61,m,Altered Mental Status,FALSE
+2015-03-30,Universal Studios,Islands of Adventure,Camp Jurassic,5,f,Arm Injury,FALSE
+2015-03-28,Universal Studios,Islands of Adventure,Dragon Challenge,41,m,Back Pain,FALSE
+2001-12-29,Universal Studios,Islands of Adventure,Caro-Seuss-el,52,f,Broken Arm.,FALSE
+2014-11-23,Universal Studios,Islands of Adventure,Spider-Man,45,m,"Change InMental Status",FALSE
+2015-01-17,Universal Studios,Islands of Adventure,Harry Potter & the Forbidden Journey,69,m,Chest Discomfort,FALSE
+2015-06-14,Universal Studios,Islands of Adventure,The Incredible Hulk Coaster,59,m,Chest Discomfort,FALSE
+2013-12-16,Universal Studios,Islands of Adventure,Harry Potter & the Forbidden Journey,70,m,Chest Pain,FALSE
+2013-05-07,Universal Studios,Islands of Adventure,Harry Potter & the Forbidden Journey,57,m,Chest Pain,FALSE
+2011-02-28,Universal Studios,Islands of Adventure,Harry Potter & the Forbidden Journey,57,m,Chest Pain,FALSE
+2017-07-24,Universal Studios,Islands of Adventure,The Incredible Hulk Coaster,36,f,Chest Pain,FALSE
+2012-07-29,Universal Studios,Islands of Adventure,The Incredible Hulk Coaster,18,f,Chest Pain,FALSE
+2008-08-09,Universal Studios,Islands of Adventure,Dragon Challenge,46,m,"Chest Pain, Shortness Of Breath And Nausea",FALSE
+2002-10-02,Universal Studios,Islands of Adventure,Dudley Do Right's Ripsaw Falls,55,f,Complained of Lower Back Pain,FALSE
+2002-11-10,Universal Studios,Islands of Adventure,Dudley Do Right's Ripsaw Falls,62,m,Complained of Neck Pain,FALSE
+2015-03-15,Universal Studios,Islands of Adventure,Harry Potter & the Forbidden Journey,51,m,"DifficultMoving Extremities (Pre-Existing Condition)",FALSE
+2016-07-31,Universal Studios,Islands of Adventure,Dragon Challenge,52,f,Dizziness,FALSE
+2013-01-02,Universal Studios,Islands of Adventure,Harry Potter & the Forbidden Journey,69,f,Dizziness,FALSE
+2014-03-14,Universal Studios,Islands of Adventure,The Incredible Hulk Coaster,40,m,Dizziness,FALSE
+2011-07-31,Universal Studios,Islands of Adventure,Dragon Challenge,48,m,Eye Discomfort,FALSE
+2017-08-04,Universal Studios,Islands of Adventure,Harry Potter & the Forbidden Journey,68,m,Fainting,FALSE
+2016-04-02,Universal Studios,Islands of Adventure,Harry Potter & the Forbidden Journey,50,f,Fainting,FALSE
+2013-12-07,Universal Studios,Islands of Adventure,Harry Potter & the Forbidden Journey,40,m,Fainting,FALSE
+2006-09-26,Universal Studios,Islands of Adventure,Spider-Man,67,m,Fainting.,FALSE
+2017-11-22,Universal Studios,Islands of Adventure,Caro-Seuss-el,59,m,Fainting/Head Injury,FALSE
+2010-08-25,Universal Studios,Islands of Adventure,Camp Jurassic,34,f,Fractured Ankle,FALSE
+2007-07-17,Universal Studios,Islands of Adventure,Camp Jurassic,14,f,Fractured Arm.,FALSE
+2002-07-11,Universal Studios,Islands of Adventure,Dudley Do Right's Ripsaw Falls,36,f,Fractured Back.,FALSE
+2011-07-25,Universal Studios,Islands of Adventure,Caro-Seuss-el,80,m,General Illness,FALSE
+2006-02-17,Universal Studios,Islands of Adventure,Dragon Challenge,26,m,Groin Pain,FALSE
+2014-04-05,Universal Studios,Islands of Adventure,Harry Potter & the Forbidden Journey,43,f,Head And Neck Pain,FALSE
+2012-02-12,Universal Studios,Islands of Adventure,Caro-Seuss-el,62,f,Head Laceration,FALSE
+2013-05-15,Universal Studios,Islands of Adventure,Harry Potter & the Forbidden Journey,61,f,Headache,FALSE
+2013-07-07,Universal Studios,Islands of Adventure,Harry Potter & the Forbidden Journey,66,f,Hip & Pelvis Pain,FALSE
+2003-04-15,Universal Studios,Islands of Adventure,Dr. Doom,9,f,"Laceration/Tear, Genitalia",FALSE
+2005-02-22,Universal Studios,Islands of Adventure,The Incredible Hulk Coaster,56,f,Loss Of Consciousness.,FALSE
+2014-01-20,Universal Studios,Islands of Adventure,Harry Potter & the Forbidden Journey,47,m,"LoweredLevel Of Consciousness",FALSE
+2012-07-11,Universal Studios,Islands of Adventure,Dragon Challenge,17,f,Lowered Level Of Consciousness,FALSE
+2017-03-07,Universal Studios,Islands of Adventure,Harry Potter & the Forbidden Journey,70,f,"MotionSickness",FALSE
+2016-05-23,Universal Studios,Islands of Adventure,Harry Potter & the Forbidden Journey,59,m,"MotionSickness",FALSE
+2013-11-13,Universal Studios,Islands of Adventure,Harry Potter & the Forbidden Journey,51,m,"MotionSickness",FALSE
+2015-12-24,Universal Studios,Islands of Adventure,Harry Potter & the Forbidden Journey,50,m,"MotionSickness",FALSE
+2016-10-16,Universal Studios,Islands of Adventure,Harry Potter & the Forbidden Journey,43,m,"MotionSickness",FALSE
+2015-08-26,Universal Studios,Islands of Adventure,Harry Potter & the Forbidden Journey,43,f,"MotionSickness",FALSE
+2017-04-16,Universal Studios,Islands of Adventure,Harry Potter & the Forbidden Journey,81,f,Motion Sickness,FALSE
+2012-03-03,Universal Studios,Islands of Adventure,Harry Potter & the Forbidden Journey,71,f,Motion Sickness,FALSE
+2012-03-31,Universal Studios,Islands of Adventure,Harry Potter & the Forbidden Journey,71,m,Motion Sickness,FALSE
+2015-04-16,Universal Studios,Islands of Adventure,Harry Potter & the Forbidden Journey,70,f,Motion Sickness,FALSE
+2012-04-02,Universal Studios,Islands of Adventure,Harry Potter & the Forbidden Journey,67,f,Motion Sickness,FALSE
+2017-01-05,Universal Studios,Islands of Adventure,Harry Potter & the Forbidden Journey,57,m,Motion Sickness,FALSE
+2015-12-24,Universal Studios,Islands of Adventure,Harry Potter & the Forbidden Journey,55,m,Motion Sickness,FALSE
+2012-01-11,Universal Studios,Islands of Adventure,Harry Potter & the Forbidden Journey,54,m,Motion Sickness,FALSE
+2008-01-31,Universal Studios,Islands of Adventure,Cat in the Hat,32,f,Nausea,FALSE
+2014-10-01,Universal Studios,Islands of Adventure,Harry Potter & the Forbidden Journey,22,m,Nausea (Pre- Existing Condition),FALSE
+2006-04-15,Universal Studios,Islands of Adventure,Dragon Challenge,47,f,"Nausea, Heartburn, Chest Pain, Numb L Arm.",FALSE
+2016-04-25,Universal Studios,Islands of Adventure,Dragon Challenge,46,f,Neck Pain,FALSE
+2017-03-01,Universal Studios,Islands of Adventure,Caro-Seuss-el,68,f,Pelvis Pain,FALSE
+2013-10-18,Universal Studios,Islands of Adventure,Dragon Challenge,67,f,Presented With Confusion,FALSE
+2008-02-29,Universal Studios,Islands of Adventure,The Incredible Hulk Coaster,28,f,Seizure,FALSE
+2016-10-01,Universal Studios,Islands of Adventure,Harry Potter & the Forbidden Journey,28,f,Seizure (Pre- Existing Condition),FALSE
+2013-09-13,Universal Studios,Islands of Adventure,Harry Potter & the Forbidden Journey,19,m,Seizure (Pre- Existing Condition),FALSE
+2014-10-17,Universal Studios,Islands of Adventure,Dudley Do Right's Ripsaw Falls,49,f,Seizure (Pre-Existing Condition),FALSE
+2008-08-15,Universal Studios,Islands of Adventure,Spider Man,16,m,"Shortness Of Breath With AssociatedChest Pain",FALSE
+2014-12-24,Universal Studios,Islands of Adventure,Poseidon s Fury,82,f,Shoulder Pain,FALSE
+2011-01-29,Universal Studios,Islands of Adventure,Harry Potter & the Forbidden Journey,60,m,Syncope,FALSE
+2013-01-22,Universal Studios,Islands of Adventure,Harry Potter & the Forbidden Journey,45,f,Syncope,FALSE
+2017-06-20,Universal Studios,Islands of Adventure,The Incredible Hulk Coaster,47,f,Syncope,FALSE
+2011-04-18,Universal Studios,Islands of Adventure,The Incredible Hulk Coaster,29,m,Syncope,FALSE
+2015-09-30,Universal Studios,Islands of Adventure,Dragon Challenge,59,m,Unconscious,FALSE
+2007-08-11,Universal Studios,Islands of Adventure,Dragon Challenge,16,m,Upper Back Pain.,FALSE
+2014-01-01,Universal Studios,Islands of Adventure,Harry Potter & the Forbidden Journey,79,f,"Upper LegPain",FALSE
+2011-07-19,Universal Studios,Islands of Adventure,Harry Potter & the Forbidden Journey,52,m,Vertigo,FALSE
+2009-12-09,Universal Studios,Islands of Adventure,Dragon Challenge,29,f,Vomiting,FALSE
+2016-01-01,Universal Studios,Islands of Adventure,Flight of Hippogriff,43,f,Weakness (Pre-Existing Condition),FALSE
+2006-06-29,Disney World,Hollywood Studios,Rock'n Roller Coaster,12,m,Guest Unresponsive; Later Passed Away At Hospital.,TRUE
+2016-09-18,Disney World,Hollywood Studios,Star Tours,68,m,Guest With Preexisting Heart Condition Felt Ill After Riding; Later Passed Away,TRUE
+2014-10-04,Disney World,Hollywood Studios,Toy Story Midway Mania,54,f,"Nausea & Dizziness, LostConsciousness & Subsequently Passed Away",TRUE
+Q202,Disney World,Hollywood Studios,Tower of Terror,47,f,"Anxiety & Claustrophobia, Atrial Fibulation",FALSE
+2003-06-29,Disney World,Hollywood Studios,Tower of Terror,45,f,Chest Pain,FALSE
+2014-08-18,Disney World,Hollywood Studios,Great Movie Ride,71,m,"Chest Pain And Loss OfConsciousness.",FALSE
+2007-05-19,Disney World,Hollywood Studios,Rock'n Roller Coaster,47,m,Chest Pain; Diagnosed With Heartattack.,FALSE
+2014-08-08,Disney World,Hollywood Studios,Star Tours,45,m,"Chest Pain; Did Not Have Medication WithHim.",FALSE
+2009-05-21,Disney World,Hollywood Studios,Rock'n Roller Coaster,55,m,Chest Pains,FALSE
+2004-07-22,Disney World,Hollywood Studios,Great Movie Ride,64,f,Chest Pains,FALSE
+2004-05-16,Disney World,Hollywood Studios,Tower of Terror,62,m,Chest Pains After Ride,FALSE
+2009-09-21,Disney World,Hollywood Studios,Rock'n Roller Coaster,50,f,"Chest Pains And Shortness OfBreath",FALSE
+2014-12-26,Disney World,Hollywood Studios,Rock'n Roller Coaster,51,f,"Dizziness & Loss Of MemoryAfter Riding; Later Lost Consciousness",FALSE
+2012-08-31,Disney World,Hollywood Studios,Star Tours,51,m,"Dizziness, Neck Pain & Motion Sickness",FALSE
+2014-12-01,Disney World,Hollywood Studios,Rock'n Roller Coaster,55,f,"Experienced Nausea AndMotion Sickness",FALSE
+2009-04-13,Disney World,Hollywood Studios,Rock'n Roller Coaster,48,f,"Feeling Weak On Left Side AndHad Trouble Standing After Riding.",FALSE
+2005-11-25,Disney World,Hollywood Studios,Honey I Shrunk the Kids Movie Set,12,m,Fell And Hurt Wrist.,FALSE
+2007-10-19,Disney World,Hollywood Studios,Tower of Terror,77,m,"Fell Ill After Riding Attraction, Claimed Memory Loss And Irregular Heartbeat Became Ill After Riding.",FALSE
+2006-06-28,Disney World,Hollywood Studios,Rock'n Roller Coaster,50,f,Fell While Getting Into Vehicle; Back Injury.,FALSE
+2011-03-24,Disney World,Hollywood Studios,Honey I Shrunk the Kids Movie Set,8,m,Fell; Hit Head; Back Pain,FALSE
+2008-07-30,Disney World,Hollywood Studios,Tower of Terror,62,m,Felt Disoriented And Dizzy,FALSE
+2009-11-16,Disney World,Hollywood Studios,Star Tours,74,m,"Felt Dizzy, Later Fainted And Fell AndStruck His Head",FALSE
+2012-07-09,Disney World,Hollywood Studios,Tower of Terror,25,f,"Felt Dizzy, Numbness/Pain In Arms",FALSE
+2006-02-07,Disney World,Hollywood Studios,Tower of Terror,56,f,Felt Dizzy.,FALSE
+2015-05-06,Disney World,Hollywood Studios,Star Tours,67,m,Felt Ill,FALSE
+2017-03-26,Disney World,Hollywood Studios,Tower of Terror,61,m,Felt Ill,FALSE
+2011-11-20,Disney World,Hollywood Studios,Toy Story Midway Mania,87,m,Felt Ill,FALSE
+2008-05-19,Disney World,Hollywood Studios,Great Movie Ride,54,m,"Felt Ill, Possible Heart Attack",FALSE
+2016-06-25,Disney World,Hollywood Studios,Rock'n Roller Coaster,50,m,Felt Ill; Nausea,FALSE
+2005-07-12,Disney World,Hollywood Studios,Tower of Terror,16,f,Felt Ill.,FALSE
+2016-10-27,Disney World,Hollywood Studios,Tower of Terror,40,m,Guest Felt Disoriented,FALSE
+2017-11-21,Disney World,Hollywood Studios,Star Tours,67,f,"Guest Felt Ill And Dizzy After RidingAttraction",FALSE
+2016-06-21,Disney World,Hollywood Studios,Rock'n Roller Coaster,26,m,"Guest Reported Back And Leg Pain And That He Was Lightheaded; Later Underwent HeartSurgery.",FALSE
+2014-08-03,Disney World,Hollywood Studios,Studio Backlot Tour,53,f,Guest Temporarily Lost Consciousness While Transferring From Wheelchair Into Ride Vehicle.,FALSE
+2016-05-23,Disney World,Hollywood Studios,Tower of Terror,18,m,"Guest WithPreexisting History Felt Chest Pain; Numbness In Arm",FALSE
+2016-01-01,Disney World,Hollywood Studios,Great Movie Ride,80,m,Guest With History Of Motion Sickness Became Temporarily Unconscious While On The Attraction,FALSE
+2014-08-19,Disney World,Hollywood Studios,Tower of Terror,40,f,"Guest With Pre-Existing Condition Experienced Chest Pain.",FALSE
+2017-06-15,Disney World,Hollywood Studios,Rock'n Roller Coaster,81,m,"Guest With Pre-ExistingCondition Felt Dizzy And Faint",FALSE
+2011-10-31,Disney World,Hollywood Studios,Toy Story Midway Mania,73,m,"Guest With Pre-ExistingHealth Condition Fell Near Restrooms After Exiting Ride & Struck His Head",FALSE
+2015-01-20,Disney World,Hollywood Studios,Great Movie Ride,57,m,"Guest With Pre-Existing ConditionHad Brief Loss Of Consciousness",FALSE
+2014-07-02,Disney World,Hollywood Studios,Tower of Terror,18,f,Guest With Pre-Existing Condition Experienced Anxiety & Numbness,FALSE
+2017-07-09,Disney World,Hollywood Studios,Toy Story Midway Mania,70,m,Guest With Pre-Existing Condition Felt Ill,FALSE
+2017-10-08,Disney World,Hollywood Studios,Rock'n Roller Coaster,71,f,Guest With Pre-Existing Condition Felt Ill After Riding Attraction,FALSE
+2015-09-18,Disney World,Hollywood Studios,Rock'n Roller Coaster,55,m,Guest With Pre-Existing Condition Felt Ill And Temporarily Lost Consciousness,FALSE
+2011-08-09,Disney World,Hollywood Studios,Star Tours,16,f,"Guest With Pre-Existing Condition Had ASeizure.",FALSE
+2013-01-24,Disney World,Hollywood Studios,Star Tours,41,m,"Guest With Pre-Existing Health ConditionExperienced Nausea And Chest Pain After Ride",FALSE
+2016-02-23,Disney World,Hollywood Studios,Toy Story Midway Mania,19,f,"Guest With PreexistingHeart Condition Fainted While Boarding Attraction.",FALSE
+2016-03-13,Disney World,Hollywood Studios,Great Movie Ride,41,m,Guest With Preexisting Condition Had Numbness And Felt Dizzy.,FALSE
+2006-10-04,Disney World,Hollywood Studios,Rock'n Roller Coaster,59,m,Headache And Dizziness; Transported From Other Park Location Approximately Three Hours After Riding.,FALSE
+2012-06-09,Disney World,Hollywood Studios,Rock'n Roller Coaster,51,m,Loss Of Consciousness On Ride; Regained Consciousness Before Exiting,FALSE
+2008-04-05,Disney World,Hollywood Studios,Tower of Terror,32,m,"Neck & Head Pain, Diagnosed W/Existing Brain Tumor",FALSE
+2008-12-12,Disney World,Hollywood Studios,Tower of Terror,41,f,Numbness In Right Leg,FALSE
+2008-06-05,Disney World,Hollywood Studios,Rock'n Roller Coaster,25,f,Seizure,FALSE
+2009-09-17,Disney World,Hollywood Studios,Rock'n Roller Coaster,31,f,Seizure After Exiting Ride,FALSE
+2015-03-16,Disney World,Hollywood Studios,Star Tours,46,m,Seizure After Exiting Ride,FALSE
+2009-07-27,Disney World,Hollywood Studios,Star Tours,54,m,Seizure After Exiting Ride.,FALSE
+2017-04-26,Disney World,Hollywood Studios,Rock'n Roller Coaster,70,m,"Shoulder And Arm Pain;Dizziness",FALSE
+2008-05-26,Disney World,Hollywood Studios,Honey I Shrunk the Kids Movie Set,47,f,"Went Down Slide &Fractured Ankle",FALSE
+2005-06-13,Disney World,Epcot,Mission: SPACE,4,m,"Child Lost Consciousness, Later Died At Hospital.",TRUE
+2006-04-11,Disney World,Epcot,Mission: SPACE,49,f,Felt Ill; Passed Away Next Day At Hospital.,TRUE
+2007-01-15,Disney World,Epcot,Soarin,60,m,Guest Had Difficulty Standing In Exit Area; Passed Away Two Days Later Due To Stroke.,TRUE
+2003-03-28,Disney World,Epcot,Universe of Energy,81,f,Heart Attack Later Died.,TRUE
+2002-07-07,Disney World,Epcot,Spaceship Earth,51,m,Asthma Attack,FALSE
+2004-11-08,Disney World,Epcot,Mission: SPACE,50,m,Became Dizzy And Had Upset Stomach.,FALSE
+2012-10-07,Disney World,Epcot,Ellen's Energy Adventure,88,f,Chest Pain,FALSE
+2014-05-08,Disney World,Epcot,Mission: SPACE,70,f,Chest Pain,FALSE
+2012-03-07,Disney World,Epcot,Soarin,56,f,Chest Pain,FALSE
+2010-04-05,Disney World,Epcot,Spaceship Earth,68,f,Chest Pain,FALSE
+2009-02-11,Disney World,Epcot,Spaceship Earth,59,m,Chest Pain,FALSE
+2003-10-21,Disney World,Epcot,Mission: SPACE,61,m,Chest Pain.,FALSE
+2003-11-17,Disney World,Epcot,Mission: SPACE,67,m,Chest Pain.,FALSE
+2005-08-06,Disney World,Epcot,Mission: SPACE,42,m,Chest Pain.,FALSE
+2004-03-24,Disney World,Epcot,Mission: SPACE,59,f,Chest Pains,FALSE
+2004-07-16,Disney World,Epcot,Mission: SPACE,40,f,"Fainted While On Ride* (Above Reported 11/5/04, Just Found Out Admitted To Hosp.)",FALSE
+2014-08-17,Disney World,Epcot,Seas with Nemo & Friends,63,m,"Fell And Struck FaceWhile Assisting Family Member From Vehicle; Facial Fractures.",FALSE
+2017-02-17,Disney World,Epcot,Frozen Ever After,74,f,Fell Entering Boat; Fractured Leg,FALSE
+2008-03-13,Disney World,Epcot,Seas with Nemo & Friends,71,f,"Fell Exiting Vehicle; HitHead And Fractured Left Shoulder",FALSE
+2005-10-14,Disney World,Epcot,Spaceship Earth,65,f,"Fell Getting Off Attraction, Reported Complaints Regarding Shoulder & Both Wrists.",FALSE
+2006-12-18,Disney World,Epcot,Test Track,67,f,Fell Getting Out Of Vehicle And Fractured Pelvis.,FALSE
+2007-10-11,Disney World,Epcot,Seas with Nemo & Friends,81,f,Fell While Boarding The Vehicle; Back Pain,FALSE
+2016-04-16,Disney World,Epcot,Spaceship Earth,69,f,Fell While Boarding; Fractured Leg,FALSE
+2009-08-15,Disney World,Epcot,Test Track,40,m,"Fell While Exiting Vehicle And Broke RightWrist.",FALSE
+2010-03-13,Disney World,Epcot,Test Track,63,m,"Felt Dizzy And Ill, Nose Bleed",FALSE
+2017-01-17,Disney World,Epcot,Soarin,46,m,"Felt Dizzy And Ill, Slurred Speech",FALSE
+2008-08-21,Disney World,Epcot,Mission: SPACE,42,f,Felt Dizzy And Sick,FALSE
+2009-09-19,Disney World,Epcot,Mission: SPACE,52,f,"Felt Dizzy, Loss Of Memory",FALSE
+2009-06-23,Disney World,Epcot,Universe of Energy,57,m,Felt Dizzy.,FALSE
+2010-06-06,Disney World,Epcot,Mission: SPACE,27,m,Felt Ill,FALSE
+2013-02-12,Disney World,Epcot,Spaceship Earth,56,m,Felt Ill And Appeared Incoherent,FALSE
+2012-01-31,Disney World,Epcot,Seas with Nemo & Friends,78,m,Felt Ill; Subsequently Diagnosed With Heart Attack,FALSE
+2010-08-13,Disney World,Epcot,Mission: SPACE,54,f,Felt Ill: Chest Pain,FALSE
+2005-08-03,Disney World,Epcot,Universe of Energy,73,m,Felt Ill.,FALSE
+2009-06-08,Disney World,Epcot,Soarin,69,f,Felt Pain In Side Earlier In Day; Reported It Was Worse After Riding.,FALSE
+2013-02-23,Disney World,Epcot,Mission: SPACE,34,f,Guest Fainted After Ride,FALSE
+2014-04-14,Disney World,Epcot,Seas with Nemo & Friends,62,f,"Guest Fell On MobbingWalkway And Injured Knee",FALSE
+2010-12-31,Disney World,Epcot,Seas with Nemo & Friends,76,f,Guest Fell While On Moving Walkway And Injured Her Left Leg.,FALSE
+2016-03-07,Disney World,Epcot,Ellen's Energy Adventure,67,m,"Guest Felt Ill, Dizzy AndDisoriented",FALSE
+2017-12-16,Disney World,Epcot,Journey into Imagination with Figment,65,f,"Guest TrippedAnd Fractured Elbow",FALSE
+2006-08-08,Disney World,Epcot,Spaceship Earth,7,f,Guest Visiting Through Wish Granting Organization Had Seizure After Riding.,FALSE
+2012-02-13,Disney World,Epcot,Mission: SPACE,56,m,"Guest W/ Pre-Existing HealthCondition Felt Ill After Ride; Heart Attack",FALSE
+2007-07-19,Disney World,Epcot,Mission: SPACE,63,m,Guest With History Of High Blood Pressure. Became Ill After Riding,FALSE
+2011-05-23,Disney World,Epcot,Mission: SPACE,53,f,Guest With History of Vertigo Felt Dizzy And Ill,FALSE
+2006-11-20,Disney World,Epcot,Mission: SPACE,59,m,Guest With Hypertension Felt Ill Day After Riding.,FALSE
+2012-07-24,Disney World,Epcot,Mission: SPACE,62,m,Guest With Pacemaker Stated He Felt A Shock Through His Shoulders When Fastening His Restraint,FALSE
+2015-04-07,Disney World,Epcot,Seas with Nemo & Friends,81,m,Guest With Pre- Existing Condition Felt Ill After Exiting Ride.,FALSE
+2015-04-14,Disney World,Epcot,Spaceship Earth,79,m,"Guest With Pre-Existing ConditionFelt Nausea, Shortness Of Breath And Pain In Jaw After Riding.",FALSE
+2014-05-12,Disney World,Epcot,Mission: SPACE,58,m,"Guest With Pre-Existing ConditionFelt Tightness In Chest And Nausea",FALSE
+2014-09-10,Disney World,Epcot,Test Track,69,m,Guest With Pre-Existing Condition Experienced Chest Pain.,FALSE
+2017-09-15,Disney World,Epcot,Mission: SPACE,56,f,"Guest With Pre-Existing Condition FeltIll After Experiencing Attraction",FALSE
+2017-01-16,Disney World,Epcot,Soarin,89,f,"Guest With Pre-Existing Condition Felt Chest Pain, Numbness",FALSE
+2017-01-19,Disney World,Epcot,Mission: SPACE,69,f,Guest With Pre-Existing Condition Felt Ill And Passed Out Momentarily,FALSE
+2011-07-19,Disney World,Epcot,Mission: SPACE,57,f,"Guest With Pre-Existing HealthCondition Felt Ill After Exiting Attraction & Temporarily Lost Consciousness.",FALSE
+2016-02-19,Disney World,Epcot,Mission Space; Test Track,57,m,"Guest With PreexistingHeart Condition Felt Ill After Riding Attractions.",FALSE
+2012-06-15,Disney World,Epcot,Spaceship Earth,49,m,Guest With Preexisting Health Condition Felt Ill After Riding,FALSE
+2015-07-21,Disney World,Epcot,Gran Fiesta Tour,46,f,Injured Back,FALSE
+2012-12-30,Disney World,Epcot,Ellen's Energy Adventure,76,m,"Loss Of Consciousness While On Ride, Pre-Existing Condition",FALSE
+2009-06-19,Disney World,Epcot,Mission: SPACE,57,f,Loss Of Consciousness.,FALSE
+2012-11-12,Disney World,Epcot,Gran Fiesta Tour,70,f,Lost Balance & Fell From Seat,FALSE
+2007-09-03,Disney World,Epcot,Gran Fiesta Tour,56,m,Lost Consciousness While On Ride.,FALSE
+2004-02-05,Disney World,Epcot,Mission: SPACE,68,m,Didn't Feel Well,FALSE
+2014-06-24,Disney World,Epcot,Mission: SPACE,54,f,Motion Sickness,FALSE
+2004-03-30,Disney World,Epcot,Mission: SPACE,59,m,"Nausea, 59 Year Old Male, Mission: Space.",FALSE
+2005-03-13,Disney World,Epcot,Universe of Energy,52,m,Not Feeling Well On Ride.,FALSE
+2011-03-17,Disney World,Epcot,Ellen's Energy Adventure,77,m,Report Of Possible Heart Attack For Guest With History Of Heart Condition,FALSE
+2005-10-04,Disney World,Epcot,Mission: SPACE,51,m,Reported On 10/07/05 That Had Not Been Feeling Well Since Riding Attraction Three Days Earlier On 10/04/05.,FALSE
+2012-03-28,Disney World,Epcot,Maelstrom,41,m,Seizure,FALSE
+2012-05-17,Disney World,Epcot,Spaceship Earth,55,f,Seizure,FALSE
+2013-01-25,Disney World,Epcot,Mission: SPACE,16,f,Seizure/Loss Of Consciousness,FALSE
+2003-08-10,Disney World,Epcot,Mission: SPACE,55,m,Sustained Nausea On Ride,FALSE
+2014-12-10,Disney World,Epcot,Soarin,74,f,"Tripped Over Guests Bag, Fractured Leg",FALSE
+2010-02-08,Disney World,Epcot,Mission: SPACE,45,m,"Vomiting, Vertigo And Felt RapidHeart Rate",FALSE
+2015-09-15,Disney World,DisneyQuest,Cyberspace Mountain,7,f,Thigh Pain,FALSE
+2007-03-16,Disney World,Blizzard Beach,Downhill Double Dipper,52,m,It Is Unclear Whether The Guest Rode This Attraction. Guest Collapsed Adjacent To Catch Pool;Later Passed Away.,TRUE
+2007-06-04,Disney World,Blizzard Beach,Downhill Double Dipper,8,f,Back Pain.,FALSE
+2006-02-06,Disney World,Blizzard Beach,Summit Plummet,25,m,Breathing Problems.,FALSE
+2009-03-11,Disney World,Blizzard Beach,Tobaggon Racer,67,m,"Cervical Injury After Collision NearEnd Of Slide",FALSE
+2017-09-26,Disney World,Blizzard Beach,Teamboat Springs,58,f,"Fell While Entering Raft AndFractured Back",FALSE
+2015-05-19,Disney World,Blizzard Beach,Chair Lift,65,f,"Fell While ExitingAttraction, Fractured Hip",FALSE
+2009-04-16,Disney World,Blizzard Beach,Teamboat Springs,64,f,Felt Disoriented And Lightheaded,FALSE
+2004-08-16,Disney World,Blizzard Beach,Slush Gusher,49,m,Felt Dizzy & Sick,FALSE
+2009-06-18,Disney World,Blizzard Beach,Toboggan Racer,43,f,Felt Pain In Abdomen And Chest,FALSE
+2017-07-27,Disney World,Blizzard Beach,Downhill Double Dipper,45,f,Fractured Arm,FALSE
+2004-04-07,Disney World,Blizzard Beach,NA,53,m,Fractured Elbow,FALSE
+2008-01-01,Disney World,Blizzard Beach,Cross County Creek,48,m,Guest Jumped Into Creek And Fractured Ankle,FALSE
+2012-07-24,Disney World,Blizzard Beach,Downhill Double Dipper,18,f,Guest With Pre-Existing Condition Had A Seizure,FALSE
+2004-02-16,Disney World,Blizzard Beach,,41,f,Just Made Aware That This Person Was Admitted To A Hospital),FALSE
+2004-07-12,Disney World,Blizzard Beach,Cross Country Creek,33,f,Seizure,FALSE
+2004-07-19,Disney World,Blizzard Beach,Melt Away Bay,11,m,Seizure,FALSE
+2008-08-14,Disney World,Blizzard Beach,Teamboat Springs,41,f,"Slipped While Getting Into Tube;Fractured Ankle",FALSE
+2005-04-30,Disney World,Animal Kingdom ,Dinosaur,30,m,"Guest Lost Consciousness, Parents Indicated He Had A Pre-Existing Heart Condition. Later Died At Hospital.",TRUE
+2014-03-15,Disney World,Animal Kingdom ,Dinosaur,73,f,Chest Pain,FALSE
+2008-07-25,Disney World,Animal Kingdom ,Dinosaur,73,m,Guest With Pre-Existing Heart Condition Reported Chest Pain,FALSE
+2009-12-10,Disney World,Animal Kingdom ,Dinosaur,61,f,Seizure,FALSE
+2010-08-02,Disney World,Animal Kingdom ,Dinosaur,45,m,Seizure,FALSE
+2015-12-23,Disney World,Animal Kingdom ,Dinosaur,24,m,Seizure After Departing From Attraction,FALSE
+2012-02-18,Disney World,Animal Kingdom ,Dinosaur,36,f,Seizure After Riding,FALSE
+2007-12-18,Disney World,Animal Kingdom,Expedition Everest,44,m,"Guest With History Of Heart Condition Was Unconscious At Unload, And Passed Away",TRUE
+2010-08-08,Disney World,Animal Kingdom,Expedition Everest,51,m,Chest Pain,FALSE
+2010-05-23,Disney World,Animal Kingdom,Kilimanjaro Safaris,65,m,Chest Pain,FALSE
+2003-06-24,Disney World,Animal Kingdom,Dinosaur,14,f,Chest Pain,FALSE
+2010-01-02,Disney World,Animal Kingdom,Dinosaur or Expedition Everest,40,f,Chest Pain: Anxiety,FALSE
+2008-03-05,Disney World,Animal Kingdom,Expedition Everest,72,f,Complained Of Dizziness And Loss Of Memory After Riding,FALSE
+2015-09-03,Disney World,Animal Kingdom,Kilimanjaro Safaris,1,m,"Developed Rash Before Boarding;Rash Later Worsened; Temporarily Passed Out While On Ride",FALSE
+2006-09-20,Disney World,Animal Kingdom,Expedition Everest,59,f,Felt Disoriented And Sick.,FALSE
+2011-05-18,Disney World,Animal Kingdom,Expedition Everest,33,f,Felt Dizzy And Ill,FALSE
+2010-06-04,Disney World,Animal Kingdom,Expedition Everest,74,m,Felt Dizzy And Ill,FALSE
+2010-09-23,Disney World,Animal Kingdom,Expedition Everest,72,f,Felt Dizzy And Ill,FALSE
+2017-06-24,Disney World,Animal Kingdom,Flight of Passage,31,f,"Felt Dizzy, Ill, And Brief Loss Of Consciousness",FALSE
+2015-06-24,Disney World,Animal Kingdom,Kilimanjaro Safaris,51,f,"Felt Dizzy, Mini-Stroke",FALSE
+2008-05-17,Disney World,Animal Kingdom,Expedition Everest,57,m,Felt Hot & Dizzy,FALSE
+2009-08-02,Disney World,Animal Kingdom,Expedition Everest,66,m,Felt Ill,FALSE
+2008-06-16,Disney World,Animal Kingdom,Expedition Everest,78,m,"Felt Ill Before & After RidingRide; Trouble Breathing & Blurred Vision",FALSE
+2010-05-18,Disney World,Animal Kingdom,Expedition Everest,54,m,"Felt Ill, Difficulty Breathing; LaterHad Heart Attack",FALSE
+2009-05-11,Disney World,Animal Kingdom,Expedition Everest,77,m,Felt Lightheaded And Weak,FALSE
+2017-04-20,Disney World,Animal Kingdom,Expedition Everest,34,m,"Felt Something In Eye, Irritation",FALSE
+2016-02-12,Disney World,Animal Kingdom,Wild Africa Trek,73,f,"Guest Became Disoriented DuringExperience.",FALSE
+2005-06-02,Disney World,Animal Kingdom,Kali River Rapids,45,f,Guest Fell From Raft Into Flume At Load Area And Hit Head.,FALSE
+2017-10-27,Disney World,Animal Kingdom,Flight of Passage,77,f,Guest Fell While Boarding Ride,FALSE
+2013-12-28,Disney World,Animal Kingdom,Expedition Everest,29,f,"Guest Felt Ill & Disoriented WithSlurred Speech",FALSE
+2014-08-04,Disney World,Animal Kingdom,Expedition Everest,58,f,"Guest Felt Lightheaded & FellInjuring Right Knee & Arm; Brief Loss Of Consciousness.",FALSE
+2011-12-29,Disney World,Animal Kingdom,Expedition Everest,71,m,"Guest Not Feeling Well RidingAttraction, Blocked Arteries",FALSE
+2012-03-10,Disney World,Animal Kingdom,Kilimanjaro Safaris,75,f,"Guest W/ Pre-Existing HealthCondition Felt Nauseated & Had Chest Pain",FALSE
+2015-02-09,Disney World,Animal Kingdom,Expedition Everest,36,f,"Guest Who Felt Ill At Times EarlierIn The Day, Felt Dizzy, Shaky, And Numbness After Attraction.",FALSE
+2006-06-13,Disney World,Animal Kingdom,Kali River Rapids,12,m,Guest Who Was Recently Released From Hospital And Recovering From Pneumonia Fainted And Fell On Dock.,FALSE
+2014-01-16,Disney World,Animal Kingdom,Expedition Everest,65,m,"Guest With Pre-ExistingCondition Felt Light Headed After Exiting Ride",FALSE
+2017-08-07,Disney World,Animal Kingdom,Expedition Everest,58,m,"Guest With Pre-ExistingCondition Had Nausea And Vomited After The Ride",FALSE
+2017-06-12,Disney World,Animal Kingdom,Flight of Passage,79,f,"Guest With Pre-Existing ConditionBecame Ill After Riding",FALSE
+2017-12-29,Disney World,Animal Kingdom,Kilimanjaro Safaris,70,f,"Guest With Pre-Existing ConditionExperienced Chest Pain",FALSE
+2014-05-21,Disney World,Animal Kingdom,Kilimanjaro Safaris,68,f,"Guest With Pre-Existing ConditionFelt Tightness In Chest",FALSE
+2017-06-10,Disney World,Animal Kingdom,Kilimanjaro Safaris,19,f,"Guest With Pre-Existing ConditionHad A Seizure",FALSE
+2017-11-04,Disney World,Animal Kingdom,Flight of Passage,56,f,"Guest With Pre-Existing ConditionTemporarily Passed Out On Ride",FALSE
+2015-10-25,Disney World,Animal Kingdom,Expedition Everest,69,m,"Guest With Pre-Existing Condition Felt Chest Pain AndDizziness After Riding.",FALSE
+2016-12-24,Disney World,Animal Kingdom,Kilimanjaro Safaris,67,m,Guest With Pre-Existing Condition Felt Numbness After Riding,FALSE
+2013-05-17,Disney World,Animal Kingdom,Kali River Rapids,36,f,Guest With Pre-Existing Condition Suffered A Seizure,FALSE
+2016-06-15,Disney World,Animal Kingdom,Kilimanjaro Safaris,70,m,"Guest With PreexistingCondition Felt Ill; Neck Discomfort",FALSE
+2014-12-05,Disney World,Animal Kingdom,Kali River Rapids,26,m,"Guest With Preexisting ConditionHad Seizure",FALSE
+2011-07-10,Disney World,Animal Kingdom,Expedition Everest,61,m,"History Of Heart Condition, Felt Ill",FALSE
+2007-07-16,Disney World,Animal Kingdom,Kilimanjaro Safaris,42,m,"Jumped Out Of Vehicle, Broke Left Ankle.",FALSE
+2014-01-06,Disney World,Animal Kingdom,Expedition Everest,54,m,"Nausea And Dizziness, Briefly Lost Consciousness After Ride",FALSE
+2014-06-21,Disney World,Animal Kingdom,Expedition Everest,51,f,"Nausea, Dizziness And Shortness Of Breath",FALSE
+2003-07-17,Disney World,Animal Kingdom,Dinosaur,52,f,Passed Out,FALSE
+2010-03-01,Disney World,Animal Kingdom,Kali River Rapids,47,m,Preexisting Heart Condition Felt Numbness On Right Side Of Body,FALSE
+2017-02-12,Disney World,Animal Kingdom,Expedition Everest,30,m,"Reported Being Struck On Head;Headache; Dizziness",FALSE
+2009-10-20,Disney World,Animal Kingdom,Expedition Everest,27,m,Seizure,FALSE
+2013-09-29,Disney World,Animal Kingdom,Kali River Rapids,39,m,Seizure,FALSE
+2010-04-06,Disney World,Animal Kingdom,Kilimanjaro Safaris,72,f,Seizure,FALSE
+2008-12-22,Disney World,Animal Kingdom,Kilimanjaro Safaris,51,f,Seizure,FALSE
+2015-04-18,Disney World,Animal Kingdom,Expedition Everest,46,m,Seizure After Exiting.,FALSE
+2007-03-03,Disney World,Animal Kingdom,Expedition Everest,27,m,Seizure.,FALSE
+2006-06-21,Disney World,Animal Kingdom,Expedition Everest,60,m,Shortness Of Breath And Chest Pains.,FALSE
+2008-03-29,Disney World,Animal Kingdom,Expedition Everest,72,m,Stomach Pain,FALSE
+2014-07-24,Disney World,Animal Kingdom,Primeval Whirl,46,f,"Temporarily Lost Consciousness AfterExiting Attraction.",FALSE
+2015-03-19,Disney World,Animal Kingdom,Expedition Everest,72,f,Temporary Memory Loss After Exiting Ride,FALSE
+2003-05-20,Busch Gardens,Adventure Island,Tampa Typhoon Slide,13,f,Arm Fracture,FALSE
+2006-05-28,Busch Gardens,Adventure Island,Key West Rapids,43,m,Head And Lower Back Pain.,FALSE
+2006-05-14,Busch Gardens,Adventure Island,Aruba Tuba,36,f,Shoulder Pain.,FALSE
+2003-06-01,Busch Gardens,Adventure Island,Gulfscream Slide,21,f,Vaginal Tear,FALSE
+2003-07-12,Busch Gardens,Adventure Island,Tampa Typhoon Slide,12,f,Vaginal Tear,FALSE

@@ -1,0 +1,402 @@
+﻿Year,Date,City,Nonfatal_Fatal,Age,Age_Category,Sex,Water_Body,County,Timecat,Time,Victim_Activity,Gator_Fed,Dog_Present,Body_Part_Bitten,Injury_Severity_LowMedHigh,GatorLength_MeasuredOrEst,Length_Feet,Length_Inches,Weight_Lbs,Gator_Sex,GatorObserved_PriorToBite,GatorObserved_DuringBite,VictimStateResidence,AlcoholOrDrugs
+1948,30-Jul-48,Weekiwachee,N,,A,F,Weekiwachee Springs,Hernando,Aft,,Swimming,,N,Arm,M,M,9,2,,M,N,Y,Florida,
+1950,,,N,15,T,F,,N/A,,,Swimming,,,Leg (Knee),M,,,,,,N,Y,,
+1952,16-Sep-52,Coral Gables,N,9,C,F,Unnamed rock pit,Dade,,,Fishing,,N,Arm,H,E,6,2,,,N,Y,Florida,
+1958,,,N,,A,M,,N/A,,,Snorkeling,,N,Head and unknown other parts,M,,,,,,N,Y,,
+1971,11-Jun-71,Village of Palm Springs,N,15,T,M,Lake Sago,Palm Beach,Aft,1415,Swimming,Y,N,Head and face,M,E,10,,,,N,Y,Florida,
+1971,20-Jun-71,Bradenton,N,,C,M,"Frog Creek,  Bradenton",Manatee,,,Swimming,,N,"Arm, wrist",M,E,7,,,,N,Y,Florida,
+1971,21-Jun-71,Jacksonville,N,15,T,M,St. John's River - Jax,Duval,,,Wading,,,"Shoulder, left",H,,,,,,N,Y,Florida,
+1972,16-Jul-72,Ft. Lauderdale,N,10,C,F,Unnamed canal,Broward,,,Wading,Y,N,Arm (Hand and arm),M,E,5,,,,Y,Y,Florida,
+1972,20-Jul-72,Lake Worth,N,12,C,M,Unnamed barrow pit,Palm Beach,,,Swimming,,,Abdomen,H,E,8,,,,,Y,Florida,
+1972,03-Aug-72,Jacksonville,N,6,C,M,Casa Linda Lake,Duval,Aft,1230,Wading,,N,Leg,M,E,8,,,,N,Y,Florida,
+1973,05-Jul-73,Tarpon Springs,N,10,C,M,Lake Tarpon,Pinellas,Eve,2000,Wading,,Y,"Leg, left",M,E,8,5,,,N,Y,Florida,
+1973,16-Aug-73,Sarasota,F,16,T,F,Oscar Scherer St. Pk. - swimming pond,Sarasota,Dusk,,Swimming,,N,"Torso, arm",H,M,11,3,,M,,,Florida,N
+1973,16-Sep-73,Davie,N,13,T,M,South New River Canal,Broward,Mor,1000,Swimming,,N,Chest and back,M,E,9,,,,Y,Y,Florida,
+1974,18-Jun-74,Coral Springs,N,10,C,F,Unnamed canal,Broward,Eve,1930,Fishing,,N,Leg (lower left),M,,,,,,N,Y,Florida,
+1974,29-Jul-74,Lake Worth,N,14,T,M,Lake Osborne,Palm Beach,Day,,Swimming,Y,,"Arm and chest, right",M,,,,,,,,Florida,
+1974,01-Aug-74,Kissimmee,N,10,C,M,YMCA Camp canal,Osceola,Day,,Swimming,,N,Leg and foot,M,M,9,,,,N,Y,,
+1974,15-Aug-74,Ormond Beach,N,16,T,M,Tomoka River,Volusia,Eve,1930,Swimming,Y,N,Arm first and by other arm and head,M,M,11,4,,,N,Y,Florida,
+1975,16-Jun-75,Lakeland,N,45,A,M,Saddle Creek Park,Polk,Aft,1630,Swimming,,N,Torso (chest and shoulder),H,M,11,9,,M,N,Y,Florida,
+1975,30-Jun-75,Tarpon Springs,N,14,T,M,Lake Tarpon,Pinellas,Aft,1600,Swimming,,N,"Leg, thigh just above knees",M,E,8,,,,N,Y,Florida,
+1975,05-Jul-75,Ft. Myers,N,10,C,F,Judd Park canal,Lee,Aft,1745,Wading,,N,"Leg, thigh",M,E,5,,,,N,Y,Florida,
+1975,22-Oct-75,Eureka,N,34,A,M,Ocklawaha River,Marion,Aft,1300,Wading,,N,"Abdomen, chest and arm",M,,,,,,N,Y,Florida,
+1976,01-Apr-76,St. Petersburg,N,14,T,M,Unnamed pond,Pinellas,Aft,1530,Wading,Y,N,Arm,M,E,6,6,,,N,Y,Florida,
+1976,25-Aug-76,Dunnellon,N,66,A,M,Rainbow River - Blue Cove,Marion,Nit,2130,Swimming,Y,N,"Arm, left upper",M,,,,,,N,Y,Florida,
+1977,13-Mar-77,Tequesta,N,9,C,M,Loxahatchee River,Martin,Aft,1600,Swimming,Y,N,"Leg, hip",M,E,6,,,,Y,Y,Florida,
+1977,21-Mar-77,Gainesville,N,21,A,M,Bivens Arm,Alachua,Aft,1600,Swimming,,N,Hand,M,E,5,,,M,Y,Y,Florida,
+1977,17-Apr-77,Tampa,N,11,C,F,Robles Park Pond,Hillsborough,Aft,1545,Walking,Y,N,"Leg, lower right",L,E,5,,,,Y,Y,Florida,
+1977,24-Apr-77,DeLeon Springs,N,21,A,M,Spring Garden Run,Volusia,Eve,1830,Snorkeling,,N,Head,M,E,6,,,,N,Y,Florida,
+1977,04-May-77,Brooker,N,29,A,M,Sampson Creek,Bradford,Dusk,,Wading,,N,"Foot, left",M,E,7,,,,N,Y,Florida,
+1977,05-Jun-77,Lake Butler,N,19,A,M,Lake Butler,Union,Nit,200,Swimming,,N,"Abdomen, (Shoulder and back)",M,E,9,,,,N,Y,California,
+1977,30-Jun-77,Dunnellon,N,67,A,M,Rainbow River - Blue Cove,Marion,Eve,1930,Swimming,,N,"Head first, and then left hand and",M,E,11,,,,N,Y,Florida,
+1977,01-Jul-77,Lakeland,N,8,C,M,Lake Beulah,Polk,,,Swimming,,Y,Arm and hand,H,E,8,,,,N,Y,Florida,
+1977,14-Jul-77,West Palm Beach,N,9,C,F,Unnamed pond,Palm Beach,Eve,2000,Boating,,N,"Foot, right",M,E,5,,,,N,Y,Florida,
+1977,01-Aug-77,Deerfield Beach,N,60,A,M,Unnamed pond,Broward,Aft,1420,Feeding,Y,N,"Leg, left",M,E,7,,,,N,Y,Florida,
+1977,12-Aug-77,Olustee,D,25,A,F,Ocean Pond,Baker,Nit,2400,Wading,,N,Right buttock,M,,,,,,N,Y,,
+1977,17-Sep-77,Venice Gardens,N,71,A,F,Forest Lake,Sarasota,Aft,1345,Feeding,Y,N,"Leg, right",M,M,8,1,,,Y,Y,Florida,
+1977,28-Sep-77,Punta Gorda,F,52,A,M,Unnamed canal,Charlotte,Eve,2035,Swimming,,,"Arm, head, and leg",H,E,7,6,,,N,Y,Florida,N
+1977,02-Oct-77,Port St. Lucie,N,70,A,M,Unnamed pond,St. Lucie,Mor,1045,Landscaping,Y,N,"Arm and hand, head, and leg",H,M,8,,,M,,Y,Florida,
+1978,12-May-78,,N,30,A,M,Lake Jesup,Seminole,Eve,1830,Boating,,N,"Leg, right",M,M,12,,,,N,N,Texas,
+1978,25-May-78,Okeechobee,N,,A,M,Unnamed creek,Okeechobee,Aft,,Wading,,N,Hand,M,E,8,,,,N,Y,Florida,
+1978,28-Jun-78,Deerfield Beach,N,8,C,M,Unnamed canal,Broward,Aft,1500,Wading,Y,N,"Arm, right",H,,,,,,N,Y,New Jersey,
+1978,03-Jul-78,Lake Wales,N,23,A,M,Lake Weohyakapka,Polk,Eve,1900,Swimming,,N,"Hand, left, right arm, left arm",M,E,7,,,,N,Y,Florida,
+1978,09-Aug-78,Lake Worth,N,12,C,M,Lake Osborne,Palm Beach,Aft,1700,Wading,,N,"Leg, left",M,E,12,,,,N,Y,Tennessee,
+1978,10-Sep-78,Palm City,F,14,T,M,Bessie Creek,Martin,,,Swimming,,,Body and arm,H,M,11,1,,M,,,Florida,
+1979,17-Jul-79,Inverness,N,8,C,M,Unnamed pond,Citrus,Mor,1030,Swimming,,Y,"Leg, left ankle",M,E,9,,,,N,Y,Florida,
+1979,15-Aug-79,Merritt Island,N,18,A,M,Sykes Creek impoundment,Brevard,Aft,1600,Snorkeling,,N,"Arm, right forearm",M,M,8,6,,M,Y,Y,Florida,
+1980,30-Apr-80,Maitland,N,25,A,M,Gem Lake,Orange,Aft,1530,Swimming,,N,Right arm and arm pit,M,E,5,,,,Y,Y,Florida,N
+1980,09-Aug-80,Avon Park,N,23,A,M,Morgan Creek,Highlands,Aft,1600,Wading,,N,"Foot, right",M,E,4,,,,N,N,Florida,
+1980,15-Aug-80,Jacksonville,N,21,A,M,Hanna Park Lake,Duval,Aft,1530,Swimming,,N,"Arm, right",M,M,10,,,M,N,Y,Arkansas,
+1980,22-Sep-80,Cross City,N,,A,M,Continental Turpent pond,Dixie,Nit,2100,Walking,Y,N,Leg,M,M,10,4,,M,N,Y,Florida,
+1981,,Largo,N,,A,M,Lake Allison,Pinellas,,,Walking,N,,Left calf of leg,M,,,,,,N,Y,Florida,N
+1981,21-May-81,Perry,N,24,A,M,Unnamed pond,Taylor,Mor,1130,Fishing,Y,N,"Foot, right",L,M,7,4,,M,N,Y,Florida,
+1981,01-Jun-81,Nokomis,N,38,A,F,Myakka River,Sarasota,Nit,2130,Wading,,N,"Leg, right, above knee and below knee",H,E,5,,,,N,Y,Florida,
+1981,16-Jun-81,Largo,N,65,A,M,"Lake Alice, Pinellas Co.",Pinellas,Mor,830,Walking,,N,"Leg, left",M,M,7,11,,M,N,Y,Florida,
+1981,18-Jun-81,Astor,N,22,A,M,Crooked Lake,Marion,Nit,2230,Swimming,,N,"Feet, left and right",M,E,6,,,M,N,N,Florida,
+1981,24-Jun-81,Jupiter,N,,A,M,Unnamed pond,Palm Beach,,,Diving,,,Left hand,L,,,,,,,,Florida,
+1981,03-Jul-81,South Ft. Myers,N,12,C,M,Unnamed pond,Lee,Aft,1700,Feeding,Y,N,"Foot, left",L,,,,,,Y,Y,,
+1981,04-Jul-81,Merritt Island,N,27,A,M,Unnamed pond,Brevard,Mor,1100,Snorkeling,,N,"Hand, left, and then left arm at elbow",H,M,10,6,,M,N,Y,Florida,
+1982,27-Mar-82,Largo,N,69,A,M,Unnamed pond,Pinellas,Aft,1630,Wading,,N,"Arm, right forearm and elbow",M,E,6,,,,N,Y,Florida,
+1982,21-Apr-82,Pahokee,N,30,A,M,Unnamed canal,Palm Beach,Mor,900,Diving,N,N,Arm,L,E,5,,,,N,Y,,N
+1982,12-Aug-82,West Melbourne,N,36,A,M,Unnamed canal,Brevard,Aft,1730,Landscaping,Y,N,"Hand, left",M,M,6,7,,F,N,Y,Florida,
+1982,20-Aug-82,Micanopy,N,20,A,M,Lake Wauberg,Alachua,Aft,1420,Swimming,,N,"Arm, right, 1st above wrist,2nd hum",H,M,9,,,M,Y,Y,Florida,
+1982,20-Sep-82,North Port,N,67,A,M,Unnamed pond,Sarasota,Aft,1315,Walking,,N,"Leg, right calf; hand",M,M,10,2,,M,N,Y,,
+1982,04-Oct-82,El Jobean,N,39,A,M,"Myakka River, canal",Charlotte,Aft,1400,Swimming,,N,Head and neck,L,E,8,,,,N,Y,Florida,
+1982,27-Nov-82,Gainesville,N,41,A,M,"Lake Alice, Univ. of Fla.",Alachua,Aft,1300,Walking,Y,Y,"Foot, right",L,E,8,6,,,N,Y,Florida,
+1983,18-May-83,Leesburg,N,67,A,M,Unnamed pond,Lake,Nit,140,Walking,,Y,"Leg, back of left, left and right a",H,M,6,4,,M,N,Y,Florida,
+1983,22-Jun-83,Lake Harbor,N,79,A,F,Lake Okeechobee - Lake Harbor,Palm Beach,Aft,1345,Swimming,Y,Y,"Arm, right, above elbow",H,E,8,,,,Y,Y,Florida,
+1983,11-Jul-83,Clearwater,N,62,A,M,Unnamed pond,Pinellas,Aft,1700,Wading,,Y,"Arm, right fore",H,M,7,6,,M,N,Y,Florida,
+1983,15-Jul-83,Sarasota,N,30,A,M,Lake Foxfire West,Sarasota,Aft,1630,Snorkeling,,N,Flipper,N,E,8,,,,N,Y,Florida,
+1983,21-Aug-83,Gainesville,N,29,A,M,"Lake Alice, Univ. of Fla.",Alachua,Aft,1600,Wading,,N,"Foot, left and left hand",M,E,4,6,,,,Y,,
+1983,23-Aug-83,Salt Springs,N,50,A,M,Salt Springs,Marion,Aft,1700,Snorkeling,Y,N,Chin and right shoulder,H,M,11,7,,M,Y,Y,New Jersey,
+1984,05-May-84,Avon Park,N,14,T,M,Charlie Creek,Hardee,Aft,1700,Swimming,,N,"Buttock , right",M,,,,,,N,N,Florida,
+1984,15-May-84,Polk City,N,42,A,M,Unnamed pond,Polk,Eve,1800,Feeding,Y,N,"Thumb, left",M,E,3,6,,,Y,Y,Florida,
+1984,01-Jul-84,Orlando,N,21,A,F,South Lake Fairview,Orange,Nit,2230,Swimming,,N,"Leg, left and left hand, bitten twice",H,M,7,2,,F,Y,Y,Florida,
+1984,02-Jul-84,Naples,N,30,A,M,Lake Avalon,Collier,Eve,1835,Snorkeling,,N,"Left, chest and shoulder",M,E,10,,,,N,Y,Florida,
+1984,06-Aug-84,Port St. Lucie,F,11,C,M,St. Lucie River,St. Lucie,Aft,1755,Swimming,,N,"Torso, left side",H,M,12,5,,M,Y,Y,Florida,N
+1985,04-May-85,West Palm Beach,F,27,A,M,C27 Canal - Wellington,Palm Beach,,1530,Swimming,,N,"Neck, leg, fingertips missing",H,,,,,,,,Florida,Y
+1985,08-May-85,North Ft. Myers,N,79,A,F,Unnamed pond,Lee,Eve,1830,Landscaping,Y,N,"Hand, right,",H,M,4,8,,F,N,Y,Florida,
+1985,05-Jul-85,Astor,N,18,A,M,Alexander Springs,Lake,Eve,1801,Snorkeling,,N,"Head, forehead and back of head",M,M,5,6,,F,N,Y,Florida,
+1985,25-Aug-85,Webster,N,10,C,F,Richloam WMA,Sumter,Mor,830,Wading,,N,"Foot, right",L,E,6,6,,,N,Y,,
+1985,29-Aug-85,DeBary,N,74,A,M,Lake Monroe,Volusia,Aft,1200,Wading,,N,"Leg, left",H,M,6,4,,F,,Y,Indiana,
+1985,06-Sep-85,Ft. Myers Beach,N,53,A,M,Unnamed canal,Lee,Aft,1703,Wading,,N,"Leg, thigh (upper right)",L,E,6,6,,,N,Y,Florida,
+1986,18-Mar-86,St. Augustine,N,68,A,M,Unnamed barrow pit,St. Johns,Aft,1600,Walking,,Y,"Arm, left fore",L,,,,,,N,Y,,Y
+1986,20-Mar-86,Kissimmee,N,11,C,M,Buena Ventura Lakes pond,Osceola,Aft,1600,Wading,,N,"Leg, left thigh",L,M,5,4,,M,,N,Florida,
+1986,02-May-86,Ft. Myers,N,9,C,M,Unnamed pond,Lee,Eve,2000,Walking,,N,"Leg, right",L,M,5,6,,F,N,N,Florida,
+1986,25-Jun-86,Keaton Beach,N,62,A,F,Blue Springs Lake,Taylor,Aft,1245,Swimming,,Y,"Shoulder, right, and right arm",M,M,6,10,65,M,N,Y,,
+1986,15-Jul-86,Sunrise,N,14,T,M,Unnamed pond,Broward,Eve,1956,Boating,,N,"Chest, left",M,M,5,6,,,N,Y,Florida,
+1986,16-Jul-86,Winter Haven,N,3,C,M,Little Lake Eloise,Polk,Eve,2030,Wading,,N,"Arm, left fore",L,E,6,,,,N,Y,Florida,
+1986,19-Jul-86,Titusville,N,29,A,M,Indian River - Titusville,Brevard,Nit,230,Boating,,N,"Hand, right and wrist",L,E,3,6,,,N,Y,Florida,
+1986,24-Jul-86,Silver Springs,N,25,A,M,King Lake,Marion,Eve,1800,Snorkeling,,N,"Back, upper left and lower right",L,M,5,7,,F,N,N,Florida,
+1986,24-Sep-86,Crystal River,N,12,C,M,Miller's Creek,Citrus,Eve,1925,Snorkeling,,N,Head(1st) and left ankle and foot,H,M,11,3,,M,Y,Y,Florida,
+1986,10-Oct-86,Lake Buena Vista,N,8,C,M,301 Canal,Orange,Eve,1845,Feeding,,N,"Leg, left",L,M,7,4,,F,N,Y,New Hampshire,
+1986,13-Nov-86,Seminole,N,28,A,M,Lake Seminole,Pinellas,Mor,1030,Swimming,,N,Abdomen (left side and back),L,E,8,,,,N,Y,Illinois,
+1986,16-Nov-86,Everglades City,N,35,A,M,Stairsteps Unit,Monroe,Mor,1000,Wading,,Y,Leg (knee),L,E,6,,,,N,Y,Florida,
+1986,31-Dec-86,Alexander Springs,N,33,A,M,Alexander Springs,Lake,Aft,1600,Snorkeling,,N,"Shoulder, right",L,M,5,1,,M,N,Y,Louisiana,
+1987,09-May-87,Ft. White,N,29,A,F,Ichetucknee River,Columbia,Eve,1830,Snorkeling,,N,"Arm, left fore and lower left back.",L,E,5,,,M,N,Y,Georgia,
+1987,10-May-87,Lake City,N,32,A,M,Alligator Lake - Columbia Co.,Columbia,Eve,1900,Wading,,N,"Leg, left calf",M,E,4,6,,,N,Y,Florida,
+1987,22-Jun-87,Ft. Myers,N,27,A,M,Unnamed pond,Lee,Nit,2230,Swimming,,N,"Foot, right",M,E,5,,,,Y,Y,Florida,
+1987,25-Jun-87,Ft. Myers,N,33,A,M,Unnamed pond,Lee,Nit,2300,Other,Y,N,"Foot, right, above toes.",L,M,2,3,,M,N,Y,Florida,
+1987,13-Jul-87,Crawfordville,F,29,A,M,Wakulla River,Wakulla,Aft,1400,Snorkeling,,N,"Head, shoulder, arms, and thighs",H,M,11,,,M,,,Florida,
+1987,11-Aug-87,Sebring,N,,,M,Hidden Lake pond,Highlands,Aft,1630,Fishing,,N,"Foot, sole of work boot",N,E,9,6,,,Y,Y,Florida,
+1987,15-Aug-87,Daytona Beach,N,21,A,M,Shaw Lake,Volusia,Aft,1200,Swimming,,N,"Foot, right",L,E,7,6,,M,N,Y,England,
+1987,24-Sep-87,Tampa,N,50,A,M,Unnamed pond,Hillsborough,Mor,1100,Swimming,,N,"Hand, right",L,E,4,,,,N,N,Florida,
+1987,24-Dec-87,Port Charlotte,N,12,C,F,Unnamed canal,Charlotte,Aft,1300,Wading,Y,N,"Leg, left thigh above knee",L,E,3,6,,,N,Y,Florida,
+1988,13-Jan-88,Naples,N,50,A,M,Unnamed pond,Collier,Aft,1500,Snorkeling,,N,"Head, fore and upper lip, thumb",M,M,8,3,,,N,Y,Florida,
+1988,10-Mar-88,Dunedin,N,14,T,M,Unnamed pond,Pinellas,Eve,1845,Fishing,,N,"Foot, right",L,E,5,,,,N,Y,Florida,
+1988,25-Mar-88,Lake Worth,N,30,A,M,Unnamed pond,Palm Beach,Aft,1300,Snorkeling,,N,"None, caught by swim fin",N,E,8,,,,N,Y,,
+1988,04-Jun-88,Gardens of Gulf Cove,F,4,C,F,Hidden Lake,Charlotte,Eve,1810,Walking,Y,Y,"Torso, upper (right shoulder)",H,M,10,7,,M,N,Y,Florida,N
+1988,15-Jul-88,Melbourne,N,14,T,M,Eau Gallie River,Brevard,Aft,1600,Boating,N,N,Left forearm,M,M,7,4,150,F,N,N,Florida,
+1988,28-Jul-88,Sanibel,N,35,A,M,Unnamed pond,Lee,Aft,1228,Wading,Y,N,"Foot, right",M,M,6,8,,M,N,Y,Florida,
+1988,17-Aug-88,Plantation,N,6,C,M,North New River Canal - finger canal,Broward,Aft,1700,Walking,,N,"Leg, left (1st) and head (2nd)",M,M,7,8,,F,N,Y,,
+1988,03-Oct-88,Land O' Lakes,N,30,A,F,Lake Padgett,Pasco,Nit,2230,Swimming,,N,"Leg, left calf",M,,,,,,N,N,Florida,
+1988,09-Oct-88,Palm Harbor,N,55,A,F,Unnamed canal,Pinellas,Aft,1300,Boating,,N,"Hand, right",L,M,11,,,M,N,Y,Florida,
+1989,05-Mar-89,Oldsmar,N,10,C,M,Unnamed pond,Pinellas,Aft,1500,Wading,,N,"Leg, left below knee",L,,,,,,N,N,Florida,
+1989,13-Apr-89,Cape Coral,N,14,T,M,,Lee,Eve,1800,Walking,,N,"Foot, right big toe",L,M,3,2,,,N,Y,Florida,
+1989,17-Jun-89,Palmetto,N,37,A,F,,Manatee,Nit,2245,Landscaping,,N,"Foot, left",L,M,2,8,,,N,Y,Florida,
+1989,04-Jul-89,Holiday,N,45,A,M,Unnamed pond,Pasco,Eve,1820,Wading,Y,N,"Leg, left thigh above knee",M,M,6,,,F,N,Y,Florida,
+1989,25-Jul-89,Sanibel,N,51,A,M,Unnamed pond,Lee,Aft,1700,Snorkeling,Y,N,"Torso, upper right",N,M,9,6,,M,N,N,Florida,
+1989,17-Aug-89,Sanibel,N,82,A,M,Unnamed canal,Lee,Aft,1240,Landscaping,Y,N,"Foot, right",M,M,9,11,,M,N,Y,Florida,
+1989,25-Aug-89,Venice,N,71,A,M,Unnamed pond,Sarasota,Mor,1045,Walking,,N,"Foot, right first and then left foot",L,M,9,4,,M,N,Y,Florida,
+1989,03-Sep-89,Ochopee,N,32,A,M,Turner River Unit,Collier,Aft,1400,Wading,,N,"Leg, left",M,E,5,6,,,N,Y,,
+1989,06-Sep-89,Umatilla,N,77,A,M,Lake Julich,Lake,Eve,1830,Wading,,N,"Leg, lower left",M,E,6,,,M,N,Y,Florida,
+1990,19-Apr-90,Port St. Lucie,N,68,A,M,Unnamed ditch,St. Lucie,Aft,1400,Landscaping,,N,"Leg, right foot and above ankle",L,E,7,6,,,N,Y,Florida,
+1990,01-May-90,Fellsmere,N,26,A,M,St. Johns WMA - Fellsmere,Indian River,Mor,1100,Walking,,N,"Hand, left",M,,,,,,N,Y,,Y
+1990,28-May-90,Orlando,N,43,A,M,Lake Fredrica,Orange,Nit,30,Snorkeling,,N,"Hand, right",L,E,7,,,,N,Y,,
+1990,17-Jun-90,Punta Gorda,N,17,T,M,"Alligator Creek, Charlotte Co",Charlotte,Aft,1545,Swimming,,Y,"Arm , left fore",L,E,5,6,,,N,Y,Florida,
+1990,22-Jun-90,Naples,N,34,A,M,Mockingbird Lake,Collier,Aft,1330,Landscaping,Y,N,"Arm, right wrist",L,E,11,,,,Y,Y,Texas,
+1990,24-Jun-90,Tallahassee,N,9,C,M,Unnamed pond,Leon,Aft,1245,Wading,,Y,"Shoulder right, chest and back",M,,,,172,M,Y,Y,Florida,
+1990,06-Jul-90,Orlando,N,45,A,M,Unnamed pond,Orange,Aft,1330,Diving,N,N,Right index finger,L,M,9,6,350,M,Y,Y,Florida,N
+1990,09-Jul-90,Dunnellon,N,73,A,M,Withlacoochee River - Dunnellon,Marion,Mor,1000,Snorkeling,,Y,"Chest and back,  upper left",L,E,7,,,,N,N,Florida,
+1990,18-Jul-90,Umatilla,N,82,A,M,Lake Owens,Lake,Mor,1030,Landscaping,,N,"Hand, left and wrist",L,M,4,11,,F,N,Y,Florida,
+1990,03-Aug-90,Lakeland,N,23,A,M,Saddle Creek Park,Polk,Eve,1945,Wading,N,N,Left leg,L,M,8,,,,N,Y,Florida,N
+1990,08-Sep-90,Astor Park,N,20,A,M,Alexander Creek,Lake,Aft,1515,Snorkeling,,N,Head and arm,M,M,10,,,M,N,Y,,
+1990,21-Oct-90,Venus,N,74,A,M,Unnamed pond,Highlands,Eve,1830,Landscaping,,N,"Arm, right",L,M,5,5,,F,N,Y,Florida,
+1990,21-Nov-90,Bonita Springs,N,20,A,M,Unnamed pond,Lee,Mor,1100,Snorkeling,,N,"Arm, right fore",N,E,6,6,,,N,Y,Florida,
+1991,04-Mar-91,Ft. Myers,N,21,A,M,Unnamed pond,Lee,Aft,1330,Snorkeling,Y,N,"Arm, right fore",N,M,4,,,,Y,Y,Florida,
+1991,20-Mar-91,Cape Coral,N,25,A,M,Unnamed pond,Lee,Aft,1215,Snorkeling,,N,"Foot, right",N,E,6,6,,,N,Y,Florida,
+1991,04-Apr-91,Narcoosee,N,32,A,M,"East Lake Toho, canal",Osceola,Aft,1600,Boating,,N,"Leg, pants and boot",N,E,4,9,,,N,Y,Florida,
+1991,31-May-91,Venice,N,69,A,F,Unnamed pond,Sarasota,Nit,450,Walking,,N,"Leg, right between ankle and knee",H,M,8,2,,M,N,Y,Florida,
+1991,28-Jun-91,Lakeland,N,28,A,M,Lake Gibson,Polk,Mor,1130,Swimming,,N,Head,M,E,7,,,,N,N,Florida,
+1991,09-Jul-91,Sanibel,N,29,A,M,Unnamed pond,Lee,Mor,930,Landscaping,Y,N,Left ankle,L,E,4,,,,N,Y,Florida,
+1991,19-Jul-91,Melbourne,N,45,A,M,St. Johns River -  Melbourne,Brevard,Nit,400,Boating,,N,Hand,L,E,5,,,,N,Y,Florida,
+1991,14-Aug-91,Inverness,N,71,A,M,Unnamed canal,Citrus,Mor,800,Other,Y,N,"Shoulder, arm, hand, left",M,M,7,2,,M,N,Y,Florida,
+1991,24-Aug-91,Haines City,N,24,A,M,Unnamed pond,Polk,Mor,1130,Swimming,Y,N,"Arm, right",H,M,8,3,,F,N,Y,Missouri,
+1991,06-Sep-91,Carnstown,N,80,A,F,Unnamed canal,Collier,Eve,1810,Walking,,N,Lower arm and hand,H,M,7,9,109,M,N,Y,Florida,
+1992,08-Apr-92,Flamingo,N,28,A,M,Everglades Nat. Park,Monroe,Eve,1930,Wading,N,N,Left hand and right thumb,M,E,8,,,,Y,Y,Florida,
+1992,11-May-92,Hosford,N,20,A,M,Telogia Creek Bridge,Liberty,Dusk,2000,Wading,,N,Left calf,M,E,4,,,,N,,Florida,
+1992,09-Jun-92,Palm Harbor,N,32,A,M,Unnamed pond,Pinellas,Nit,100,Wading,,N,"Arm, left from bicep to wrist",H,E,10,,,,N,Y,Florida,
+1992,24-Jun-92,Naples,N,32,A,M,Unnamed canal,Collier,Eve,2030,Swimming,N,N,Biceps of both arms,M,M,5,7,,M,N,Y,Florida,
+1992,14-Jul-92,Tampa,N,14,T,M,Woodlake Park Pond,Hillsborough,Aft,1645,Feeding,Y,N,"Arm, upper left",L,E,4,,,,N,Y,Florida,
+1992,13-Aug-92,Cassia,N,66,A,M,Shell Creek,Lake,Aft,1230,Wading,Y,N,Left lower leg and right ankle and heel,M,M,9,10,,M,Y,Y,Florida,
+1993,19-Mar-93,Lake Worth,N,58,A,M,Unnamed retention pond,Palm Beach,Aft,1300,Other,,N,Right forearm and right side of chest,M,E,6,,,,N,Y,Florida,
+1993,04-May-93,Dade City,N,34,A,M,,Pasco,Eve,1945,Landscaping,,N,"Hand, left",L,E,4,,,,N,Y,Florida,
+1993,10-May-93,Ft. Myers,N,50,A,M,"Arro Ram Inc., pond",Lee,Aft,1505,Wading,Y,N,"Arm 1st, and then leg",M,M,7,5,,M,N,Y,Florida,
+1993,19-Jun-93,Tequesta,F,10,C,M,Loxahatchee River,Martin,Aft,1230,Swimming,,N,Head and neck,H,M,11,4,,M,N,Y,Florida,N
+1993,04-Jul-93,Palm Coast,N,28,A,M,Unnamed pond,Flagler,Aft,1400,Fishing,Y,N,Calf of right leg,M,M,7,3,,M,N,N,Florida,Y
+1993,10-Jul-93,Nobleton,N,14,T,M,Withlacoochee River - Nobleton,Hernando,Eve,2000,Swimming,,Y,"Hand, left",L,E,4,,,,Y,Y,Florida,
+1993,27-Jul-93,Bonita Springs,N,28,A,M,Lake 5,Lee,Aft,1430,Wading,N,N,Calf of right leg,L,E,4,,,,N,Y,Florida,
+1993,02-Aug-93,West Palm Beach,N,64,A,M,Unnamed pond,Palm Beach,Aft,1530,Other,N,N,Right leg below the knee,M,E,6,,,,N,Y,Florida,
+1993,05-Aug-93,Tampa,N,10,C,M,Tampa By-Pass Canal,Hillsborough,Eve,1930,Swimming,,N,"Arm, upper left",H,,,,,,Y,Y,Florida,
+1993,19-Aug-93,Flagler Beach,N,83,A,M,Unnamed pond,Flagler,Mor,730,Wading,,N,Right hand,M,M,6,9,55,M,N,Y,Florida,
+1993,03-Oct-93,Wildwood,F,70,A,F,Lake Serenity,Sumter,Nit,,,,N,"Head, neck, and arms",H,M,9,7,190,M,,,Florida,
+1993,24-Nov-93,Bonita Springs,N,56,A,M,Unnamed pond,Lee,Aft,1600,Snorkeling,,N,"Hand, left",L,M,6,2,,M,N,N,Florida,
+1994,11-Feb-94,Sanford,N,45,A,F,Wekiva River - SR 46,Seminole,Aft,1430,Feeding,Y,N,"Finger, right hand",L,M,2,,2,F,Y,Y,,
+1994,13-Apr-94,Wellington,N,42,A,M,Unnamed pond,Palm Beach,Aft,1345,Snorkeling,N,N,"Hand, left",M,M,9,11,,M,N,,Florida,
+1994,16-Apr-94,Astor Park,N,34,A,M,Alexander Springs,Lake,Aft,1515,Snorkeling,N,N,"Torso, chest and back",L,M,8,6,,,N,,,
+1994,27-Apr-94,Orlando,N,12,C,M,Unnamed pond,Orange,Eve,1900,Fishing,N,N,"Unknown, not clear if alligator bit victim",L,E,5,6,,,Y,Y,,
+1994,25-Jun-94,Nakomis,N,9,C,M,Curry Creek - canal,Sarasota,Aft,1423,Swimming,N,N,"Leg, on thigh and below knee",M,M,11,8,400,M,N,N,Florida,
+1994,24-Jul-94,Lake Buena Vista,N,59,A,M,"Walt Disney World, canal",Orange,Aft,1330,Swimming,N,N,"Hand, right",L,E,6,,,,N,N,Florida,
+1994,29-Jul-94,Dade City,N,32,A,M,Lake Hancock,Pasco,Aft,1645,Wading,N,N,"Leg, thigh (front and back)",L,E,5,,,,N,N,Florida,
+1994,13-Aug-94,Deland,N,61,A,F,Lake Beresford,Volusia,Aft,1445,Boating,N,N,Foot,M,E,7,6,,,N,N,Florida,
+1994,05-Sep-94,Crawfordville,N,46,A,M,Wakulla River,Wakulla,Aft,1530,Swimming,N,N,Right shoulder,M,,,,,,N,Y,Florida,N
+1994,25-Sep-94,Hudson,N,22,A,M,Unnamed pond,Pasco,Aft,1700,Other,N,N,Thumb and hand,M,E,2,6,,,N,Y,Florida,
+1994,09-Dec-94,Naples,N,,A,M,Unnamed pond,Collier,Mor,1030,Swimming,N,N,"Hand, left",L,E,3,6,,,N,N,Florida,
+1995,19-Apr-95,Gainesville,N,7,C,M,Sweetwater Branch,Alachua,Aft,1630,Swimming,N,N,"Torso, chest and shoulders",H,M,10,,,M,N,Y,Florida,
+1995,30-Apr-95,Naples,N,68,A,M,Unnamed pond,Collier,Mor,1100,Walking,N,N,"Leg, ankle and calf, left",M,,7,6,,,N,Y,Florida,
+1995,23-May-95,Ft. Meade,N,23,A,M,Unnamed phosphate pit,Polk,Aft,1300,Wading,N,N,"Leg and ankle, left",M,M,9,7,,M,N,Y,Florida,
+1995,28-May-95,Dade City,N,32,A,M,Withlacoochee River - River Park,Pasco,Mor,1130,Wading,N,N,"Leg, thigh",M,E,8,,,,Y,Y,Florida,
+1995,12-Jun-95,Kissimmee,N,10,C,M,Unnamed pond,Osceola,Aft,1500,Wading,N,N,"Finger, ring on right hand",L,M,3,7,,M,N,Y,,
+1995,11-Jul-95,Bradenton,N,17,T,M,Unnamed pond,Sarasota,Aft,1430,Snorkeling,N,N,"Arm, forearm",L,E,7,6,,,N,Y,Florida,
+1995,23-Jul-95,Cocoa Beach,N,18,A,M,Unnamed pond,Brevard,Nit,2345,Wading,N,N,Left calf and left wrist,M,M,8,0,300,M,N,N,Florida,N
+1995,05-Aug-95,Bonita Springs,N,22,A,M,Poorman's Canal,Lee,Aft,1630,Swimming,N,N,Hand,M,E,4,,,,N,Y,Florida,
+1995,02-Sep-95,Punta Gorda,N,16,T,M,Unnamed lake,Charlotte,Eve,1800,Swimming,N,N,Foot,M,E,5,,,,N,Y,Florida,
+1995,04-Sep-95,Ft. Myers,N,30,A,M,Unnamed pond,Lee,Mor,1000,Wading,Y,N,Finger,L,E,5,,,,N,Y,Florida,
+1995,23-Sep-95,Olustee,N,10,C,M,Ocean Pond,Baker,Aft,1700,Swimming,N,N,Torso (upper chest and back),M,M,8,3,,M,Y,Y,Florida,
+1995,05-Oct-95,Everglades City,N,,A,F,,Dade,Mor,600,Walking,N,N,"Leg, knee",M,E,7,6,,,N,Y,Florida,
+1995,19-Nov-95,Bushnell,N,29,A,M,Tram Grade,Sumter,Aft,1530,Wading,N,N,"Leg, thigh",L,M,8,1,,M,N,Y,Florida,
+1996,26-Apr-96,Merritt Island,N,37,A,M,Unnamed pond,Brevard,Mor,1000,Diving,N,N,"Leg, calf",L,M,10,1,,M,Y,,Florida,
+1996,18-May-96,Lake Placid,N,68,A,M,Lake Istokpoga,Highlands,Aft,1445,Boating,N,N,"Leg, knee",M,E,5,,,,N,Y,Florida,
+1996,11-Jun-96,Starke,N,37,A,M,Sampson Lake,Bradford,Nit,2300,Swimming,N,N,Head (face) and hands,M,E,6,,,,Y,Y,Florida,Y
+1996,14-Jul-96,Pinecrest,D,7,C,M,Shark Valley,Dade,Aft,1800,Other,N,N,Chest and arm,H,E,10,,,,N,Y,Brazil,
+1996,17-Sep-96,West Palm Beach,N,53,A,M,Unnamed lake,Palm Beach,Aft,1700,Other,Y,N,fingers and thumb on right hand,M,M,9,,,F,Y,Y,Florida,
+1996,18-Oct-96,Jacksonville,N,34,A,F,Unnamed retention pond,Duval,Mor,930,Other,,N,Left toe,L,E,3,,,,Y,Y,Florida,
+1997,28-Feb-97,Tampa,N,31,A,M,Unnamed retention pond,Hillsborough,Eve,2030,Wading,N,N,left and right side of head,M,E,5,,,,N,Y,Florida,
+1997,03-Mar-97,Bradenton,N,13,T,M,Unnamed pond,Manatee,Aft,1800,Wading,N,N,right hand,L,M,6,9,,,N,Y,Florida,
+1997,07-Mar-97,Delray Beach,N,37,A,M,Unnamed pond,Palm Beach,Aft,1400,Other,,N,Right hand,M,E,10,,,,Y,Y,Rhode Island,U
+1997,21-Mar-97,Osteen,F,3,C,M,Lake Ashby,Volusia,Aft,1245,Wading,,Y,"left shoulder, upper right thigh",H,M,11,0,342,M,N,N,Florida,N
+1997,29-Sep-97,Salt Springs,N,35,A,M,Juniper Creek,Marion,Aft,1530,Snorkeling,N,N,Neck,H,M,11,8,450,M,N,Y,Florida,Y
+1998,26-May-98,Sneads,N,43,A,M,Lake Seminole,Jackson,Aft,1600,Fishing,N,N,Right hand,L,E,6,,,,,Y,Florida,
+1998,31-May-98,Lakeland,N,5,C,F,Skyview Lake,Polk,Aft,1645,Swimming,N,N,"Arm, torso, and neck",M,E,10,,,,N,Y,Florida,
+1998,06-Jun-98,Ponte Vedra Beach,N,9,C,M,Unnamed pond,St. Johns,Aft,1430,Wading,Y,N,Back,L,M,5,7,,,,Y,Florida,
+1998,21-Jun-98,Wewahitchka,N,36,A,M,Chipola Cutoff,Gulf,Eve,2000,Swimming,,N,Right thumb and hand,M,E,10,,,,N,Y,Florida,
+1998,22-Nov-98,Deltona,N,9,C,M,Sweetgum Lake,Volusia,Aft,1500,Wading,N,N,leg,M,M,3,7,,,N,Y,Florida,
+1999,12-Apr-99,Yeehaw Junction,N,24,A,M,Blanket Bay Bridge,Osceola,Mor,800,Landscaping,N,N,Hand,L,E,2,6,,,N,Y,Florida,
+1999,26-Apr-99,Temple Terrace,N,21,A,M,Tampa By-Pass Canal,Hillsborough,Aft,1230,Diving,N,N,Head (face),M,M,8,10,275,M,Y,N,Florida,
+1999,09-May-99,Floral City,N,12,C,F,Unnamed lake,Citrus,Aft,1500,Boating,Y,N,Foot and swim fin,L,M,3,6,8,F,Y,Y,Florida,
+1999,14-May-99,Fruitland,N,12,C,M,Unnamed pond,Putnam,Eve,2030,Walking,Y,N,Leg,L,M,3,4,,,Y,Y,Florida,
+1999,15-May-99,Ft. Myers,N,27,A,M,Unnamed pond,Lee,Aft,1630,Wading,N,N,Legs,M,,,,,,N,N,Florida,
+1999,17-Jun-99,Kissimmee,N,31,A,M,Unnamed pond,Osceola,Mor,1000,Diving,N,N,Arm and shoulder,L,M,9,5,350,M,N,Y,Florida,
+1999,31-Aug-99,Kissimmee,N,45,A,F,Unnamed retention pond,Osceola,Nit,1,Wading,Y,N,Leg,M,M,8,0,180,M,Y,Y,Florida,
+1999,04-Sep-99,Zephyrhills,N,39,A,M,Unnamed retention pond,Pasco,Aft,1430,Wading,Y,N,Hand,L,M,3,8,,F,N,Y,Florida,
+1999,05-Oct-99,Winter Springs,N,35,A,M,Lake Jesup,Seminole,Eve,1800,Swimming,N,N,Hand,M,E,5,,,,N,Y,Florida,
+1999,17-Oct-99,Orlando,N,29,A,M,Unnamed pond,Orange,Eve,1800,Walking,Y,Y,Arm (triceps),M,E,7,,,,Y,Y,Florida,
+2000,04-Mar-00,Astor,N,52,A,M,Juniper Creek,Marion,Aft,1330,Wading,N,N,Left foot and left hand,L,M,11,1,450,M,N,Y,Florida,
+2000,27-Apr-00,Boca Grande,N,60,A,F,,Charlotte,Mor,930,Walking,N,N,Heel of foot,L,E,2,,,,N,Y,Florida,
+2000,18-Jun-00,Madison,N,10,C,M,Tenmile Pond,Madison,Aft,1645,Wading,,N,Right foot,M,E,3,,,,N,N,Florida,N
+2000,22-Jun-00,San Mateo,N,41,A,F,Unnamed pond,Putnam,Mor,1100,Landscaping,,N,Left leg,L,M,6,2,,,N,Y,Florida,
+2000,11-Jul-00,Punta Gorda,N,14,T,M,Preachers Lake,Charlotte,Aft,1730,Swimming,N,N,Legs,M,M,9,5,350,M,N,Y,Florida,
+2000,16-Jul-00,Keaton Beach,N,31,A,M,Blue Springs Lake,Taylor,Aft,1715,Swimming,,Y,Right forearm,L,E,5,,,,N,Y,Florida,
+2000,19-Jul-00,Silver Springs,N,40,A,M,Silver River,Marion,Eve,1910,Snorkeling,N,N,Right foot and ankle,M,E,12,,,,Y,Y,Florida,N
+2000,02-Aug-00,Port Charlotte,N,74,A,M,Unnamed canal,Charlotte,Mor,1100,Wading,N,N,Leg,L,E,2,,,,N,Y,Florida,
+2000,04-Aug-00,Port Charlotte,N,76,A,M,Unnamed canal,Charlotte,Mor,1150,Feeding,Y,N,Finger,M,M,5,6,35,,Y,Y,Florida,
+2000,16-Aug-00,Woodville,D,27,A,M,Wakulla Springs,Wakulla,Aft,1450,Swimming,N,N,"Neck and shoulder, right hand and arm",M,M,7,7,150,M,Y,Y,Florida,
+2000,24-Sep-00,Palmdale,N,33,A,M,Fisheating Creek,Glades,Mor,715,Swimming,N,N,Head and arm,M,M,10,1,275,M,N,Y,Florida,
+2000,29-Sep-00,Okeechobee,N,55,A,M,Lake Okeechobee - Okeechobee,Okeechobee,Aft,1500,Swimming,,N,Left shoulder and middle of back,M,M,9,2,150,M,N,Y,Florida,Y
+2000,14-Nov-00,North Ft. Myers,N,27,A,M,Unnamed pond,Lee,Mor,600,Swimming,N,N,Buttocks and hip,M,M,6,9,60,M,N,Y,Florida,
+2001,24-Feb-01,Clewiston,N,52,A,M,Sugarland Canal,Hendry,Mor,1000,Other,N,N,Thigh and lower leg,M,E,7,,,,N,Y,Florida,N
+2001,25-Feb-01,Everglades City,N,,A,F,Seetwater Bay,Collier,,,Boating,N,N,Ankle,M,,,,,,,Y,,
+2001,18-Mar-01,Venice,N,39,A,M,Unnamed pond,Sarasota,Aft,1600,Diving,N,N,Hand and fingers,L,E,7,,,,Y,Y,Florida,
+2001,04-Apr-01,Venice,F,70,A,M,Unnamed retention pond,Sarasota,Mor,900,,,,"Arms, hands, chest, and head",H,M,8,4,130,F,,,Florida,Y
+2001,14-Apr-01,Davenport,N,34,A,M,Unnamed lake,Polk,Aft,1430,Other,,,Toe,M,,,,,,,Y,Florida,
+2001,31-May-01,Winter Haven,N,61,A,M,Lake Rochelle,Polk,Aft,1600,Wading,N,N,Arm,L,E,9,,,,N,Y,Florida,
+2001,20-Jun-01,Marianna,N,28,A,M,Unnamed marsh,Jackson,,,Walking,N,N,Foot then hand,L,E,4,,,,,Y,Tennessee,
+2001,23-Jun-01,Winter Haven,F,2,C,F,Lake Cannon,Polk,Aft,1600,,,N,"Arms, leg, face and torso",H,M,6,6,,M,,,Florida,N
+2001,27-Jun-01,Lutz,N,43,A,F,Big Moss Lake,Pasco,Aft,1440,Swimming,N,N,Foot then arm,H,M,9,8,227,M,N,Y,Florida,
+2001,30-Jun-01,Ft. Pierce,N,11,C,F,Unnamed culvert,St. Lucie,Mor,1015,Wading,N,N,Index finger of right hand,L,M,4,5,15,F,N,Y,Florida,N
+2001,08-Jul-01,Jacksonville,N,22,A,F,Big Talbot Island,Duval,Eve,1930,Walking,,Y,Left thigh,M,M,10,0,,M,N,Y,Florida,N
+2001,29-Jul-01,Haines City,N,43,A,M,Lake Kissimmee,Osceola,Mor,1045,Boating,N,Y,Hand,M,E,3,6,,,N,Y,Florida,
+2001,15-Aug-01,Venice,N,77,A,M,Myakka River,Sarasota,Eve,1830,Fishing,Y,N,Heel of foot,L,M,6,2,,,Y,Y,Florida,
+2001,18-Aug-01,Orlando,N,14,T,F,Little Lake Conway,Orange,Nit,2220,Swimming,N,N,Arm,M,M,11,2,,M,Y,Y,Florida,N
+2001,11-Sep-01,Sanibel,F,81,A,M,Sanibel River - adjacent wetland,Lee,Aft,1545,Walking,N,Y,Lower right leg,H,M,10,8,,M,,,Florida,N
+2001,10-Dec-01,Eagle Lake,N,41,A,M,"Lake McLeod, SW",Polk,Mor,530,Fishing,N,N,Head,M,E,8,,,,,N,Florida,
+2002,24-Jan-02,North Port,N,40,A,M,Unnamed pond,Sarasota,Aft,1530,Diving,N,N,Hand,L,M,7,,,,Y,Y,Florida,
+2002,03-Feb-02,Lakeland,N,39,A,M,Unnamed pond,Polk,Aft,1330,Boating,N,N,Thigh and arm,L,E,8,,,,Y,Y,Florida,
+2002,24-Apr-02,Cape Coral,N,64,A,M,Unnamed pond,Lee,Aft,1500,Diving,N,N,Fingers,L,M,6,6,75,M,N,Y,Florida,
+2002,03-May-02,Venice,N,64,A,M,Unnamed pond,Lee,Eve,1830,Diving,N,N,Fingers,M,M,6,7,35,F,N,N,Florida,
+2002,25-May-02,Punta Gorda,N,38,A,M,Unnamed canal,Charlotte,Nit,30,Walking,Y,N,Lower leg,M,E,5,6,,,N,Y,Florida,
+2002,01-Jun-02,Belle Glade,N,32,A,M,,Palm Beach,Eve,2030,Walking,,N,Left wrist,L,E,3,,,,N,Y,Florida,
+2002,17-Jun-02,Nobleton,N,10,C,F,Withlacoochee River - Nobleton,Sumter,Aft,1330,Swimming,N,N,Right thigh,M,M,10,11,,M,N,Y,Florida,
+2002,23-Jun-02,Tampa,N,41,A,M,Unnamed pond,Hillsborough,Aft,1400,Swimming,N,N,Foot,M,M,8,5,160,M,Y,Y,Florida,
+2002,15-Jul-02,Punta Gorda,N,53,A,M,Unnamed canal,Charlotte,Aft,1500,Landscaping,N,N,Forearm,L,M,6,3,85,F,N,Y,Florida,
+2002,25-Aug-02,Andytown,N,42,A,M,Water Conservation Area 2A,Broward,Nit,2130,Swimming,,N,Right shoulder and chest,M,E,11,0,,,Y,Y,Florida,N
+2002,26-Aug-02,Dunnellon,N,69,A,M,Withlacoochee River - Dunnellon,Sumter,Aft,1730,Swimming,N,Y,Neck and head,M,M,10,1,400,M,N,Y,Florida,N
+2002,18-Sep-02,Sarasota,N,51,A,F,Unnamed pond,Sarasota,,,Wading,N,N,Lower leg,M,E,8,,,,N,Y,Florida,
+2002,23-Sep-02,Gainesville,N,58,A,M,Unnamed pond,Alachua,Aft,1500,Wading,N,N,Forearm,H,M,11,4,392,M,N,Y,Florida,N
+2003,23-Feb-03,Englewood,N,72,A,F,Unnamed pond,Charlotte,Aft,1445,Landscaping,N,N,Arm,H,M,8,3,100,M,N,Y,Florida,
+2003,08-Mar-03,Lake Harbor,N,6,C,M,Lake Okeechobee - Lake Harbor,Palm Beach,Aft,1600,Walking,Y,N,Thigh,M,M,9,6,325,M,N,Y,Florida,
+2003,02-May-03,Orlando,N,42,A,M,Turkey Creek - Orlando,Orange,Mor,1200,Wading,N,N,Upper thigh,L,E,5,,,,N,Y,Florida,N
+2003,31-May-03,Merritt Island,N,42,A,M,Unnamed pond,Brevard,Aft,1630,Fishing,Y,N,Right hand,M,M,7,7,,M,Y,Y,Florida,N
+2003,19-Jun-03,Tavares,F,12,C,M,Lake Eustis,Lake,Eve,1900,Swimming,,N,"Torso, head, left arm, left leg",H,M,10,5,339,M,Y,N,Florida,N
+2003,17-Aug-03,Wildwood,N,5,C,M,Lake Deaton,Sumter,Aft,1615,Wading,N,Y,Foot,M,M,8,5,,,N,N,Florida,N
+2003,20-Aug-03,Salt Springs,N,18,A,F,Juniper Creek,Marion,Aft,1500,Wading,,Y,Right Thigh,M,M,8,2,,F,N,Y,,
+2003,29-Aug-03,Salt Springs,N,52,A,M,Lake George,Volusia,Mor,930,Wading,N,N,Left thigh,M,E,12,,,,N,Y,Florida,
+2003,07-Sep-03,Crawfordville,N,32,A,M,Wakulla Springs,Wakulla,Eve,1930,Swimming,N,Y,Left side of face and upper part of back,M,E,7,,,F,N,N,Florida,Y
+2003,25-Oct-03,Ft. Myers,N,64,A,M,Unnamed pond,Lee,Eve,1800,Walking,N,N,Area around knee,M,M,8,2,100,M,N,Y,Florida,
+2004,20-Mar-04,Jupiter,N,65,A,F,J.W. Corbett WMA,Palm Beach,Mor,945,Other,N,Y,Ankle,M,M,9,8,200,M,N,Y,Florida,
+2004,12-Apr-04,Lakeland,N,43,A,M,Unnamed pond,Polk,Mor,1030,Landscaping,N,N,Leg,L,E,5,,,,N,Y,Florida,
+2004,21-Apr-04,Sanibel,N,74,A,F,Unnamed pond,Lee,Eve,2000,Landscaping,,N,Leg (thigh) and hand,M,M,9,7,300,M,N,Y,Florida,
+2004,25-Apr-04,Ft. Meade,N,35,A,M,,Polk,Eve,1800,Other,N,N,Injuries to left hand and left shoulder,M,,,,,,N,Y,Florida,
+2004,15-May-04,Lutz,N,51,A,M,Lake Norbert,Hillsborough,Mor,1020,Swimming,N,N,Calf and forearm,M,M,6,9,,M,N,Y,Florida,
+2004,19-May-04,Deltona,N,12,C,M,Lake Diana,Volusia,Aft,1310,Swimming,N,N,Head,M,M,7,6,,M,Y,Y,Florida,N
+2004,21-Jul-04,Sanibel,F,54,A,F,Unnamed pond,Lee,Aft,1235,Landscaping,N,N,Arm below elbow and right hip and buttocks,H,M,11,10,455,M,N,Y,Florida,N
+2004,27-Jul-04,Eustis,N,43,A,M,Lake Eustis,Lake,Aft,1212,Wading,N,N,Left thigh and calf,M,M,11,0,385,M,N,Y,Florida,N
+2004,13-Aug-04,Lakeland,N,47,A,M,Saddle Creek FMA,Polk,Aft,1500,Wading,N,N,Left hand,M,E,7,,,,N,Y,Florida,
+2004,26-Sep-04,Ft. Myers,F,20,A,F,Cypress Cove,Lee,Nit,300,Swimming,,N,"Both arms, head, feet, and torso",H,M,7,11,70,M,,,Georgia,N
+2004,21-Oct-04,Venice,N,19,A,M,Unnamed pond,Sarasota,Eve,1900,Fishing,,N,Left Forearm,L,E,8,,,,N,Y,Florida,
+2004,08-Dec-04,Ft. Myers,N,42,A,M,Unnamed pond,Lee,Aft,1330,Diving,N,N,Left hand,L,E,7,,,,N,Y,Florida,N
+2005,08-Jan-05,Bradenton,N,38,A,M,Unnamed pond,Manatee,Aft,1730,Fishing,N,N,Right knee,M,E,7,,,,Y,Y,Florida,N
+2005,11-Mar-05,Lakeland,F,56,A,M,Six Pound Pond,Polk,,,Other,N,N,Left arm and head,H,M,9,8,315,M,,,Florida,N
+2005,28-May-05,Lakeland,N,54,A,M,"CR 471 Canal, Lakeland",Pasco,Eve,1830,Fishing,,N,Right leg above knee,M,E,7,,,,N,Y,Florida,N
+2005,31-May-05,Venice,N,8,C,M,Myakka River,Sarasota,Eve,2000,Fishing,,N,Lower right leg,L,M,4,11,,,Y,Y,Florida,N
+2005,27-Jun-05,Land O' Lakes,N,19,T,M,Lake Saxon,Pasco,Nit,100,Swimming,N,N,Left hand and middle finger on right hand,M,M,5,10,60,F,Y,Y,Florida,N
+2005,08-Jul-05,Port Canaveral,N,45,A,M,Banana River (Sailboat Cove),Brevard,Aft,1620,Swimming,N,N,Right side of torso,M,E,9,4,,M,N,Y,Florida,N
+2005,15-Jul-05,Port Charlotte,F,41,A,M,Apollo Waterway,Charlotte,Eve,1910,Swimming,N,N,Right arm and left hand,H,M,12,0,520,M,Y,Y,Florida,Y
+2005,01-Sep-05,Canal Point,N,50,A,M,West Palm Beach Canal,Palm Beach,Aft,1700,Swimming,,N,"Right hip, groin, buttocks",M,E,10,0,,,Y,Y,Florida,Y
+2005,14-Sep-05,Clewiston,N,38,A,M,Dinner Island WMA,Hendry,Aft,1600,Wading,N,N,Right lower leg,M,E,7,6,,F,N,Y,Florida,N
+2006,28-Mar-06,Naples,N,,,M,,Collier,Mor,1030,Other,,,Calf,L,E,3,,,,N,Y,Florida,
+2006,20-Apr-06,Auburndale,N,54,A,M,Lake Whistler,Polk,Aft,1730,Swimming,N,N,Upper left arm,L,M,5,1,25,M,N,Y,Florida,N
+2006,24-Apr-06,Lake Placid,N,66,A,M,Lake Istokpoga,Hamilton,Mor,1200,Fishing,N,N,Right hip/buttocks area,M,E,10,,,,N,Y,Florida,N
+2006,26-Apr-06,Boynton Beach,N,43,A,M,Unnamed pond,Palm Beach,Aft,1245,Diving,,N,Left hand,L,M,8,6,,,,,Florida,
+2006,09-May-06,Punta Gorda,N,75,A,F,Unnamed retention pond,Charlotte,Mor,530,Landscaping,N,N,Right calf,L,E,5,6,,,N,Y,Florida,N
+2006,10-May-06,Sunrise,F,28,A,F,North New River Canal,Broward,Mor,1000,Other,,N,"Leg, both arms, abdomen",H,M,9,6,,M,,,Florida,Y
+2006,13-May-06,Oldsmar,F,43,A,F,Unnamed pond,Pinellas,Unk,,Other,N,N,"Right arm, right torso, and left arms",H,M,8,5,140,F,,,Florida,Y
+2006,14-May-06,Astor,F,23,A,F,Juniper Creek,Marion,Aft,1430,Snorkeling,,N,"Head , shoulder and chest",H,M,11,5,407,M,,Y,Tennessee,N
+2006,08-Jun-06,Apopka,N,30,A,M,Rock Springs Run,Orange,Aft,1445,Snorkeling,N,N,Head,M,M,5,10,43,M,N,Y,Florida,N
+2006,23-Jul-06,Astor,N,16,T,M,St. Johns River - Astor,Lake,Nit,100,Wading,,N,Left foot and ankle,M,,,,,,Y,Y,Florida,
+2006,01-Oct-06,Rotonda,N,77,A,M,Unnamed pond,Charlotte,Aft,1800,Other,,N,Lower left leg (calf area),M,M,9,4,,,N,Y,Florida,
+2006,29-Nov-06,Lakeland,N,45,A,M,Lake Parker,Polk,Nit,400,Other,N,N,"Groin, buttocks, left and right arms",H,M,12,2,450,M,N,Y,Florida,Y
+2007,14-Feb-07,New Port Richey,N,57,A,M,Unnamed pond,Pasco,Mor,1024,Diving,,N,Left foot,M,E,7,0,,,N,Y,Florida,N
+2007,17-Mar-07,Satsuma,N,43,A,F,Unnamed retention pond,Putnam,Mor,1200,Walking,,Y,Left hand,L,E,2,,,,,Y,Florida,
+2007,28-Apr-07,The Villages,N,67,A,M,Bacall Golf Course,Lake,Aft,1300,Other,Y,N,"Lower left leg, scratch on finger of left hand",L,M,6,1,,F,,Y,Florida,N
+2007,28-May-07,Lake Wales,N,9,C,M,Armington Ranch,Polk,Aft,1530,Wading,N,Y,Left calf,L,E,4,6,,,N,N,Florida,N
+2007,25-Jun-07,Venice,N,50,A,M,Unnamed pond,Sarasota,Aft,1750,Other,,N,"Right forearm/hand, left middle finger",M,M,10,11,,M,N,Y,Tennessee,N
+2007,07-Jul-07,Arcadia,N,31,A,M,Unnamed ditch,De Soto,Nit,100,Other,N,N,"Right hand, wrist and forearm",M,E,8,0,,,N,Y,Florida,
+2007,18-Aug-07,Lakeland,N,64,A,M,Unnamed pond,Polk,Aft,1245,Walking,Y,N,Right side posterior,L,M,6,3,60,M,N,Y,Florida,U
+2007,17-Sep-07,Palm Coast,N,,A,M,Unnamed retention pond,Flagler,Eve,1930,Landscaping,N,N,Right hand,L,M,4,7,,M,N,Y,Florida,U
+2007,26-Oct-07,Boca Raton,N,75,A,F,Unnamed retention pond,Palm Beach,Mor,800,Feeding,Y,,Lower right leg,L,E,4,6,,,N,Y,Florida,N
+2007,08-Nov-07,Miami,F,36,A,M,Unnamed pond,Dade,Eve,2030,Swimming,Y,N,Head/neck,H,M,9,4,,M,N,Y,Florida,U
+2007,23-Nov-07,Monticello,N,17,T,M,Lake Miccosukee,Jefferson,Mor,1100,Wading,N,N,Left foot,L,E,4,0,,,N,Y,Florida,N
+2007,12-Dec-07,Tampa,D,43,A,M,Unnamed pond,Hillsborough,Aft,1215,Diving,N,N,Right arm,M,M,8,8,204,M,N,Y,Florida,N
+2007,12-Dec-07,Tampa,D,47,A,M,Unnamed pond,Hillsborough,Aft,1215,Diving,N,N,Right leg (shin/calf),M,M,8,8,204,M,N,Y,Florida,N
+2007,20-Dec-07,Indiantown,N,44,A,M,Unnamed wetland,Martin,Mor,715,Wading,N,N,Left leg,N,E,4,6,,,N,Y,Florida,N
+2008,27-Mar-08,Okeechobee,N,61,A,M,Lake Okeechobee - Okeechobee,Okeechobee,Aft,1800,Fishing,N,,Left hand,L,E,4,0,,,N,Y,Florida,U
+2008,17-Apr-08,Orlando,N,63,A,M,Unnamed pond,Orange,Aft,1630,Diving,N,N,Left forearm and hand,M,M,6,1,45,,N,N,Florida,
+2008,26-Apr-08,Lutz,N,62,A,M,Unnamed pond,Hillsborough,Aft,1730,Diving,N,N,Left arm,M,E,7,8,195,F,N,Y,Florida,N
+2008,22-May-08,Immokalee,N,28,A,M,Lake Trafford,Collier,Eve,2030,Wading,N,N,Right hand,M,E,6,6,,,N,Y,Florida,Y
+2008,22-Jun-08,Okeechobee,N,18,A,M,Lake Okeechobee - Okeechobee,Okeechobee,Nit,200,Swimming,N,N,Left arm,H,M,11,3,300,M,Y,Y,Florida,Y
+2008,02-Sep-08,Port St. Lucie,N,64,A,M,St. Lucie River,St. Lucie,Aft,1630,Wading,N,Y,Left calf,M,E,8,0,,,N,Y,Florida,
+2009,27-Jan-09,Lake Worth,N,49,A,M,Lake Osborne,Palm Beach,Aft,1300,Other,,N,Left hand,M,,,,,,N,Y,Florida,N
+2009,25-May-09,Okeechobee,N,47,A,M,Lake Okeechobee - Okeechobee,Okeechobee,Aft,1430,Fishing,Y,N,"Right bicep, shoulder and chest",H,M,10,10,,M,N,Y,Florida,
+2009,29-Jul-09,Sanibel,N,56,A,F,Unnamed pond,Lee,Mor,1130,Landscaping,N,N,right hand,M,M,6,7,100,M,N,Y,Florida,N
+2009,20-Aug-09,Port St. Lucie,N,53,A,M,Unnamed pond,St. Lucie,Mor,930,Other,N,N,Left bicep and forearm,L,E,4,,,,N,N,Florida,
+2009,23-Aug-09,St. Cloud,N,28,A,M,Unnamed creek,Osceola,Mor,1100,Wading,N,N,Right foot/ankle,L,E,8,,,,N,Y,Florida,N
+2009,21-Sep-09,St. Petersburg,N,48,A,F,Sawgrass Lake,Pinellas,Aft,1430,Other,N,Y,"Left calf, both hands",M,M,6,9,130,,N,Y,Florida,N
+2009,27-Oct-09,Lakeland,N,53,A,M,Lake Parker,Polk,Nit,2319,Other,Y,N,Left ankle,M,M,8,6,,F,N,Y,Florida,N
+2009,08-Nov-09,Land O' Lakes,N,38,A,M,,Pasco,Nit,1230,Walking,N,N,Right and left hands,M,M,5,6,80,M,N,Y,Florida,
+2010,16-May-10,Orlando,N,35,A,M,Lake Mary Jane,Orange,Mor,815,Swimming,N,N,"Torso, right side",M,M,10,7,,M,N,Y,Florida,N
+2010,31-May-10,Okeechobee,N,50,A,M,Unnamed pond,Okeechobee,Aft,1500,Wading,,Y,Leg,M,E,12,,,,Y,Y,Florida,
+2010,12-Jun-10,Lehigh Acres,N,31,A,M,Greenbriar Lake,Lee,Nit,2230,Swimming,,N,Upper torso and left bicep,M,M,8,4,,M,N,N,Florida,
+2010,22-Jun-10,Silver Springs,N,54,A,M,Silver Springs,Marion,Aft,1712,Snorkeling,,N,head and neck,M,M,11,3,525,M,N,Y,Florida,N
+2010,11-Jul-10,Golden Gate,N,19,A,M,Crystal Lake Canal,Collier,Nit,2100,Swimming,N,N,Left hand at the wrist,H,M,10,2,,,N,,Florida,N
+2010,13-Sep-10,Sanibel,N,70,A,M,Beachview Golf Course,Lee,Day,1400,Diving,,N,right knee / lower leg,M,E,9,,,,N,Y,Florida,N
+2011,18-Apr-11,Merritt Island,N,12,C,F,Unnamed retention pond,Brevard,Aft,1800,Swimming,,N,Stomach and back,M,M,7,10,,M,N,N,South Carolina,N
+2011,13-May-11,Palm Harbor,N,19,A,M,Lake Tarpon,Pinellas,Aft,1330,Swimming,,N,forearm,M,E,5,,,,Y,Y,Florida,N
+2011,24-Jun-11,Apopka,N,52,A,M,Wekiva Springs State Park,Orange,,,Snorkeling,,N,"head, neck and shoulder",H,M,9,1,,,,Y,Florida,N
+2011,31-Jul-11,Lake Worth,N,41,A,M,Unnamed retention pond,Palm Beach,Aft,1700,Wading,,N,Shin and calf (left leg),M,E,7,0,,,N,Y,Florida,N
+2011,06-Aug-11,Lutz,N,,,F,Hog Island Lake,Hillsborough,Day,,Landscaping,,,wrist,L,E,2,6,,,Y,Y,Florida,N
+2011,31-Aug-11,Copeland,N,90,A,F,SR 29 Canal,Collier,Mor,1200,Walking,,,Left and right legs,H,,,,,,,,Florida,N
+2012,28-Mar-12,Clearwater,N,13,C,M,Alligator Creek,Pinellas,Aft,1515,Wading,,N,Left thigh and lower left leg,L,E,4,,,,N,Y,Florida,N
+2012,22-Apr-12,Port Charlotte,N,46,A,F,Unnamed retention pond,Charlotte,Day,1630,Landscaping,,N,buttock,L,,,,,,N,N,Florida,N
+2012,25-Apr-12,Winter Haven,N,75,A,M,Unnamed pond,Polk,Aft,1643,Walking,,N,left thigh,M,E,9,,,,N,Y,Florida,N
+2012,11-Jun-12,Gainesville,N,51,A,M,Sweetwater Branch,Alachua,Day,1633,Swimming,,N,"torso, left shoulder, both forearms",L,M,9,7,325,M,,,Florida,Y
+2012,29-Jul-12,Homosassa,N,69,A,M,Chassahowitzka River,Citrus,Day,1700,Snorkeling,,N,head and left hand,H,E,8,0,,,N,Y,Florida,N
+2012,03-Aug-12,Bonita Springs,N,12,C,F,Imperial River,Collier,Day,1200,Swimming,,N,right knee,L,E,8,,,,,,Florida,N
+2012,05-Aug-12,Salt Springs,N,29,A,F,Juniper Creek - Ocala Nat. Forest,Marion,Day,1500,Swimming,N,N,Head,L,E,7,0,,,Y,Y,Florida,N
+2012,16-Sep-12,Sarasota,N,49,A,M,Unnamed pond,Manatee,Day,1400,Diving,,N,Right forearm,N,E,6,0,,,,,Florida,N
+2012,26-Sep-12,Leesburg,N,84,A,F,Lake Denham,Lake,Mor,715,Other,,,right arm,H,E,7,,,,,,Florida,N
+2012,27-Sep-12,West Palm Beach,N,52,A,M,Unnamed pond,Palm Beach,Nit,300,Walking,,Y,Right ankle,L,E,4,,,,Y,Y,Florida,N
+2013,28-Jan-13,Palm Beach Gardens,N,53,A,M,Unnamed pond,Palm Beach,Day,830,Diving,,N,Left forearm,L,E,8,,,,,,Florida,N
+2013,19-Apr-13,Boca Raton,N,6,C,M,Arthur R. Marshall Loxahatchee NWR,Palm Beach,Aft,1330,Wading,Y,N,"right arm, shoulder, and chest",L,M,8,0,,,N,Y,Florida,N
+2013,26-Apr-13,Titusville,N,48,A,M,Salt Pond,Brevard,Mor,700,Boating,N,N,right foot,M,E,8,,,,N,Y,Florida,N
+2013,09-May-13,Pinellas Park,N,20,A,M,Unnamed canal,Pinellas,Nit,200,Swimming,N,N,"head, arm, and torso",M,,,,,,N,Y,Florida,
+2013,02-Jul-13,Ocoee,N,11,C,M,Starke Lake,Orange,Nit,2300,Wading,,N,back and thigh,L,E,4,,,,N,Y,Florida,N
+2013,08-Jul-13,Oviedo,N,17,T,M,Econ River,Seminole,Aft,1552,Swimming,,N,Head,M,E,9,,,,N,Y,Florida,
+2013,31-Jul-13,Marco Island,N,70,A,M,McIlvane Bay,Collier,Eve,1930,Walking,,Y,lower right leg,H,M,8,3,,F,Y,Y,Florida,
+2013,31-Jul-13,Orlando,N,50,A,M,Unnamed pond,Orange,Mor,1100,Landscaping,N,N,leg,M,M,8,8,,,,Y,Florida,N
+2013,01-Aug-13,Ochopee,N,51,A,M,11 mile Road,Collier,Aft,1300,Other,,N,"chest, side, and back",M,M,9,8,,,N,Y,Florida,N
+2013,10-Aug-13,Everglades City,N,54,A,F,West Tram,Collier,Mor,1200,Wading,N,N,left thigh,L,E,8,,,,N,N,Florida,N
+2013,17-Aug-13,Wauchula,N,19,A,M,Peace River,Hardee,Aft,1630,Swimming,N,N,head behind the right ear,L,E,5,,30,,Y,Y,Florida,N
+2013,25-Aug-13,Ostero,N,65,A,F,Unnamed pond,Lee,Mor,916,Feeding,Y,Y,right foot,L,E,5,,,,N,Y,Florida,N
+2013,29-Aug-13,Lake City,N,44,A,M,Lake Jeffery,Columbia,Aft,1500,Wading,N,N,Left calf,M,M,8,3,115,M,N,N,Florida,N
+2013,12-Sep-13,Clewiston,N,53,A,M,Unnamed canal,Hendry,Mor,1051,Other,N,N,Inside of right thigh,L,M,8,11,,F,N,Y,Florida,N
+2013,18-Oct-13,Fort Pierce,N,54,A,M,Unnamed pond,St. Lucie,Aft,1300,Diving,N,N,right foot,M,E,8,,,,N,Y,Florida,N
+2014,25-May-14,Titusville,N,64,A,M,Merritt Island NWR,Brevard,Mor,958,Boating,,,calf,M,M,8,2,,,,,Florida,
+2014,09-Jul-14,Palmetto,N,54,A,M,Unnamed retention pond,Manatee,Aft,1230,Other,Y,N,left forearm,M,E,4,11,,,,,,N
+2014,23-Jul-14,Weston,N,51,A,M,Unnamed pond,Broward,Aft,1430,Diving,,N,hand,M,E,8,,,,N,Y,Florida,N
+2014,07-Aug-14,St. Cloud,N,9,C,M,East Lake Toho,Osceola,Aft,1400,Swimming,,N,right leg and buttocks,M,E,8,,120,,N,Y,Florida,N
+2014,07-Aug-14,Thonotosassa,N,20,A,F,Hillsborough River,Hillsborough,Aft,1340,Boating,,N,left thigh,M,E,6,,,,N,Y,Ohio,N
+2014,19-Sep-14,Venice,N,65,A,M,Unnamed retention pond,Sarasota,Mor,1045,Landscaping,,N,lower left leg,M,E,8,,,,N,Y,Florida,N
+2014,27-Sep-14,Ponte Vedra,N,13,T,F,Guana River,St. Johns,Aft,1730,Wading,N,N,right thigh,M,E,4,,,,N,Y,Florida,N
+2014,04-Oct-14,Titusville,N,21,A,M,Indian River - Titusville,Brevard,Eve,1931,Fishing,,N,right hand,M,E,10,,,,N,Y,Florida,
+2014,08-Oct-14,Winter Haven,N,56,A,F,Unnamed canal,Polk,Mor,930,Landscaping,,,lower right leg,M,E,4,,,,N,Y,Florida,N
+2014,01-Dec-14,Homestead,N,21,A,M,Unnamed retention pond,Dade,Aft,1600,Swimming,,N,right shoulder and right hand,L,E,5,,,,N,Y,Florida,N
+2015,20-Mar-15,Tampa,N,17,T,F,Pond behind University Mall,Hillsborough,Aft,1530,Swimming,,N,Left hand,M,E,5,,,,N,Y,Florida,N
+2015,09-May-15,Frostproof,N,38,A,M,Reedy Creek,Polk,Aft,1730,Wading,,N,Right hand,M,E,8,,,,N,Y,Florida,
+2015,21-May-15,Thonotosassa,N,61,A,F,Tampa Bypass Canal,Hillsborough,Mor,1025,Walking,,Y,Right foot,M,M,11,1,,M,Y,Y,Florida,N
+2015,29-Jun-15,Tampa,N,27,A,M,Rocky Creek,Hillsborough,Nit,200,Swimming,,N,Head and right hand,M,E,5,,,,Y,Y,Florida,Y
+2015,28-Jul-15,St. Cloud,N,46,A,M,Pond at Florida Forever,Osceola,Aft,1425,Wading,N,N,Right leg (thigh area),M,M,11,,,M,N,Y,Florida,N
+2015,08-Aug-15,Longwood,N,37,A,F,Wekiva River,Seminole,Aft,1524,Swimming,,N,"Upper back, below right shoulder, and on the arm",H,M,9,8,300,M,N,Y,Florida,N
+2015,14-Oct-15,Tavares,N,45,A,M,Canal off of Lake Eustis,Lake,Aft,1500,Other,Y,N,Right hand,M,M,7,4,85,F,Y,Y,Florida,N
+2015,19-Oct-15,Orange City,F,61,A,M,Blue Spring Run,Volusia,Mor,850,Snorkeling,N,N,"Head and torso, with majority of injuries to torso",H,M,12,0,535,M,N,N,Florida,N
+2015,11-Nov-15,Tavares,N,68,A,M,Canal off of Dead River,Lake,Aft,1651,Landscaping,,N,Left tricep and forearm,M,M,7,3,,,N,Y,Florida,N
+2016,06-Apr-16,Plant City,N,46,A,M,Mud Lake (community pond in Walden Lakes),Hillsborough,Aft,1700,Landscaping,,N,left foot (boot) and left hand,M,E,10,,,,N,Y,Florida,N
+2016,27-Apr-16,Lakeland,N,34,A,M,Lake Hancock,Polk,Aft,1700,Wading,U,N,Left thigh and left shin,M,E,8,,,,Y,N,Mexico,U
+2016,11-May-16,Lakeland,N,21,A,M,Long Lake,Polk,Nit,2147,Swimming,U,N,Left forearm including left hand.,H,M,10,2,,M,Y,Y,Florida,Y
+2016,14-Jun-16,Bay Lake,F,2,C,M,Seven Seas Lagoon,Orange,Eve,2100,Walking,,,Head and neck,H,E,7,,,,N,Y,Nebraska,
+2016,08-Jul-16,Oviedo,N,52,A,F,Little-Big Econ River,Seminole,Aft,1430,Wading,,Y,Left forearm,M,M,10,8,400,M,N,Y,,
+2016,12-Aug-16,Loxahatchee,N,49,,F,WCA 2,Broward,Aft,1730,Other,,N,Right wrist and hand,H,M,6,5,,,N,Y,Florida,N
+2016,19-Sep-16,Melbourne,N,56,A,M,Crane Creek,Brevard,,,Swimming,U,,"Right arm, left shoulder and back",H,E,8,,,,,Y,,Y
+2016,23-Sep-16,Lakeland,N,27,A,M,Lake Wire,Polk,Eve,1810,Other,U,N,Both sides of head and right hand,M,M,7,,,,N,N,Florida,N
+2017,03-Jan-17,Bonita Springs,N,72,A,M,Private Pond,Lee,Aft,1721,Fishing,U,,lower left leg,M,E,5,,,,Y,Y,Georgia,
+2017,08-Feb-17,North Ft. Myers,N,75,A,M,Golf Course Pond,Lee,Aft,1330,Walking,Y,N,ankle,M,E,9,,,,N,Y,Florida,
+2017,29-Mar-17,Cape Canaveral,N,63,A,M,Banana River,Brevard,Aft,1300,Fishing,U,,Left foot,M,,,,,,N,Y,Florida,
+2017,06-May-17,Orlando,N,10,C,F,Lake Mary Jane,Orange,Aft,1432,Wading,,,left knee,M,M,8,9,170,M,N,Y,Florida,
+2017,24-Jun-17,Satellite Beach,N,12,C,M,unnamed park pond,Brevard,Eve,2010,Other,U,U,right hand,L,M,5,3,17,F,N,Y,Florida,N
+2017,07-Jul-17,Rotonda,N,51,A,M,Golf Course Pond,Charlotte,Aft,1323,Diving,U,N,Upper left arm,H,M,10,5,,,Y,Y,Florida,N
+2017,16-Jul-17,Arcadia,N,34,A,M,Peace River,De Soto,Aft,1730,Swimming,U,U,left foot,M,M,6,11,,F,N,Y,Florida,
+2017,24-Jul-17,Port Charlotte,N,68,A,M,Retention Pond,Charlotte,Mor,1018,Other,U,,torso and leg/foot and hand,H,E,8,,,,,Y,Florida,
+2017,18-Aug-17,Homestead,N,51,A,M,Biscayne Bay,Dade,Eve,2000,Fishing,U,,"Right leg, calf area",M,E,6,,,,N,Y,Florida,N
+2017,24-Aug-17,Auburndale,N,20,A,F,pond on university campus,Polk,Eve,2040,Other,U,U,buttocks,L,M,6,6,52,,N,Y,Florida,
+2017,09-Sep-17,Fort Myers,N,71,A,F,Private Pond,Lee,Eve,1814,Landscaping,U,,Lower left leg,H,M,10,5,,M,N,Y,Florida,N
+2017,01-Oct-17,Deland,N,87,A,M,Lake Beresford,Volusia,Mor,955,Other,U,N,left hand/forearm and left thigh,M,M,9,5,200,M,N,Y,Florida,N
