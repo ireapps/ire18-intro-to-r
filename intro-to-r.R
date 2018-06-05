@@ -11,7 +11,7 @@
 # Set up your environment -------------------------------------------------
 
 # set working directory
-setwd("C:/Users/Administrator/Desktop/hands_on_classes/Intro_to_R_pre_registered_attendees_only_1098")
+setwd("C:/Users/user/Desktop/hands_on_classes/intro_to_r_1437")
 
 # when you use a package on a computer for the first time, you need to install it
 # install.packages("tidyverse")
