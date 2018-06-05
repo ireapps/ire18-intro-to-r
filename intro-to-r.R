@@ -6,6 +6,10 @@
 # Charles Minshew, IRE-NICAR (charles@ire.org)
 # Olga Pierce, ProPublica (olga.pierce@propublica.org)
 
+
+
+# Set up your environment -------------------------------------------------
+
 # set working directory
 setwd("C:/Users/Administrator/Desktop/hands_on_classes/Intro_to_R_pre_registered_attendees_only_1098")
 
@@ -16,47 +20,75 @@ setwd("C:/Users/Administrator/Desktop/hands_on_classes/Intro_to_R_pre_registered
 # install.packages("readxl")
 
 # load packages
+# you can either load the whole tidyverse:
 library(tidyverse)
+# or choose individual packages to load:
+library(stringr) # included in tidyverse
+library(readr) # included in tidyverse
+library(tidyr) # included in tidyverse
 library(lubridate)
-library(stringr)
-library(readxl)
-library(lubridate)
-library(tidyr)
+library(readxl) 
 
-# Load data -----------
+
+# Load data: csv ----------------------------------------------------------
+
 # http://blog.rstudio.com/2015/04/09/readr-0-1-0/
 
-chiCrime2017 <- read_csv("chicago_crime_2017.csv",
-                         col_names = TRUE, na = c("", "NA"),
-                         trim_ws = TRUE, guess_max = min(1000))
+orange_voters <- read_csv(
+  "data/Orange_voters.csv",
+  col_names = TRUE, 
+  na = c("", "NA"),
+  trim_ws = TRUE, 
+  guess_max = min(1000)
+  )
 
-# there's also a general purpose function for loading data that is 
-# not as nicely formatted 
+# there are other functions to read in CSVs, but this one is particularly nice.
+
+
+
+# Load data: delimited ----------------------------------------------------
+
 
 # we can specify column names and column types
-# names <- colnames(chiCrime2017)
 # we can also choose to load only some of the columns by using cols_only
 
+# HF: this section still needs work.
 
-# chiCrime2017_notused <- read_delim("chicago_crime_2017.csv", delim = ',' , col_names = names, 
-# col_types = cols_only(ID = col_integer(), 
-# `Case Number` = col_character(),
-# Date = col_character(),
-# Block = col_character(),
-# IUCR = col_character(),
-# `Primary Type` = col_character(),
-# Description = col_character(),
-# `Location Description` = col_character(),
-# Arrest = col_logical(),
-# Domestic = col_logical(),
-# Beat = col_integer(),
-# District = col_integer(),
-# Ward = col_integer(),
-# `Community Area` = col_integer(),
-# `FBI Code` = col_character()
-# ))
+names <- c()
 
-# rm(chiCrime2017_notused)
+orange_voters_extra <- read_delim(
+  "data/Orange_voters.csv", 
+  delim = ',' , 
+  col_names = names, 
+  col_types = cols_only(
+    ID             = col_integer(),
+    `Case Number`  = col_character(),
+    Date           = col_character(),
+    Block          = col_character(),
+    IUCR           = col_character(),
+    `Primary Type` = col_character(),
+    Description    = col_character()
+    )
+  )
+
+rm(orange_voters_extra)
+
+
+
+# Load data: from the internet --------------------------------------------
+
+library(downloader)
+
+# get the file from the internet and save it on your computer
+myURL <- "https://opendata.arcgis.com/datasets/a27014d0f6e84e3082da209995a1285f_2.csv"
+download(myURL,"data/florida_bear_reports_raw.csv")
+
+# now read in the csv using read_csv
+florida_bear_reports_raw <- read_csv("data/florida_bear_reports_raw.csv")
+
+
+
+# Load data: excel --------------------------------------------------------
 
 # Now we want to load a tab from an excel spreadsheet
 # But we don't remember how
@@ -67,12 +99,35 @@ chiCrime2017 <- read_csv("chicago_crime_2017.csv",
 # The help pane shows us what arguments are needed for the function
 # We want just the tab from the our excel file
 
-IL_schools <- read_excel("practice.xlsx", sheet = "IL_schools")
+theme_parks <- read_excel("data/theme_park_incidents.xlsx", sheet = "fullData")
 
-View(head(IL_schools))
+theme_parks %>% head() %>% View()
 
-# We're done with IL_schools though, so let's remove it from our environment
-rm(IL_schools)
+# We're done with theme_parks though, so let's remove it from our environment
+rm(theme_parks)
+
+
+
+# Load data: google sheet -------------------------------------------------
+
+# https://github.com/jennybc/googlesheets
+library(googlesheets)
+# if you wanted to use a private google sheet, you would run gs_auth()
+# gs_auth(new_user = TRUE)
+# the sheet we're using is public, so we don't need to do that.
+# Sheet needs to be published to the web via 'File -> Publishg to the web'.
+# You get the link via the 'Share' button 
+gsLink <- gs_url("https://docs.google.com/spreadsheets/d/1_zwLSsQIqzK3z2l8uId9DhvU-UH5HA4MYMKKTiPRl_Q/")
+alligator_bites <- gs_read(gsLink, ws = "fullData")
+
+# We're done with alligator_bites, so let's remove it from the environment.
+rm(alligator_bites)
+
+
+
+
+
+
 
 # Exercise 0 -----------
 # Read in the cpd_ucr_codes.csv table with the name cpd_ucr

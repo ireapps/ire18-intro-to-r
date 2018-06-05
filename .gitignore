@@ -79,3 +79,6 @@ rsconnect/
 # large data files, too big for Github
 data/orange_voters.csv
 data/orange_history.csv
+
+# Authorization details, from googlesheets
+.httr-oauth

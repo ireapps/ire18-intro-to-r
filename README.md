@@ -9,3 +9,18 @@ Charles Minshew, IRE-NICAR (charles@ire.org)
 Olga Pierce, ProPublica (olga.pierce@propublica.org)
 
 Hannah Fresques, ProPublica (hannah.fresques@propublica.org)
+
+## Datasets
+
+	1. Theme park incidents, cleaned from [this PDF](https://www.freshfromflorida.com/content/download/80576/2335356/exempt_facility_report_04132018.pdf) (Theme_park_incidents.csv)
+ 
+	2. [Aligator bites in Florida](http://www.myfwc.com/wildlifehabitats/managed/alligator/data/), requested from the Florida Fish and Wildlife Conservation Commission (Alligator_Bites.csv)
+
+	3. [Black bear related calls](http://geodata.myfwc.com/datasets/black-bear-related-calls-in-florida) in Florida (Florida_bear_reports.csv)
+
+	4. [Florida voter registration data](http://dos.myflorida.com/elections/data-statistics/voter-registration-statistics/voter-extract-disk-request/), created from a monthly extract of the Florida Voter Registration system.  (Orange_history.csv and Orange_voters.csv)
+	
+	5. [American Community Survey](https://censusreporter.org/data/table/?table=B19013&geo_ids=05000US12095,140|05000US12095&primary_geo_id=05000US12095) census tract-level household income data for Orange, Florida. (acs2016_5yr_median_hhi.csv) 
+
+	
+
