@@ -8,6 +8,10 @@
 
 
 
+# hour 1: intro and loading data ------------------------------------------
+
+
+
 # Set up your environment -------------------------------------------------
 
 # set working directory
@@ -34,15 +38,12 @@ library(readxl)
 
 # http://blog.rstudio.com/2015/04/09/readr-0-1-0/
 
-orange_voters <- read_csv(
-  "data/Orange_voters.csv",
-  col_names = TRUE, 
-  na = c("", "NA"),
-  trim_ws = TRUE, 
-  guess_max = min(1000)
-  )
-
+# We'll use read_csv() from readr
 # there are other functions to read in CSVs, but this one is particularly nice.
+
+orange_voters <- read_csv("data/Orange_voters.csv")
+
+orange_history <- read_csv("data/Orange_history.csv")
 
 
 
@@ -77,14 +78,16 @@ rm(orange_voters_extra)
 
 # Load data: from the internet --------------------------------------------
 
+# install.packages("downloader")
 library(downloader)
 
 # get the file from the internet and save it on your computer
+# Go to the landing page first: http://geodata.myfwc.com/datasets/black-bear-related-calls-in-florida
 myURL <- "https://opendata.arcgis.com/datasets/a27014d0f6e84e3082da209995a1285f_2.csv"
 download(myURL,"data/florida_bear_reports_raw.csv")
 
 # now read in the csv using read_csv
-florida_bear_reports_raw <- read_csv("data/florida_bear_reports_raw.csv")
+bear_reports <- read_csv("data/florida_bear_reports_raw.csv")
 
 
 
@@ -120,18 +123,21 @@ library(googlesheets)
 gsLink <- gs_url("https://docs.google.com/spreadsheets/d/1_zwLSsQIqzK3z2l8uId9DhvU-UH5HA4MYMKKTiPRl_Q/")
 alligator_bites <- gs_read(gsLink, ws = "fullData")
 
-# We're done with alligator_bites, so let's remove it from the environment.
-rm(alligator_bites)
+rm(gsLink)
 
 
 
 
 
 
+# hour 2: manipulating data -----------------------------------------------
 
-# Exercise 0 -----------
-# Read in the cpd_ucr_codes.csv table with the name cpd_ucr
-cpd_ucr <- read_csv("cpd_ucr_codes.csv")
+# read in aligator bites, if you don't already have it. 
+alligator_bites <- read_csv("data/Alligator_Bites.csv")
+
+
+
+# SELECT ------------------------------------------------------------------
 
 # Now let's start manipulating our data
 # In the tidyverse, there are two ways to use a function
@@ -140,103 +146,158 @@ cpd_ucr <- read_csv("cpd_ucr_codes.csv")
 # Try this:
 ?select
 
-# Now let's use 'select' to grab just the case numbers from our crime data
-
-cases <- select(chiCrime2017, `Case Number`: Block)
+# Now let's use 'select' to grab just the date column
+select(alligator_bites, Date)
 
 # But there's another way to use many R functions, that can be more concise and
 # easier to read
 
 # It's called a pipe and looks like this %>% 
+alligator_bites %>% select(Date)
 
-cases <- chiCrime2017 %>% select(-`Case Number`)
 
 # Piping is most helpful if we are doing more than one operation
-# This code selects just the case ID numbers and then sorts them
+# This code selects just the dates and then sorts them
 
-IDs_sorted <- chiCrime2017 %>% select(ID) %>% arrange(ID)
+alligator_bites %>% select(Date) %>% arrange(Date)
 
-rm(IDs_sorted)
+# you can also save the result to an object in your environment
+dates <- alligator_bites %>% select(Date) %>% arrange(Date)
+
+# we don't actually need a list of dates, so remove it.
+rm(dates)
+
+
+
+# FILTER ------------------------------------------------------------------
+
+# we use 'filter' to choose only certain rows
+# let's look at incidents where the victim was 80 or older
+alligator_bites %>% filter(Age>=80) %>% View()
+
+
+
+# MUTATE ------------------------------------------------------------------
 
 # Another useful verb is mutate, it lets us either alter an existing column,
 # or create one or more new ones
 # Let's use a mutate function to properly format the 'Date' field in a new column
 
-# First we'll separate the date itself from the time
-chiCrime2017 <- chiCrime2017 %>% separate(Date, sep = " ", into = c("date_short","time"))
+# Let's use the dmy() function from lubridate to create a new date column called `Date2`
+alligator_bites <- alligator_bites %>% mutate(Date2 = dmy(Date))
+# What does the new column look like?
+# head() lets you see the top few rows of the data set
+alligator_bites %>% select(Year,Date,Date2) %>% head(10)
+# Uh oh! What do you notice about the first row?
 
-# Then we'll use the lubridate package to date-format the date_short column
-chiCrime2017 <- chiCrime2017 %>% mutate(date_fixed = mdy(date_short))
+# To fix this, we'll build up the date piece by piece 
+# The month and day in the Date2 column are right. Let's put them in their own columns using month() and day()
+alligator_bites <- alligator_bites %>% 
+  mutate(
+    Month = Date2 %>% month(),
+    Day   = Date2 %>% day()
+  )
+# look again
+alligator_bites %>% select(Date,Date2,Year,Month,Day) %>% head(10)
 
-# Let's take a glance to see if it worked
-View(head(chiCrime2017))  # This shows us the first 6 rows
+# Now we can put all the pieces together using make_date()
+alligator_bites <- alligator_bites %>% mutate(Date3 = make_date(year=Year,month=Month,day=Day))
+# How does it look now? 
+alligator_bites %>% select(Year,Date,Date3) %>% head()
 
-# Or this, which lets us specify the range of rows we want to see
-View(chiCrime2017 %>% slice(1:100))
 
 # We got no errors, but it's good practice to not just assume a transformation worked
-# We can use the 'count' function to find out how many times each value appears, in particular we keep an eye out for NAs
-
-dates <- chiCrime2017 %>% count(date_fixed)
-
-# We can find them by looking at the tail of dates (helpfully,NAs always go at the end)
-View(tail(dates))
-rm(dates)
-
-# Now that we have date-formatted our column, we can use functions on it or do math like finding the difference between dates
-
-# Let's practice this by making a column with just the month of each date
-chiCrime2017 <- chiCrime2017 %>% mutate(date_month = month(date_fixed))
-
-# Exercise 1 -----------
-# Find the number of cases for each Primary Type
-# Hint: when there's a space in the name you must use ``
+# Let's also look at a random selection of rows.
+alligator_bites %>% select(Year,Date,Date3) %>% sample_n(10)
+# And let's also look any rows where the new date variable is missing
+alligator_bites %>% filter(is.na(Date3)) %>% select(Year,Date,Date3) 
+# It makes sense that those are missing. Everything looks good.
 
 
-# Another use of mutate is to recode variables
-# Let's make a switch for District 10
-chiCrime2017 <- chiCrime2017 %>% 
-  mutate(district_10 = ifelse(District == '10',1,0))
+# Now that we're happy with our new date column, let's clean up the data set 
+alligator_bites <- alligator_bites %>% 
+  # remove the Date and Date2 columns
+  select(-Date,-Date2) 
 
-chiCrime2017 %>% count(district_10)
 
-# Joining tables -----------
+
+# Let's also create a variable called Length_Total that measures aligator's total length in inches
+alligator_bites <- alligator_bites %>% rowwise() %>% mutate(Length_Total = sum(Length_Feet*12, Length_Inches, na.rm=TRUE)) 
+# Some have length zero, which I d
+
+# check your column
+alligator_bites %>% select(Length_Feet,Length_Inches,Length_Total) %>% sample_n(10)
+
+
+
+
+
+# COUNT -------------------------------------------------------------------
+
+# What if we want to look at how many bites happen in each county?
+# you can use count()
+counties <- alligator_bites %>% count(County)
+counties %>% View()
+
+
+
+# Your turn (1) -----------------------------------------------------------
+
+# How often is alcohol/drugs involved?
+
+
+
+
+
+# Joining tables ----------------------------------------------------------
+
 # Joining tables is useful when some of our data is in one table and some is in another
 # We can use the join functions to bring two tables together
 
-# First let's view the cpd_ucr table
-View(head(cpd_ucr))
+# We're going to switch data for a minute and use the voter data
+
+# Now, the orange_history table
+orange_history %>% head(100) %>% View()
+
+# First let's view the orange_voters table
+orange_voters %>% head(100) %>% View()
+
 
 # When we're doing a join, we need to figure out what column the two tables have in common
-# In this case the field is the 'IUCR' field
+# In this case the field is the 'voterid' field
 
 # There are different types of join, which you can study up on later, but in this case
-# we want all the rows from chiCrime2017, but only those rows from cpd_ucr that match that table, so we want a left join
+# we want all the rows from orange_history, but only those rows from orange_voters that match that table, so we want a left join
 
-chiCrime2017_joined <- left_join(chiCrime2017, cpd_ucr)
+orange_joined <- left_join(orange_history, orange_voters, by="voterid")
 
-# dplyr guesses which column we want to join on, but it's good to check to make sure you agree with its choices
 
-# We can use another useful verb, filter which lets us choose only certain rows
-# Let's find just cases of BATTERY
+# who vote in the 11/08/2016 election?
+orange_joined %>% filter(election_date=="11/08/2016") %>% View()
 
-chiCrime_battery <- chiCrime2017 %>% filter(`Primary Type` == "BATTERY")
 
-# We can also use multiple criteria
 
-chiCrime2017_bar_sidewalk <- chiCrime2017 %>% 
-  filter(`Location Description` == 'BAR OR TAVERN' | `Location Description` == 'SIDEWALK')
 
-# One last thing that's useful: group_by and summarize
-# For this, let's use one of the built in R tables
+# GROUP_BY and SUMMARIZE  -------------------------------------------------
 
-View(mtcars)
+# let's group by severity of injury and find the mean and maximum alligator size
+alligator_bites %>% count(Injury_Severity_LowMedHigh)
 
-# Now let's group by cylinders and find the mean horsepower
+alligator_bites %>% 
+  group_by(Injury_Severity_LowMedHigh) %>% 
+  summarize(
+    mean_weight = mean(Weight_Lbs,na.rm=TRUE), 
+    max_weight  = max(Weight_Lbs ,na.rm=TRUE),
+    n           = n(),
+    n_missing   = sum(is.na(Weight_Lbs))
+  )
 
-cylindrical_horse <- mtcars %>% group_by(cyl) %>% summarize(mean_hp = mean(hp), max_mpg = max(mpg))
 
-# Data visualization -----------
+
+
+
+# hour 3: Data Visualization ----------------------------------------------
+
 
 # load El Ridership data
 elRidership <- read_csv("cta_ridership_12_17.csv")
