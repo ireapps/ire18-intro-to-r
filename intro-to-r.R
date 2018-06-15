@@ -123,6 +123,7 @@ library(googlesheets)
 gsLink <- gs_url("https://docs.google.com/spreadsheets/d/1_zwLSsQIqzK3z2l8uId9DhvU-UH5HA4MYMKKTiPRl_Q/")
 alligator_bites <- gs_read(gsLink, ws = "fullData")
 
+# We no longer need 'gsLink' in our environment, so let's remove that. 
 rm(gsLink)
 
 
@@ -162,7 +163,10 @@ alligator_bites %>% select(Date)
 alligator_bites %>% select(Date) %>% arrange(Date)
 
 # you can also save the result to an object in your environment
+# What do you notice when we arrange the dates?
+# We're going to take care of this problem in just a little while. 
 dates <- alligator_bites %>% select(Date) %>% arrange(Date)
+dates
 
 # we don't actually need a list of dates, so remove it.
 rm(dates)
@@ -183,61 +187,64 @@ alligator_bites %>% filter(Age>=80) %>% View()
 # or create one or more new ones
 # Let's use a mutate function to properly format the 'Date' field in a new column
 
-# Let's use the dmy() function from lubridate to create a new date column called `Date2`
-alligator_bites <- alligator_bites %>% mutate(Date2 = dmy(Date))
+# Let's use the dmy() function from lubridate to create a new date column called `date_formatted`
+alligator_bites <- alligator_bites %>% mutate(date_formatted = dmy(Date))
 # What does the new column look like?
 # head() lets you see the top few rows of the data set
-alligator_bites %>% select(Year,Date,Date2) %>% head(10)
+alligator_bites %>% select(Year,Date,date_formatted) %>% head(10)
 # Uh oh! What do you notice about the first row?
 
 # To fix this, we'll build up the date piece by piece 
-# The month and day in the Date2 column are right. Let's put them in their own columns using month() and day()
+# The month and day in the date_formatted column are right. Let's put them in their own columns using month() and day()
 alligator_bites <- alligator_bites %>% 
   mutate(
-    Month = Date2 %>% month(),
-    Day   = Date2 %>% day()
+    Month = date_formatted %>% month(), # Take a second to explain this is from Lubridate.
+    Day   = date_formatted %>% day()
   )
 # look again
-alligator_bites %>% select(Date,Date2,Year,Month,Day) %>% head(10)
+alligator_bites %>% select(Date,date_formatted,Year,Month,Day) %>% head(10)
 
 # Now we can put all the pieces together using make_date()
-alligator_bites <- alligator_bites %>% mutate(Date3 = make_date(year=Year,month=Month,day=Day))
+alligator_bites <- alligator_bites %>% 
+  mutate(date_final = make_date(year=Year,month=Month,day=Day))
+
 # How does it look now? 
-alligator_bites %>% select(Year,Date,Date3) %>% head()
+alligator_bites %>% select(Year,Date,date_final) %>% head()
 
 
 # We got no errors, but it's good practice to not just assume a transformation worked
 # Let's also look at a random selection of rows.
-alligator_bites %>% select(Year,Date,Date3) %>% sample_n(10)
+alligator_bites %>% select(Year,Date,date_final) %>% sample_n(10)
+
 # And let's also look any rows where the new date variable is missing
-alligator_bites %>% filter(is.na(Date3)) %>% select(Year,Date,Date3) 
+alligator_bites %>% filter(is.na(date_final)) %>% select(Year,Date,date_final) 
 # It makes sense that those are missing. Everything looks good.
 
 
 # Now that we're happy with our new date column, let's clean up the data set 
 alligator_bites <- alligator_bites %>% 
-  # remove the Date and Date2 columns
-  select(-Date,-Date2) 
+  # remove the Date and date_formatted columns
+  select(-Date,-date_formatted) 
 
 
 
 # Let's also create a variable called Length_Total that measures aligator's total length in inches
-alligator_bites <- alligator_bites %>% rowwise() %>% mutate(Length_Total = sum(Length_Feet*12, Length_Inches, na.rm=TRUE)) 
-# Some have length zero, which I d
+alligator_bites <- alligator_bites %>% 
+  rowwise() %>% # We run this so R doesn't try add the length of every single alligator into one.
+  mutate(Length_Total = sum(Length_Feet*12, Length_Inches, na.rm=TRUE)) 
+# Some have length zero. Be careful not to include these in computation of averages.
 
 # check your column
-alligator_bites %>% select(Length_Feet,Length_Inches,Length_Total) %>% sample_n(10)
-
-
-
-
+alligator_bites %>% select(Length_Feet,Length_Inches,Length_Total)
 
 # COUNT -------------------------------------------------------------------
 
 # What if we want to look at how many bites happen in each county?
 # you can use count()
 counties <- alligator_bites %>% count(County)
-counties %>% View()
+
+# When we do a count with dplyr, it's going to store the count as a column named 'n'
+counties %>% arrange(desc(n)) %>% View()
 
 
 
@@ -245,8 +252,9 @@ counties %>% View()
 
 # How often is alcohol/drugs involved?
 
+# Which state are most victims residents of? 
 
-
+# How many people died? 
 
 
 # Joining tables ----------------------------------------------------------
@@ -275,8 +283,9 @@ orange_joined <- left_join(orange_history, orange_voters, by="voterid")
 # who vote in the 11/08/2016 election?
 orange_joined %>% filter(election_date=="11/08/2016") %>% View()
 
+# List the people who voted early in the election. 
 
-
+# Which party had the most voters?
 
 # GROUP_BY and SUMMARIZE  -------------------------------------------------
 
@@ -290,7 +299,9 @@ alligator_bites %>%
     max_weight  = max(Weight_Lbs ,na.rm=TRUE),
     n           = n(),
     n_missing   = sum(is.na(Weight_Lbs))
-  )
+  ) %>%
+  arrange(mean_weight) # We think alligator weight might have something do with this, so let's check.
+  
 
 
 
