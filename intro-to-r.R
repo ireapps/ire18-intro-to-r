@@ -307,7 +307,7 @@ alligator_bites %>%
 # But you will find that if you get the hang of it is very powerful and customizable
 
 # Load ggplot2
-# install.packages("ggplot2)
+# install.packages("ggplot2")
 
 library(ggplot2)
 library(RColorBrewer)
