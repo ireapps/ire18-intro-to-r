@@ -343,7 +343,7 @@ a + geom_histogram(binwidth = 20)
 # Your turn: Try changing the bin width to something other than 20
 
 
-# We can also see that there are many alligators with a reporter length of 0
+# We can also see that there are many alligators with a reported length of 0
 # Looking at the data we can see that '0' means something more like 'don't know'
 # A nice thing about ggplot is that we can use it in our pipe method
 
