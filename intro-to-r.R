@@ -298,119 +298,175 @@ alligator_bites %>%
 
 # hour 3: Data Visualization ----------------------------------------------
 
+# Visualization in R can be confusing at first, because the syntax is unique
+# But you will find that if you get the hang of it is very powerful and customizable
 
-# load El Ridership data
-elRidership <- read_csv("cta_ridership_12_17.csv")
+# Load ggplot2
+# install.packages("ggplot2)
 
-# Inspect the data in a View and see what we're working with
-View(elRidership)
+library(ggplot2)
+library(RColorBrewer)
 
-# One of the most basic and common graphs we can do in R is the histogram.
-# Before we make a histogram, let's get some stats on ridership numbers in the table.
-summary(elRidership$rides)
+# The theory is that every plot can be broken down into three parts:
+# Data
+# A coordinate system
+# Geom: visual marks that represent data points
 
-# Since we're looking at daily ridership at each station, let's see what the most common numbers are.
-hist(elRidership$rides)
+# First we tell R what data we want it to use
+ggplot(data = alligator_bites)
 
-# This histogram is very skewed to the left. We've got a few days where ridership is HIGH.
-# Let's change the number of breaks.
-hist(elRidership$rides, breaks = 5)
+# We can see that created a blank field for us to plot on
 
-# OK. Now we see that most of our records show daily station ridership of less than 10,000 rides.
-# Let's increase the breaks.
-hist(elRidership$rides, breaks = 10)
+# Then we tell ggplot which of the fields in our data are x and y coordinates
+ggplot(data = alligator_bites, aes(Length_Total))
 
-# Let's specify the breaks this time. We're very interested in breaking rides below 10,000 down.
-hist(elRidership$rides, breaks = c(0,5000,10000,15000,20000,25000,30000,35000,40000))
+# We can see that now our x-axis is labeled with Length_Total
 
-# It's pretty clear. Ridership in Chicago's metro system is shared across many stations. 
+# Histogram ----------------------------------------------------------------
 
-# Let's look at ridership over time now. 
-# Our dates are not in a good format. Let's clean those using lubridate in a new column. 
-elRidership <- elRidership %>%
-  mutate(date_clean = mdy(date))
+# Let's study the distribution of alligator lengths involved in attacks by making a histogram
 
-# This is a lot of data to work with, so let's filter for just one station near us.
-# There are two stops with Grand in it's name. So we need to use grep to find them.
-grandRidership <- filter(elRidership, grepl("Grand", stationname))
+# Start by designating our data and variable into an object
+a <- ggplot(data = alligator_bites, aes(Length_Total))
 
-# Let's look at what we're left with now.
-table(grandRidership$stationname) # We're going to be left with two stations here. 
-# Grand/Milwaukee and Grand/State
+# Then we add a 'geom'
+a + geom_histogram()
 
-# Base R provides us with some standard plots. Not going to be useful but can provide a cursory look.
-plot(grandRidership$date_clean,grandRidership$rides)
+# Yikes - that is too many bins! Let's specify a bin width
+a + geom_histogram(binwidth = 20)
 
-# Let's try this same plot in ggplot2.
-# NOTE: aes() is for 'aesthetic mapping' This helps us standardize names.
-# We have to declare the data frame, the x and y values inside aes() as well as the graph type.
-ggplot(grandRidership,aes(date_clean,rides)) + geom_point() # Points
-ggplot(grandRidership,aes(date_clean,rides)) + geom_line() # Lines
-ggplot(grandRidership,aes(date_clean,rides)) + geom_bar(stat='identity') # Bars
+# Your turn: Try changing the bin width to something other than 20
 
-# Okay, a little cleaner, but what if we color by 'stationname'
-ggplot(grandRidership,aes(date_clean,rides, color=stationname)) + geom_point()
-ggplot(grandRidership,aes(date_clean,rides, color=stationname)) + geom_line()
-ggplot(grandRidership,aes(date_clean,rides, color=stationname)) + geom_bar(stat='identity')
 
-# Let's facet this graph by daytype
-ggplot(grandRidership,aes(date_clean,rides, color=daytype)) + geom_point() + 
-  facet_grid(.~stationname)
+# We can also see that there are many alligators with a reporter length of 0
+# Looking at the data we can see that '0' means something more like 'don't know'
+# A nice thing about ggplot is that we can use it in our pipe method
 
-# This can be hard to see what's going on, but we easily see yearly trends.
-# Let's filter further for just one year of data - 2017.
-# There are other ways to filter, but this is easier for changing to different dates.
-grandRidership17 <- filter(grandRidership, date_clean >= "2017-01-01" & date_clean <= "2017-12-31")
+alligator_bites %>% filter(Length_Total != 0) %>% ggplot(aes(Length_Total)) + geom_histogram(binwidth = 20)
 
-# What does our most recent plot look like when filtered to one year?
-ggplot(grandRidership17,aes(date_clean,rides, color=daytype)) + geom_line() + 
-  facet_grid(.~stationname)
+# From this we learn that the distribution of alligator lengths is fairly normal, with a mean around 100 inches
 
-# We're not going to facet anymore. That was facet-nating, right? 
-# But let's take a look at how we can modify our charts.
-# For this chart, we're looking at Grand/State only. Filtering one more time.
+# There are also things we can do to make ggplots look prettier
 
-grandStateRidership17 <- filter(grandRidership17, stationname == "Grand/State")
+alligator_bites %>% filter(Length_Total != 0) %>% ggplot(aes(Length_Total)) + geom_histogram(binwidth = 20, fill = "royal blue", color = "gray", alpha = .8) +
+labs(x = "Alligator Length", title = "Alligators are terrifying")
 
-# And we'll plot.
-ggplot(grandStateRidership17,aes(date_clean,rides)) + geom_point() # Just the points.
+# There are also themes
 
-# This is a little messy but you can see the weekdays, Saturdays and Sundays.
-ggplot(grandStateRidership17, aes(date_clean, rides, fill=daytype)) +
-  geom_bar(stat="identity")
+alligator_bites %>% filter(Length_Total != 0) %>% ggplot(aes(Length_Total)) + geom_histogram(binwidth = 20) + theme_light()
 
-# This time, we'll look at lines.
-ggplot(grandStateRidership17, aes(date_clean,rides)) + geom_line()
+# Your turn -- try a theme other than theme_light
 
-# I can also see these together. It's kind of messy but it can be done.
-ggplot(grandStateRidership17, aes(date_clean,rides)) + geom_line() + geom_point()
+# Bar chart ----------------------------------------------------------------
 
-# I really like the line for a possible graphic showing ridership at
-# Grand/State throughout 2017. Let's add a headline. We're also going to store this whole block of code.
+# Let's use a bar chart to figure out what activity folks are up to when attacked
+# The field that contains this information is Victim_Activity
 
-myChart <- ggplot(grandStateRidership17, aes(date_clean,rides)) + 
-  geom_line() +
-  labs(title="Grand/State station daily ridership in 2017") +
-  labs(subtitle = "Daily ridership at the Grand/State metro station as counted by the Chicago Transit Authority") +
-  labs(x = "Date") +
-  labs(y = "Number of rides") +
-  labs(caption = "Charles Minshew/IRE and NICAR")
+# We start by specifying our data
 
-# Since we stored the chart as 'myChart', we need to run this in order to show it.
-myChart
+b <- ggplot(data = alligator_bites, aes(Victim_Activity))
 
-# Now let's output our graphic to a file!
-# First JPEG
-jpeg("myChart.jpeg")
-myChart
-dev.off() # This is very important to end the export!
+# Now we add the bar plot geom
 
-# Next up, EPS (for using in Adobe Illustrator)
-setEPS()
-postscript('output/myChart.eps')
-myChart
-dev.off()
+b + geom_bar()
 
-# And you can export your data from R, too
-write_csv(grandStateRidership17, "grand_state.csv")
-# You don't need dev.off() for data exports
+# We can also make this a horizontal bar chart this way
+
+b + geom_bar() + coord_flip()
+
+# You practice: Make a bar plot of the Injury Severity field
+
+
+# Line chart --------------------------------------------------------
+
+# Unlike the last two plots we made, a line chart has an x and a y data point
+# In journalism, usually the x-axis is time
+
+# Let's turn our attention to the voter file
+
+# For convenience, let's date format the election_date field together
+
+# First we filter for the regular general elections since 2006
+
+gen_elections <- c(mdy('11/02/2010'), mdy('11/04/2008'), mdy('11/04/2014'), mdy('11/06/2012'), mdy('11/07/2006'), mdy('11/08/2016'))
+
+gen_voters <- orange_joined %>% 
+  filter(election_date_new %in% gen_elections) %>% 
+  group_by(election_date_new) %>% 
+  count() %>% 
+  arrange(election_date_new)
+
+# Now we specify our data and variables
+
+d <- gen_voters %>% ggplot(aes(x = election_date_new, y = `n`))
+
+d + geom_line()
+
+# Fascinating - what if we want to know this pattern by party?
+# ggplot can help
+
+# First, we'll include party affiliation in our gen_voters table
+
+gen_voters <- orange_joined %>% 
+  filter(election_date_new %in% gen_elections) %>% 
+  group_by(election_date_new, pty_aff) %>% 
+  count() %>% 
+  arrange(election_date_new)
+
+# Now we add a new argument to the aes function
+
+d <- gen_voters %>% ggplot(aes(x = election_date_new, y = `n`, color = pty_aff))
+
+d + geom_line()
+
+# You try - what if we want a chart that is just Republicans and Democrats?
+
+
+# What if we want this same information for every race side-by-side?
+# ggplot can help with that too
+
+gen_voters <- orange_joined %>% 
+  filter(election_date_new %in% gen_elections) %>% 
+  group_by(election_date_new, pty_aff, race) %>% 
+  count() %>% 
+  arrange(election_date_new)
+
+d <- gen_voters %>% ggplot(aes(x = election_date_new, y = `n`, color = pty_aff))
+
+d + geom_line() + facet_wrap(~race)
+                           
+# Scatterplot ------------------------------------------------------------
+
+# The final type of plot we'll talk about today is called a scatterplot
+# In this plot, each observation in our data is a point on an x-y plane
+
+# Let's explore whether larger alligators cause more serious injury
+
+# As always, we'll set up our data
+
+e <- alligator_bites %>% ggplot(aes(x = Length_Total, y = Injury_Severity_LowMedHigh))
+
+e + geom_point()
+
+# Hmm - let's make ggplot arrange the severity categories better
+
+e <- alligator_bites %>% ggplot(aes(x = Length_Total, y = fct_relevel(Injury_Severity_LowMedHigh, "N","H","M","L")))
+
+e + geom_point() 
+
+# Do we see a pattern?
+
+# You try - What if we look at gator weight instead of length?
+
+# Let's also look at a case where both variables are continuous, instead of categorical
+
+f <- alligator_bites %>% ggplot(aes(x = Length_Total, y = Weight_Lbs))
+
+f + geom_point()
+
+# You try - let's color the points by the alligator's sex
+
+# Finally, it looks like there's a relationship between gator length and weight, but we can have ggplot fit a line to formalize this
+
+f + geom_point() + geom_smooth(method = lm)
+
