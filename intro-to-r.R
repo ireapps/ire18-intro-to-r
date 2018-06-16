@@ -43,36 +43,30 @@ library(readxl)
 
 orange_voters <- read_csv("data/orange_voters.csv")
 
-orange_history <- read_csv("data/orange_history.csv")
+
+
+# Your turn (1) -----------------------------------------------------------
+
+# read in the file orange_history.csv
+
 
 
 
 # Load data: delimited ----------------------------------------------------
 
+# Sometimes data comes with something separating columns other than a comma 
+# For instance, sometimes you get a pipe delimited file.
+# read_delim handles that! You can specify a comma as the delimiter, or anything else.
 
-# we can specify column names and column types
-# we can also choose to load only some of the columns by using cols_only
+# Also, with read_csv and read_delim, you can specify column types
 
-# HF: this section still needs work.
-
-names <- c()
-
-orange_voters_extra <- read_delim(
-  "data/Orange_voters.csv", 
+orange_history_extra <- read_delim(
+  "data/orange_history.csv", 
   delim = ',' , 
-  col_names = names, 
-  col_types = cols_only(
-    ID             = col_integer(),
-    `Case Number`  = col_character(),
-    Date           = col_character(),
-    Block          = col_character(),
-    IUCR           = col_character(),
-    `Primary Type` = col_character(),
-    Description    = col_character()
-    )
+  col_types = list(voterid = col_character())
   )
 
-rm(orange_voters_extra)
+rm(orange_history_extra)
 
 
 
