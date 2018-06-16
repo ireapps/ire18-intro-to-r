@@ -41,9 +41,9 @@ library(readxl)
 # We'll use read_csv() from readr
 # there are other functions to read in CSVs, but this one is particularly nice.
 
-orange_voters <- read_csv("data/Orange_voters.csv")
+orange_voters <- read_csv("data/orange_voters.csv")
 
-orange_history <- read_csv("data/Orange_history.csv")
+orange_history <- read_csv("data/orange_history.csv")
 
 
 
@@ -102,7 +102,7 @@ bear_reports <- read_csv("data/florida_bear_reports_raw.csv")
 # The help pane shows us what arguments are needed for the function
 # We want just the tab from the our excel file
 
-theme_parks <- read_excel("data/theme_park_incidents.xlsx", sheet = "fullData")
+theme_parks <- read_excel("data/theme_park_incidents_excel.xlsx", sheet = "fullData")
 
 theme_parks %>% head() %>% View()
 
@@ -247,8 +247,6 @@ counties %>% View()
 
 
 
-
-
 # Joining tables ----------------------------------------------------------
 
 # Joining tables is useful when some of our data is in one table and some is in another
@@ -290,7 +288,8 @@ alligator_bites %>%
     max_weight  = max(Weight_Lbs ,na.rm=TRUE),
     n           = n(),
     n_missing   = sum(is.na(Weight_Lbs))
-  )
+  ) %>% 
+  arrange(mean_weight)
 
 
 
