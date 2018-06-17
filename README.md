@@ -12,6 +12,7 @@ Hannah Fresques, ProPublica (hannah.fresques@propublica.org)
 
 ## Resources
 [RStudio cheatsheets](https://www.rstudio.com/resources/cheatsheets/)
+
 [R for data science](http://r4ds.had.co.nz/)
 
 ## Datasets
