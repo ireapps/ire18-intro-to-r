@@ -10,6 +10,10 @@ Olga Pierce, ProPublica (olga.pierce@propublica.org)
 
 Hannah Fresques, ProPublica (hannah.fresques@propublica.org)
 
+## Resources
+[RStudio cheatsheets](https://www.rstudio.com/resources/cheatsheets/)
+[R for data science](http://r4ds.had.co.nz/)
+
 ## Datasets
 
 Theme park incidents, cleaned from [this PDF](https://www.freshfromflorida.com/content/download/80576/2335356/exempt_facility_report_04132018.pdf) (Theme_park_incidents.csv)
