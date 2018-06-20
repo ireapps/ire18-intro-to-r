@@ -10,10 +10,15 @@ Olga Pierce, ProPublica (olga.pierce@propublica.org)
 
 Hannah Fresques, ProPublica (hannah.fresques@propublica.org)
 
+## Installation
+To use the tools we used in class, you need to install both [R](https://cran.rstudio.com/) and [RStudio](https://www.rstudio.com/products/rstudio/download/).
+
 ## Resources
 [RStudio cheatsheets](https://www.rstudio.com/resources/cheatsheets/)
 
 [R for data science](http://r4ds.had.co.nz/)
+
+[RStudio community](https://community.rstudio.com/)
 
 ## Datasets
 
